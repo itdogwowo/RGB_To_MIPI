@@ -1,0 +1,25 @@
+{
+ "source_pdf": "C48596_其他接口_SSD2828QN4R_规格书_WJ73954.PDF",
+ "sha256": "264a84362d3ff5cab2bd7183fcd8e7629c752ac3093040cd63ba2e3fd8d15dd3",
+ "pages": 168,
+ "document": "SSD2828QN4 MIPI Master Bridge, Rev 1.3, Mar 2013, Solomon Systech",
+ "converted": "2026-10-25",
+ "pipeline": "pdfplumber text/table extraction + Quartz raster crops; registers parsed from bitmap + description tables",
+ "notes": [
+  "Headings keep original section numbers (e.g. '8.1.2 RGB Interface Control Register 1').",
+  "Subscripts are written with a leading underscore (t_PCLK, f_IN).",
+  "<!-- pdf:N --> markers give the source PDF page for the following content.",
+  "Tables with no vertical rulings (Table 9-10..9-12, 9-5, 9-6) are embedded as images.",
+  "Formulas that were stacked fractions in the PDF are flattened to linear text."
+ ],
+ "counts": {
+  "registers": 66,
+  "fields": 250,
+  "pins": 68,
+  "pin_desc_rows": 29,
+  "timing_rows": 54,
+  "figures": 65,
+  "chunks": 61,
+  "markdown_chars": 173116
+ }
+}

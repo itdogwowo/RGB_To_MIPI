@@ -1,0 +1,3900 @@
+[
+ {
+  "offset": "0xB0",
+  "mnemonic": "DIR",
+  "name": "Device Identification Register",
+  "reset_value": "0x2828",
+  "section": "8.1.1",
+  "pdf_page": 25,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "DIR[15:8]",
+    "type": "RO",
+    "reset": "0x28",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "DIR",
+    "type": "",
+    "reset": "",
+    "description": "Device Identification Number",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "DIR[7:0]",
+    "type": "RO",
+    "reset": "0x28",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB1",
+  "mnemonic": "VICR1",
+  "name": "RGB Interface Control Register 1",
+  "reset_value": "0x020A",
+  "section": "8.1.2",
+  "pdf_page": 26,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "VSA",
+    "type": "RW",
+    "reset": "0x02",
+    "description": "Vertical Sync Active Period – These bits specify the Vsync active period. The Vsync active period is from the Vsync falling edge to rising edge, in terms of Hsync pulses. It is only used in non-burst mode with Sync pulses. Please refer to 9.3 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HSA",
+    "type": "RW",
+    "reset": "0x0A",
+    "description": "Horizontal Sync Active Period – These bits specify the Hsync active period. The Hsync active period is from the Hsync falling edge to rising edge, in terms of pclk. It is only used in non-burst mode with Sync pulses. Please refer to 9.3 for more details.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB2",
+  "mnemonic": "VICR2",
+  "name": "RGB Interface Control Register 2",
+  "reset_value": "0x0214",
+  "section": "8.1.3",
+  "pdf_page": 27,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "VBP",
+    "type": "RW",
+    "reset": "0x02",
+    "description": "Vertical Back Porch Period – These bits specify the vertical back porch period in terms of Hsync pulses. The vertical back porch period depends on the video mode setting. If the mode is non-burst mode with Sync pulses, it is from the Vsync rising edge to the Hsync of the first line of active display. If the mode is non-burst mode with Sync events, it is from the Vsync falling edge to the Hsync of the first line of active display. If the mode is burst mode, it is the same as the non-burst mode with Sync events. Please refer to 9.3 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HBP",
+    "type": "RW",
+    "reset": "0x14",
+    "description": "Horizontal Back Porch Period – These bits specify the horizontal back porch period in terms of pclk. The horizontal back porch period depends on the non-burst mode setting. If the mode is non-burst mode with Sync pulses, it is from the Hsync rising edge to the start of the valid display pixel. If the mode is non-burst mode with Sync events, it is from the Hsync falling edge to the start of the valid display pixel. If the mode is burst mode, it is the same as the non-burst mode with Sync events. Please refer to 9.3for more details.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB3",
+  "mnemonic": "VICR3",
+  "name": "RGB Interface Control Register 3",
+  "reset_value": "0x0428",
+  "section": "8.1.4",
+  "pdf_page": 28,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "VFP",
+    "type": "RW",
+    "reset": "0x04",
+    "description": "Vertical Front Porch Period – These bits specify the vertical front porch period in terms of Hsync pulses. The vertical front porch period is from the first Hsync after the last line of active display to the next Vsync falling edge. Please refer to 9.3 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HFP",
+    "type": "RW",
+    "reset": "0x28",
+    "description": "Horizontal Front Porch Period – These bits specify the horizontal front porch period in terms of pclk. The horizontal front porch period is from the end of the valid display pixel to the next Hsync falling edge. Please refer to 9.3 for more details.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB4",
+  "mnemonic": "VICR4",
+  "name": "RGB Interface Control Register 4",
+  "reset_value": "0x0780",
+  "section": "8.1.5",
+  "pdf_page": 29,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "HACT[15:8]",
+    "type": "RW",
+    "reset": "0x07",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "HACT",
+    "type": "",
+    "reset": "",
+    "description": "Horizontal Active Period – These bits specify the horizontal active period in terms of pclk. During the horizontal active period, the den signal should always be high. Please refer to 9.3 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HACT[7:0]",
+    "type": "RW",
+    "reset": "0x80",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB5",
+  "mnemonic": "VICR5",
+  "name": "RGB Interface Control Register 5",
+  "reset_value": "0x0438",
+  "section": "8.1.6",
+  "pdf_page": 30,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "VACT[15:8]",
+    "type": "RW",
+    "reset": "0x04",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "VACT",
+    "type": "",
+    "reset": "",
+    "description": "Vertical Active Period – These bits specify the vertical active period in terms of Hsync pulses. Please refer to 9.3 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "VACT[7:0]",
+    "type": "RW",
+    "reset": "0x38",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB6",
+  "mnemonic": "VICR6",
+  "name": "RGB Interface Control Register 6",
+  "reset_value": "0x0024",
+  "section": "8.1.7",
+  "pdf_page": 31,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "VS_P",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "VS_P – This bit control the polarity of the Vsync pulse input.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Vsync Pulse is active low"
+     },
+     {
+      "value": "1",
+      "meaning": "Vsync Pulse is active high"
+     }
+    ]
+   },
+   {
+    "bits": "14",
+    "name": "HS_P",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "HS_P – This bit control the polarity of the Hsync pulse output.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Hsync Pulse is active low"
+     },
+     {
+      "value": "1",
+      "meaning": "Hsync Pulse is active high"
+     }
+    ]
+   },
+   {
+    "bits": "13",
+    "name": "PCLK_P",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "PCLK_P – This bit control the polarity of the CM output.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Data is launch at falling edge, SSD2828 latch data at rising edge"
+     },
+     {
+      "value": "1",
+      "meaning": "Data is launch at rising edge, SSD2828 latch data at falling edge"
+     }
+    ]
+   },
+   {
+    "bits": "8",
+    "name": "CBM",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Compress Burst Mode Control – If the mode is burst and this bit is 1, MIPITX will send video packet in compressed burst mode (i.e. no blanking packet after horizontal sync packet)",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Video with blanking packet."
+     },
+     {
+      "value": "1",
+      "meaning": "Video with no blanking packet."
+     }
+    ]
+   },
+   {
+    "bits": "7",
+    "name": "NVB",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Non Video Data Burst Mode Control – This bit specifies how non video data will be interleaved with video data transmission in burst mode.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Non video data will be transmitted during any BLLP period."
+     },
+     {
+      "value": "1",
+      "meaning": "Non video data will only be transmitted during vertical blanking period."
+     }
+    ]
+   },
+   {
+    "bits": "6",
+    "name": "NVD",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Non Video Data Transmission Control –This bit specifies how non video data will be interleaved with video data transmission. Please refer to 9.2.1 for more details. The SSD2828 will send non video data (written from the SPI interface) during the vertical blanking period (non burst mode) or any BLLP period in burst mode (depends on NVB setting). The data can be sent either in high speed mode or low power mode. This bit selects which mode to use. If LP mode is selected, the data",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Non video data will be"
+     },
+     {
+      "value": "1",
+      "meaning": "Non video data will be"
+     }
+    ]
+   },
+   {
+    "bits": "5",
+    "name": "BLLP",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "BLLP Control – This bit specifies the SSD2828 operation during BLLP period. This bit takes effect only for non burst mode and NVD being 0. When the video mode is burst mode, the SSD2828 will not send any blanking packet during BLLP. It will enter LP mode. When NVD is 1 in non burst mode, the SSD2828 will stay in LP mode after sending the non video data (if there is any), until the BLLP period ends. When NVD is 0 in non burst mode, the SSD2828 will use this bit to decide whether to send blanking packet or enter LP mode after sending non video data (if there is any), until the BLLP period ends. Please note that entering and exiting from LP mode needs more time, as the speed of LP mode is slow. It is the responsibility of the host processor to make sure that the period is long enough to finish the data transfer and the timing of Hsync and Vsync is not affected.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Blanking packet will be sent during BLLP period."
+     },
+     {
+      "value": "1",
+      "meaning": "LP mode will be used during BLLP period."
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "VCS",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Video Clock Suspend – This bit specifies the clock lane behavior. This bit is only applicable for burst mode. When the video mode is non burst mode, the clock lane will remain in HS mode all the time.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The clock lane remains in HS mode, when there is no data to transmit."
+     },
+     {
+      "value": "1",
+      "meaning": "The clock lane enters LP mode when there is no data to transmit."
+     }
+    ]
+   },
+   {
+    "bits": "3:2",
+    "name": "VM",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Video Mode – These bits specify the video mode the SSD2828 will use, when RGB interface is selected. Please refer to MIPI DSI for the definition of different modes.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "Non burst mode with sync pulses"
+     },
+     {
+      "value": "01",
+      "meaning": "Non burst mode with sync events"
+     },
+     {
+      "value": "10",
+      "meaning": "Burst mode"
+     },
+     {
+      "value": "11",
+      "meaning": "Reserved"
+     }
+    ]
+   },
+   {
+    "bits": "1:0",
+    "name": "VPF",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Video Pixel Format – These bits specify the pixel format for video mode.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "16bpp"
+     },
+     {
+      "value": "01",
+      "meaning": "18bpp, packed"
+     },
+     {
+      "value": "10",
+      "meaning": "18bpp, loosely packed"
+     },
+     {
+      "value": "11",
+      "meaning": "24bpp"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xB7",
+  "mnemonic": "CFGR",
+  "name": "Configuration Register",
+  "reset_value": "0x0301",
+  "section": "8.1.8",
+  "pdf_page": 33,
+  "fields": [
+   {
+    "bits": "11",
+    "name": "TXD",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Transmit Disable – This bit specifies whether the SSD2828 will disable the sending of MIPI Packets stored in the buffers. Software can enable TXD, fill out the buffers and then disable it to send all packets out in 1 burst.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Transmit on"
+     },
+     {
+      "value": "1",
+      "meaning": "Transmit halt"
+     }
+    ]
+   },
+   {
+    "bits": "10",
+    "name": "LPE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Long Packet Enable – This bit specifies whether the SSD2828 will send out a Generic Long Write Packet or Generic Short Write Packet when the payload is no more than 2 bytes. It also specifies whether the SSD2828 will send out a DCS Long Write Packet or DCS Short Write Packet when the payload is no more than 1 byte.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Short Packet"
+     },
+     {
+      "value": "1",
+      "meaning": "Long Packet"
+     }
+    ]
+   },
+   {
+    "bits": "9",
+    "name": "EOT",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "EOT Packet Enable – This bit specifies whether the SSD2828 will send out the EOT packet at the end of HS transmission or not.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Do not send"
+     },
+     {
+      "value": "1",
+      "meaning": "Send"
+     }
+    ]
+   },
+   {
+    "bits": "8",
+    "name": "ECD",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "ECC CRC Check Disable – This bit specifies whether SSD2828 will perform ECC and CRC checking for the packets received from the MIPI slave.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Enable"
+     },
+     {
+      "value": "1",
+      "meaning": "Disable"
+     }
+    ]
+   },
+   {
+    "bits": "7",
+    "name": "REN",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Read Enable –This bit specifies whether the next operation is a write or read operation.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Write operation"
+     },
+     {
+      "value": "1",
+      "meaning": "Read operation"
+     }
+    ]
+   },
+   {
+    "bits": "6",
+    "name": "DCS",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "DCS Enable – This bit specifies whether the packet to be sent is DCS packet or generic packet. This bit applies for both write and read operation.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Generic packet (The packet can be any one of Generic Long Write, Generic Short Write, Generic Read packet, depending on the configuration.)"
+     },
+     {
+      "value": "1",
+      "meaning": "DCS packet (The packet can be any one of DCS Long Write, DCS Short Write, DCS Read packet, depending on the configuration.)"
+     }
+    ]
+   },
+   {
+    "bits": "5",
+    "name": "CSS",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Clock Source Select – This bit selects the clock source for the PLL. Please refer to 5.2 for the system behavior when the clock source is switched. The CSS setting should be programmed only when PEN is 0. It has no effect when PEN is 1.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The clock source is tx_clk"
+     },
+     {
+      "value": "1",
+      "meaning": "The clock source is pclk"
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "HCLK",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "HS Clock Disable – This bit controls the clock lane behavior during the reverse direction communication. This bit takes effect only when CKE is 0 and VEN is 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "HS clock is enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "HS clock is disabled"
+     }
+    ]
+   },
+   {
+    "bits": "3",
+    "name": "VEN",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Video Mode Enable – This bit controls the video mode operation. Only after this bit is set to 1, video mode is enabled. This bit takes effect only when the interface setting is RGB + SPI. Please refer to 0 for the video mode operation.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Video mode is disabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Video mode is enabled"
+     }
+    ]
+   },
+   {
+    "bits": "2",
+    "name": "SLP",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Sleep Mode Enable – This bit controls the sleep mode operation. Please refer to 9.3.2 for the sleep mode operation. When this bit is set to 1, the HS bit will be cleared to 0 automatically.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Sleep mode is disabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Sleep mode is enabled. Only the register interface is active."
+     }
+    ]
+   },
+   {
+    "bits": "1",
+    "name": "CKE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Clock Lane Enable – This bit controls the clock lane mode when data lane enters LP mode.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Clock lane will enter LP mode, if it is not in reverse direction communication. Clock lane will follow the setting of HCLK, if it is in reverse direction communication."
+     },
+     {
+      "value": "1",
+      "meaning": "Clock lane will enter HS mode for all the cases."
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "HS",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "HS Mode – This bit controls whether the SSD2828 is using HS or LP mode to send data. This bit can be affected by the SLP bit value.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "LP mode"
+     },
+     {
+      "value": "1",
+      "meaning": "HS mode"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xB8",
+  "mnemonic": "VCR",
+  "name": "VC Control Register",
+  "reset_value": "0x0045",
+  "section": "8.1.9",
+  "pdf_page": 35,
+  "fields": [
+   {
+    "bits": "7:6",
+    "name": "VCM",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Virtual Channel ID for Maximum Return Size Packet – These bits specify the VC ID for the Maximum Return Size Packet sent by SSD2828. This register field is included as the VC ID for this packet might be different from the VC ID for the packets carrying the actual data.",
+    "enums": []
+   },
+   {
+    "bits": "5:4",
+    "name": "VCE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Virtual Channel ID for EOT Packet – These bits specify the VC ID for the EOT Packet sent by SSD2828. This register field is included as the VC ID for this packet might be different from the VC ID for the packets carrying the actual data.",
+    "enums": []
+   },
+   {
+    "bits": "3:2",
+    "name": "VC2",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Virtual Channel ID for SPI Interface – These bits specify the VC ID for the packets written in through the SPI interface, when the interface setting is RGB + SPI This register field is included as the RGB + SPI interface can address two different LCD panels at the same time. The VC ID for the two panels is different.",
+    "enums": []
+   },
+   {
+    "bits": "1:0",
+    "name": "VC1",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Virtual Channel ID for RGB Interface – These bits specify the VC ID for the packets written in through the RGB interface, when the interface is RGB + SPI",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xB9",
+  "mnemonic": "PCR",
+  "name": "PLL Control Register",
+  "reset_value": "0x0000",
+  "section": "8.1.10",
+  "pdf_page": 36,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "SYSD",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "SYS_clk Divider – These bits give the divider value for generating the sys_clk output from the tx_clk or crystal input.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "Divide by 1"
+     },
+     {
+      "value": "01",
+      "meaning": "Divide by 2"
+     },
+     {
+      "value": "10",
+      "meaning": "Divide by 4"
+     },
+     {
+      "value": "11",
+      "meaning": "Divide by 8"
+     }
+    ]
+   },
+   {
+    "bits": "13",
+    "name": "SYS_DIS",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "SYS_clk DISable – This bit will shut off the Sys_clk signal output when enabled.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Enable Sys_clk output"
+     },
+     {
+      "value": "1",
+      "meaning": "Disable Sys_clk output"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "PEN",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "PLL Enable – This bit controls the PLL operation.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "PLL power down"
+     },
+     {
+      "value": "1",
+      "meaning": "PLL enable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xBA",
+  "mnemonic": "PLCR",
+  "name": "PLL Configuration Register",
+  "reset_value": "0x8120",
+  "section": "8.1.11",
+  "pdf_page": 37,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "FR",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Frequency Range – These bits select the range of the output clock. The FR setting should be programmed only when PEN is 0. It has no effect when PEN is 1.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "62.5 < f OUT < 125"
+     },
+     {
+      "value": "01",
+      "meaning": "126 < f OUT < 250"
+     },
+     {
+      "value": "10",
+      "meaning": "251 < f OUT < 500"
+     },
+     {
+      "value": "11",
+      "meaning": "501 < f OUT < 1000"
+     }
+    ]
+   },
+   {
+    "bits": "12:8",
+    "name": "MS",
+    "type": "RW",
+    "reset": "0x01",
+    "description": "PLL Divider – These bits specify the PLL pre- divider value, MS. The frequency of the phase detector, f REF is determined by f PRE = f IN MS The input frequency, f IN and phase detector frequency, f REF should be between 5Mhz to 100Mhz. The MS setting should be programmed only when PEN is 0. It has no effect when PEN is 1.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "NS",
+    "type": "RW",
+    "reset": "0x20",
+    "description": "PLL Multiplier – These bits specify the PLL output frequency multiplier value, NS. The output frequency, f OUT is determined by f OUT = f PRE ∗ NF The NS setting should be programmed only when PEN is 0. It has no effect when PEN is 1.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xBB",
+  "mnemonic": "CCR",
+  "name": "Clock Control Register",
+  "reset_value": "0x0003",
+  "section": "8.1.12",
+  "pdf_page": 38,
+  "fields": [
+   {
+    "bits": "5:0",
+    "name": "LPD",
+    "type": "RW",
+    "reset": "0x03",
+    "description": "LP Clock Divider – These bits give the divider value for generating the LP mode clock from the byte clock.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xBC",
+  "mnemonic": "PSCR1",
+  "name": "Packet Size Control Register 1",
+  "reset_value": "0x0000",
+  "section": "8.1.13",
+  "pdf_page": 39,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "TDC[15:8]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "TDC",
+    "type": "",
+    "reset": "",
+    "description": "Transmit Data Count – These bits set the total number of data bytes to be transmitted by the SSD2828 in the next operation. The SSD2828 will use the value in this field to decide what type of packet to send out. The settings of TDC and PST(0xBE) will configure the transfer mode into partition and non-partition mode when the command is 0x2C or 0x3C. Partition mode(TDC > PST) For DCS Long Write packet with DCS command being 0x2C or 0x3C, there is no limit in the maximum number of bytes to be transmitted in 1 write. The PST value can be set to maximum of 4096 bytes. The SSD2828 will auto insert 0x3C command at these boundaries. The maximum MCU speed at the input is 1/12 of the link frequency. Non-Partition mode(TDC <= PST) For DCS Long Write packet with DCS command being 0x2C or 0x3C, the maximum number of bytes to be transmitted in 1 write is 4096 bytes(TDC). In this mode, the PST value is the same or greater than the TDC value. The maximum MCU speed at the input is 1/8 of the link frequency. Please refer to 9.3.1.1 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "TDC[7:0]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xBD",
+  "mnemonic": "PSCR2",
+  "name": "Packet Size Control Register 2",
+  "reset_value": "0x0000",
+  "section": "8.1.14",
+  "pdf_page": 40,
+  "fields": [
+   {
+    "bits": "31:0",
+    "name": "TDC[31:16] Bit 31-0",
+    "type": "",
+    "reset": "",
+    "description": "Transmit Data Count – Please see the description of Packet Size Control Register 1.",
+    "enums": []
+   },
+   {
+    "bits": "15:8",
+    "name": "TDC[31:24]",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "TDC[23:16]",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xBE",
+  "mnemonic": "PSCR2",
+  "name": "Packet Size Control Register 3",
+  "reset_value": "0x0100",
+  "section": "8.1.15",
+  "pdf_page": 41,
+  "fields": [
+   {
+    "bits": "12:8",
+    "name": "PST[12:8]",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "12:0",
+    "name": "PST",
+    "type": "",
+    "reset": "",
+    "description": "Packet Size Threshold – These bits give the threshold value for partitioning the incoming long packet data into smaller packets. The partitioning only applies to the DCS Long Write packet with DCS command being 0x2C or 0x3C in Command mode(if_sel=1). The payload will be partitioned into multiple packets. The PST represents the threshold in term of bytes. The maximum MCU speed at the input is 1/10 of the link frequency. Please refer to 9.3.1.1 for more details.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "PST[7:0]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xBF",
+  "mnemonic": "GPDR",
+  "name": "Packet Drop Register",
+  "reset_value": "0x0000",
+  "section": "8.1.16",
+  "pdf_page": 42,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "GPD[15:8]",
+    "type": "WO",
+    "reset": "0x0",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "GPD",
+    "type": "",
+    "reset": "",
+    "description": "Generic Packet Drop – This register is not a true register. It is the entry point for the internal buffer. The payload of the generic packets (Generic Short Write, Generic Long Write, and Generic Read) or the command and payload if DCS packet should be written into this register. The SSD2828 will send them out using the corresponding generic or DCS packet. DCS field of CFGR register will be used to determine the data drop into this register is for generic or DCS packet generation. The application processor can treat this register as an FIFO and continuously write data into it. When the interface is 16-bit, the width of this field is 16-bit. When the interface is 8-bit, the width of this field is 8-bit. Since the register is only the entry point of the internal buffer, the application processor is not able to read the data written into the buffer.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "GPD[7:0]",
+    "type": "WO",
+    "reset": "0x0",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xC0",
+  "mnemonic": "OCR",
+  "name": "Operation Control Register",
+  "reset_value": "0x0000",
+  "section": "8.1.17",
+  "pdf_page": 43,
+  "fields": [
+   {
+    "bits": "8",
+    "name": "RST",
+    "type": "RWAC",
+    "reset": "0x0",
+    "description": "Software Reset - Writing a ‘1’ to this bit will reset the entire module except SSD2828 local register setting. This bit will be cleared after the reset is completed. Wrting a ‘1’ to this bit will cause the MIPI link enters TX stop state immediately and any outgoing MIPI packet will be terminated immediately.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "NOP"
+     },
+     {
+      "value": "1",
+      "meaning": "Software Reset"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "COP",
+    "type": "RWAC",
+    "reset": "0x0",
+    "description": "Cancel Operation – This bit is to cancel the current operation. When this bit is set to 1, the SSD2828 will still finish transmitting the current packet. (Otherwise, the serial link operation will lose sync.) Afterwards, the SSD2828 will stop any further transmission. It will clear its internal buffer such that all the data being written in and not sent out yet will be cleared. It will also bring the state machine to its initial state. Once this process is finished, the COP bit will be automatically set to 0. At the same time, the PO bit of the status register will be set to 1 too. At this stage, there is no data in the internal buffer. The application processor can start a new operation. This operation is not valid in video mode(VEN=1).",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "NOP"
+     },
+     {
+      "value": "1",
+      "meaning": "Cancel the current operation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xC1",
+  "mnemonic": "MRSR",
+  "name": "Maximum Return Size Register",
+  "reset_value": "0x0001",
+  "section": "8.1.18",
+  "pdf_page": 44,
+  "fields": [
+   {
+    "bits": "15:0",
+    "name": "MRS",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Maximum Return Size – These bits set the maximum return size of the read response packet returned by the MIPI slave. The SSD2828 will automatically send out the Set Maximum Return Size packet using the value in this field, before every read operation. It informs the MIPI slave about the limit of the SSD2828. The application processor does not need to program the register before every read operation, if the maximum return size does not change. However, the Set Maximum Return Size packet will always be sent.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xC2",
+  "mnemonic": "RDCR",
+  "name": "Return Data Count Register",
+  "reset_value": "0x0000",
+  "section": "8.1.19",
+  "pdf_page": 45,
+  "fields": [
+   {
+    "bits": "15:0",
+    "name": "RDC",
+    "type": "RO",
+    "reset": "0x00",
+    "description": "Return Data Count – These bits reflect the number of data bytes received from the MIPI slave read response packet. This register can only be updated by the SSD2828 hardware.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xC3",
+  "mnemonic": "ARSR",
+  "name": "ACK Response Register",
+  "reset_value": "0x0000",
+  "section": "8.1.20",
+  "pdf_page": 46,
+  "fields": [
+   {
+    "bits": "15:0",
+    "name": "AR",
+    "type": "RO",
+    "reset": "0x00",
+    "description": "ACK Response – These bits contain the ACK response from the MIPI slave. The register will be updated when ACK with Error Report packet is received. Otherwise, the value will be set to 0. The bits in this register follow the definition in MIPI DSI. This register can only be updated by the SSD2828 hardware.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xC4",
+  "mnemonic": "LCR",
+  "name": "Line Control Register",
+  "reset_value": "0x0000",
+  "section": "8.1.21",
+  "pdf_page": 47,
+  "fields": [
+   {
+    "bits": "5",
+    "name": "IBC",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Ignore Bus Contention – This bit is to detect bus contention reported by the Analog Phy. If this bit is disabled, whenever bus contention is detected, the state machine will ignore it and continue sending new packet if available. If this bit is enabled, the state machine will halt further transmission.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Detect Bus Contention from Analog Phy"
+     },
+     {
+      "value": "1",
+      "meaning": "Ignore Bus Contention detected by Analog Phy"
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "RT",
+    "type": "RWAC",
+    "reset": "0x0",
+    "description": "Reset Trigger – This bit is to send a Reset Trigger Message. When this bit is set to 1, the SSD2828 will send a Reset Trigger Message. It is recommended to enter LP mode and send this trigger message. If this bit is programmed during vertical active data is being sent on MIPI link, the reset trigger will be delayed to next vertical blanking period so that the reset trigger message will not disturb the video timing on the MIPI link. Once the Reset Trigger Message is sent out, RT bit will be automatically set to 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "NOP"
+     },
+     {
+      "value": "1",
+      "meaning": "Send a Reset Trigger Message"
+     }
+    ]
+   },
+   {
+    "bits": "3",
+    "name": "RTB",
+    "type": "RWAC",
+    "reset": "0x0",
+    "description": "Register Triggered BTA – This bit automatically perform Bus Turnaround(BTA) when link is not used. When bus is returned back from the slave, the link will remains in Low Power state until a new request come in where HS bit determination the transfer mode.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "NOP"
+     },
+     {
+      "value": "1",
+      "meaning": "Automatically perform BTA when link is available. In video mode, it will be sent at the next vertical blanking period."
+     }
+    ]
+   },
+   {
+    "bits": "2",
+    "name": "FBC",
+    "type": "RWAC",
+    "reset": "0x0",
+    "description": "Force Bus Contention – This bit controls whether to force a bus contention on the data lane. This bit will be changed to 0, after the bus contention is not detected.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "NOP"
+     },
+     {
+      "value": "1",
+      "meaning": "Drive the data lane to LP11 to force a bus contention."
+     }
+    ]
+   },
+   {
+    "bits": "1",
+    "name": "FBT",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "perform automatic BTA after previous BTA so as to get the TE response from MIPI slave.",
+    "enums": [
+     {
+      "value": "1",
+      "meaning": "Perform automatic BTA after previous BTA"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "FBW",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Force BTA After Write – This bit controls whether to automatically generate a BTA after a write operation. It is only valid for write operation. After performing BTA, the bus authority has been passed to the MIPI slave. The SSD2828 is not able to send any data to the MIPI slave before the bus authority is passed back. It is the responsibility of the application processor to check the status of the bus before sending any data.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not BTA after the next write packet."
+     },
+     {
+      "value": "1",
+      "meaning": "Automatically perform BTA after the next write packet."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xC5",
+  "mnemonic": "ICR",
+  "name": "Interrupt Control Register",
+  "reset_value": "0x0080",
+  "section": "8.1.22",
+  "pdf_page": 49,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "CBEE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Command Buffer Empty Enable – This bit enables the mapping of CBE interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "14",
+    "name": "CBAE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Command Buffer Available Enable – This bit enables the mapping of CBA interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "9",
+    "name": "MLEE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "MCU Long Buffer Empty Enable – This bit enables the mapping of MLE interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "8",
+    "name": "MLAE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "MCU Long Buffer Available Enable – This bit enables the mapping of MLA interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "7",
+    "name": "PLSE",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "PLL Lock Status Enable – This bit enables the mapping of the PLS interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "6",
+    "name": "LPTOE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "LP RX Time Out Enable – This bit enables the mapping of the LPTO interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "5",
+    "name": "HSTOE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "HS TX Time Out Enable – This bit enables the mapping of the HSTO interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "3",
+    "name": "ARRE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "ACK Response Ready Enable – This bit enables the mapping of ARR interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "2",
+    "name": "BTARE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "BTA Response Enable – This bit enables the mapping of the BTAR interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "1",
+    "name": "POE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Packet Operation Enable – This bit enables the mapping of the PO interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "RDRE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Read Data Ready Enable – This bit enables the mapping of the RDR interrupt to the int pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not enabled"
+     },
+     {
+      "value": "1",
+      "meaning": "Enabled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xC6",
+  "mnemonic": "ISR",
+  "name": "Interrupt Status Register",
+  "reset_value": "0xCF06",
+  "section": "8.1.23",
+  "pdf_page": 50,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "CBE",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Command Buffer Empty – This bit reflects the status of the internal command buffer of the SPI interface. If the command buffer is empty, this bit will be set to 1. The application processor can write up to the maximum size of the command buffer.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The command buffer is not empty."
+     },
+     {
+      "value": "1",
+      "meaning": "The command buffer is empty."
+     }
+    ]
+   },
+   {
+    "bits": "14",
+    "name": "CBA",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Command Buffer Available – This bit reflects the status of the internal command buffer of the SPI interface. If the command buffer is not full, this bit will be set to 1. The application processor can write at least 1 packet to the command buffer.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The command buffer is full. 1 – The command buffer is not full."
+     }
+    ]
+   },
+   {
+    "bits": "11",
+    "name": "CST",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Clock Lane Status – This bit reflects the status at the MIPI Clock lane.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Clock lane is not in LP-11."
+     },
+     {
+      "value": "1",
+      "meaning": "Clock lane is in LP-11."
+     }
+    ]
+   },
+   {
+    "bits": "10",
+    "name": "DST",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Data Lane Status – This bit reflects the status at the MIPI Data lane.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Data lane is not in LP-11."
+     },
+     {
+      "value": "1",
+      "meaning": "Data lane is in LP-11."
+     }
+    ]
+   },
+   {
+    "bits": "9",
+    "name": "MLE",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Reserved",
+    "enums": []
+   },
+   {
+    "bits": "8",
+    "name": "MLA",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Reserved",
+    "enums": []
+   },
+   {
+    "bits": "7",
+    "name": "PLS",
+    "type": "RO",
+    "reset": "0x0",
+    "description": "PLL Lock Status – This bit reflects the status of the PLL. Before the PLL is locked, the whole system is running at the reference clock input of the PLL, as the PLL has no output before getting lock. Hence, the application processor must access the registers using slow speed.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "PLL has not been locked"
+     },
+     {
+      "value": "1",
+      "meaning": "PLL has been locked"
+     }
+    ]
+   },
+   {
+    "bits": "6",
+    "name": "LPTO",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "LP RX Time Out – This bit reflects the status of the LP RX timer.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The LP RX timer has expired. 1 – The LP RX timer has not expired."
+     }
+    ]
+   },
+   {
+    "bits": "5",
+    "name": "HSTO",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "HS TX Time Out – This bit reflects the status of the HS TX timer.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The HS TX timer has expired. 1 – The HS TX timer has not expired."
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "ATR",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "ACK Trigger Response – This bit reflects whether the ACK trigger message has been received or not.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "ACK trigger message has not been received."
+     },
+     {
+      "value": "1",
+      "meaning": "ACK trigger message has been received."
+     }
+    ]
+   },
+   {
+    "bits": "3",
+    "name": "ARR",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "ACK Response Ready – This bit reflects whether the ACK response has been received or not. The ACK response can be an ACK trigger message or ACK with Error Report packet.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Response has not been received."
+     },
+     {
+      "value": "1",
+      "meaning": "Response has been received."
+     }
+    ]
+   },
+   {
+    "bits": "2",
+    "name": "BTAR",
+    "type": "RW1C",
+    "reset": "0x1",
+    "description": "BTA Response – This bit reflects the data lane status after SSD2828 has made a BTA.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "The MIPI slave has not passed the lane authority back."
+     },
+     {
+      "value": "1",
+      "meaning": "The MIPI slave has passed the lane authority back."
+     }
+    ]
+   },
+   {
+    "bits": "1",
+    "name": "PO",
+    "type": "RO",
+    "reset": "0x1",
+    "description": "Packet Operation – This bit reflects whether the SSD2828 is ready to take in more data from the application processor.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not ready"
+     },
+     {
+      "value": "1",
+      "meaning": "Ready"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "RDR",
+    "type": "RO",
+    "reset": "0x0",
+    "description": "Read Data Ready – This bit reflects whether the data from the MIPI slave is ready for read by the application processor. This bit is valid only during the read operation. This bit will be automatically cleared when all the received data are read out.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Not ready"
+     },
+     {
+      "value": "1",
+      "meaning": "Ready"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xC7",
+  "mnemonic": "ESR",
+  "name": "Error Status Register",
+  "reset_value": "0x0000",
+  "section": "8.1.24",
+  "pdf_page": 52,
+  "fields": [
+   {
+    "bits": "10",
+    "name": "CRCE",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "CRC Error – This bit reflects the status of CRC checking for the packets received from the MIPI slave. The status is valid only when the ECD bit is set to 0. Once a CRC error occurs, this bit will be set to 1. It will remain as 1 until the application processor writes 1 to clear it.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "No CRC error since this bit is cleared"
+     },
+     {
+      "value": "1",
+      "meaning": "At least 1 CRC error since this bit is cleared"
+     }
+    ]
+   },
+   {
+    "bits": "9",
+    "name": "ECCE2",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "ECC Multi Bit Error – This bit reflects the status of ECC checking for the packets received from the MIPI slave. The status is valid only when the ECD bit is set to 0. Once an ECC multi-bit error occurs, this bit will be set to 1. It will remain as 1 until the application processor writes 1 to clear it.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "No ECC multi-bit error since this bit is cleared"
+     },
+     {
+      "value": "1",
+      "meaning": "At least 1 ECC multi-bit error since this bit is cleared"
+     }
+    ]
+   },
+   {
+    "bits": "8",
+    "name": "ECCE1",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "ECC Single Bit Error – This bit reflects the status of ECC checking for the packets received from the MIPI slave. The status is valid only when the ECD bit is set to 0. Once an ECC single-bit error occurs, this bit will be set to 1. It will remain as 1 until the application processor writes 1 to clear it.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "No ECC single-bit error since this bit is cleared"
+     },
+     {
+      "value": "1",
+      "meaning": "At least 1 ECC single-bit error since this bit is cleared"
+     }
+    ]
+   },
+   {
+    "bits": "7",
+    "name": "SO",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "Command Buffer Overflow – This bit reflects the status of internal command buffer of the SPI interface. If the command buffer has overflowed, this bit will be set to 1. It will remain as 1 until the application processor writes 1 to clear it.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Overflow has not occurred"
+     },
+     {
+      "value": "1",
+      "meaning": "Overflow has occurred"
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "MLO",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "Reserved",
+    "enums": []
+   },
+   {
+    "bits": "2",
+    "name": "CONT",
+    "type": "RO",
+    "reset": "0x0",
+    "description": "data lane contention detector.",
+    "enums": [
+     {
+      "value": "1",
+      "meaning": "Contention has occurred"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "VMM",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "VC Mis Match – This bit reflects whether there is a mismatch between the VC ID transmitted by the SSD2828 and the VC ID received from the MIPI slave",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "No mismatch"
+     },
+     {
+      "value": "1",
+      "meaning": "Mismatch has occurred"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xC9",
+  "mnemonic": "DAR1",
+  "name": "Delay Adjustment Register 1",
+  "reset_value": "0x1402",
+  "section": "8.1.25",
+  "pdf_page": 54,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "HZD",
+    "type": "RW",
+    "reset": "0x14",
+    "description": "HS Zero Delay – These bits specifies the number of nibble clock for HS zero delay period T_HS-ZERO.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HPD",
+    "type": "RW",
+    "reset": "0x02",
+    "description": "HS Prepare Delay – These bits specifies the number of nibble clock for HS prepare delay period T_HS-PREPARE.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCA",
+  "mnemonic": "DAR2",
+  "name": "Delay Adjustment Register 2",
+  "reset_value": "0x2803",
+  "section": "8.1.26",
+  "pdf_page": 55,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "CZD",
+    "type": "RW",
+    "reset": "0x28",
+    "description": "CLK Zero Delay – These bits specifies the number of nibble clock for CLK zero delay period T_CLK-ZERO.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "CPD",
+    "type": "RW",
+    "reset": "0x03",
+    "description": "CLK Prepare Delay – These bits specifies the number of nibble clock for CLK prepare delay period T_CLK-PREPARE.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCB",
+  "mnemonic": "DAR3",
+  "name": "Delay Adjustment Register 3",
+  "reset_value": "0x0416",
+  "section": "8.1.27",
+  "pdf_page": 56,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "CPED",
+    "type": "RW",
+    "reset": "0x04",
+    "description": "CLK Pre Delay – These bits specifies the number of nibble clock for CLK pre delay period T_CLK-PER.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "CPTD",
+    "type": "RW",
+    "reset": "0x16",
+    "description": "CLK Post Delay – These bits specifies the number of nibble clock for CLK post delay period T_CLK-POST.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCC",
+  "mnemonic": "DAR4",
+  "name": "Delay Adjustment Register 4",
+  "reset_value": "0x0A0A",
+  "section": "8.1.28",
+  "pdf_page": 57,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "CTD",
+    "type": "RW",
+    "reset": "0x0A",
+    "description": "CLK Trail Delay – These bits specifies the number of nibble clock for CLK trail delay period T_CLK-TRAIL.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HTD",
+    "type": "RW",
+    "reset": "0x0A",
+    "description": "HS Trail Delay – These bits specifies the number of nibble clock for HS trail delay period T_HS-TRAIL. Please note that the minimum value for the T_HS- _L is 3.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCD",
+  "mnemonic": "DAR5",
+  "name": "Delay Adjustment Register 5",
+  "reset_value": "0x1000",
+  "section": "8.1.29",
+  "pdf_page": 58,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "WUD[15:8]",
+    "type": "RW",
+    "reset": "0x10",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "WUD",
+    "type": "",
+    "reset": "",
+    "description": "Wake Up Delay – These bits specifies the number of clock cycles for wake up delay period T_WAKEUP. The delay is used to wake up the MIPI slave from ULPS state. The clock is the low power clock.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "WUD[7:0]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCE",
+  "mnemonic": "DAR6",
+  "name": "Delay Adjustment Register 6",
+  "reset_value": "0x0405",
+  "section": "8.1.30",
+  "pdf_page": 59,
+  "fields": [
+   {
+    "bits": "11:8",
+    "name": "TGO",
+    "type": "RW",
+    "reset": "0x4",
+    "description": "TA Go Delay – These bits specifies the number of T_LPX for TA go delay period T_TA-GO.",
+    "enums": []
+   },
+   {
+    "bits": "3:0",
+    "name": "TGET",
+    "type": "RW",
+    "reset": "0x5",
+    "description": "TA Get Delay – These bits specifies the number of T_LPX for TA get delay period T_TA-GET.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xCF",
+  "mnemonic": "HTTR1",
+  "name": "HS TX Timer Register 1",
+  "reset_value": "0x0000",
+  "section": "8.1.31",
+  "pdf_page": 60,
+  "fields": [
+   {
+    "bits": "31:0",
+    "name": "HTT",
+    "type": "",
+    "reset": "",
+    "description": "HS TX Timer – These bits specify the HS TX timer timeout value. PLL reference clock is used to increment an internal timer. The timer starts when the SSD2828 enters HS transmit mode. When the SSD2828 exits from HS transmit mode, the timer will be reset. If the timer expires before the end of HS transmission, the SSD2828 will signal an error and switch to LP mode to continue the transmission. At the same time, the HS bit will be cleared to 0. Software intervention is required so that the SSD2828 can go back to proper HS transmission mode.",
+    "enums": []
+   },
+   {
+    "bits": "15:8",
+    "name": "HTT[15:8]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HTT[7:0]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD0",
+  "mnemonic": "HTTR2",
+  "name": "HS TX Timer Register 2",
+  "reset_value": "0x0010",
+  "section": "8.1.32",
+  "pdf_page": 61,
+  "fields": [
+   {
+    "bits": "31:0",
+    "name": "HTT",
+    "type": "",
+    "reset": "",
+    "description": "Please see the description of HS TX Timer Register 1",
+    "enums": []
+   },
+   {
+    "bits": "15:8",
+    "name": "HTT[31:24]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HTT [23:16]",
+    "type": "RW",
+    "reset": "0x10",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD1",
+  "mnemonic": "LRTR1",
+  "name": "LP RX Timer Register 1",
+  "reset_value": "0x0000",
+  "section": "8.1.33",
+  "pdf_page": 62,
+  "fields": [
+   {
+    "bits": "31:0",
+    "name": "LRT",
+    "type": "",
+    "reset": "",
+    "description": "LP RX Timer – These bits specify the LP RX timer timeout value. PLL reference clock is used to increment an internal timer. The timer starts when the SSD2828 enters LP receive mode. When the SSD2828 exits from LP receive mode, the timer will be reset. If the timer expires before exiting from LP receive mode, the SSD2828 will signal an error and switch to LP transmit mode. The DPHY will drive the data lane to LP11 state. Software intervention is required so that any possible error could be cleared.",
+    "enums": []
+   },
+   {
+    "bits": "15:8",
+    "name": "LRT[15:8]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "LRT[7:0]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD2",
+  "mnemonic": "LRTR2",
+  "name": "LP RX Timer Register 2",
+  "reset_value": "0x0010",
+  "section": "8.1.34",
+  "pdf_page": 63,
+  "fields": [
+   {
+    "bits": "31:0",
+    "name": "LRT",
+    "type": "",
+    "reset": "",
+    "description": "Please see the description of LP RX Timer Register 1",
+    "enums": []
+   },
+   {
+    "bits": "15:8",
+    "name": "LRT[31:24]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "LRT[23:16]",
+    "type": "RW",
+    "reset": "0x10",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD3",
+  "mnemonic": "TSR",
+  "name": "TE Status Register",
+  "reset_value": "0x0000",
+  "section": "8.1.35",
+  "pdf_page": 64,
+  "fields": [
+   {
+    "bits": "0",
+    "name": "TER",
+    "type": "RW1C",
+    "reset": "0x0",
+    "description": "TE Response – This bit reflects whether a TE response has been received or not. Once a TE response is received, this bit will be set to 1. At the same time, the output te signal will go high. The host processor can write 1 to clear this bit. Once the bit is cleared, the te signal will go low.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "TE response has not been"
+     },
+     {
+      "value": "1",
+      "meaning": "TE response has been"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xD4",
+  "mnemonic": "LRR",
+  "name": "SPI Read Register",
+  "reset_value": "0x00FA",
+  "section": "8.1.36",
+  "pdf_page": 65,
+  "fields": [
+   {
+    "bits": "7:0",
+    "name": "RRA",
+    "type": "RW",
+    "reset": "0xFA",
+    "description": "Register Read Address – These bits specify the address of the register to be read through the SPI interface, when the interface is SPI 8-bit (either 3 wire or 4 wire).",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD5",
+  "mnemonic": "PLLR",
+  "name": "PLL Lock Register",
+  "reset_value": "0x1450",
+  "section": "8.1.37",
+  "pdf_page": 66,
+  "fields": [
+   {
+    "bits": "15:0",
+    "name": "LOCK",
+    "type": "RW",
+    "reset": "0x14",
+    "description": "LOCK – These bits specify the PLL lock range in term of PLL reference frequency, f FIN . The maximum PLL lock period is 500us and the default setting assumed the reference clock, f FIN is 10Mhz from tx_clk. The LOCK setting should be programmed only when PEN is 0. It has no effect when PEN is 1.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD6",
+  "mnemonic": "TR",
+  "name": "Test Register",
+  "reset_value": "0x0005",
+  "section": "8.1.38",
+  "pdf_page": 67,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "TM/FL0",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Test Mode – These bits selects whether to inject CRC/ECC error for the outgoing streams. They are used for debugging purpose only. They should be set to 00 in normal mode! Force Lane 0 – These bits are valid when FLM is 1. During this mode, user can write Low Power value to the MIPI lane 0 data using these bits. SSD2828 will not respond to the normal request through RGB or SPI interface. FL0[1] controls MIPI_DP0 and FL0[0] controls MIPI_DN0.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "Normal mode"
+     },
+     {
+      "value": "01",
+      "meaning": "Inject CRC error"
+     },
+     {
+      "value": "10",
+      "meaning": "Inject 1 bit ECC error"
+     },
+     {
+      "value": "11",
+      "meaning": "Inject 2 bit ECC error"
+     }
+    ]
+   },
+   {
+    "bits": "13:9",
+    "name": "EIC",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Error Injection Control – These bits controls the position of the error being injected for testing. It is only applicable when TM is 01.",
+    "enums": []
+   },
+   {
+    "bits": "8",
+    "name": "FLM",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Force Lane Mode – This bit enable user to write to FL0 bits to directly control the analog lane DP0 and DP1. The lane should be in Low Power mode(HS=0) when write using FL0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Normal Mode"
+     },
+     {
+      "value": "1",
+      "meaning": "Force Lane Mode"
+     }
+    ]
+   },
+   {
+    "bits": "7:2",
+    "name": "PNB",
+    "type": "RW",
+    "reset": "0x01",
+    "description": "Packet Number in Blanking Period – These bits controls the number of packet to send during video mode blanking period.",
+    "enums": []
+   },
+   {
+    "bits": "1",
+    "name": "END",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Endianess – Internal test only. Default as 0",
+    "enums": []
+   },
+   {
+    "bits": "0",
+    "name": "CO",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Color Order – This bit specifies the order of the color component in the pixel. During command mode transmission, this bit takes effect only when the IFS bit is 1 and the transmitted packet is DCS write memory packet, 0x2C or 0x3C. During video mode transmission, this bit must be set to 1 so as to follow the MIPI DSI specification.",
+    "enums": [
+     {
+      "value": "1",
+      "meaning": "RGB. R is in the higher"
+     },
+     {
+      "value": "0",
+      "meaning": "BGR. B is in the higher"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xD7",
+  "mnemonic": "TECR",
+  "name": "TE Count Register",
+  "reset_value": "0x0001",
+  "section": "8.1.39",
+  "pdf_page": 69,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "TEC[15:8]",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "TEC",
+    "type": "",
+    "reset": "",
+    "description": "TE Count – These bits determines the pulse width of the output te signal. A counter will be started after the TE signal goes to 1. When the counter reaches the value in TEC field, the te signal will be set to 0. The counter uses the PLL reference clock to do counting.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "TEC[7:0]",
+    "type": "RW",
+    "reset": "0x01",
+    "description": "",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD8",
+  "mnemonic": "ACR1",
+  "name": "Analog Control Register 1",
+  "reset_value": "0x2020",
+  "section": "8.1.40",
+  "pdf_page": 70,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "D3_DELAY_SEL[3:2]",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Data lane 3 DELAY SELect[3:2] – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   },
+   {
+    "bits": "13:8",
+    "name": "D1_DELAY_SEL",
+    "type": "RW",
+    "reset": "0x20",
+    "description": "Data lane 1 DELAY SELect – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   },
+   {
+    "bits": "7:6",
+    "name": "D3_DELAY_SEL[1:0]",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Data lane 3 DELAY SELect[1:0] – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "D0_DELAY_SEL",
+    "type": "RW",
+    "reset": "0x20",
+    "description": "Data lane 0 DELAY SELect – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xD9",
+  "mnemonic": "ACR2",
+  "name": "Analog Control Register 2",
+  "reset_value": "0x64A0",
+  "section": "8.1.41",
+  "pdf_page": 71,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "HSTX_Z",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "High Speed Transmit Trimming control – These bits control the trimming for output impedance control.",
+    "enums": []
+   },
+   {
+    "bits": "13:11",
+    "name": "LPTXDS",
+    "type": "RW",
+    "reset": "0x4",
+    "description": "Low Power TX Drive strength Selection – These bits control the drive strength for the TX in low power mode.",
+    "enums": []
+   },
+   {
+    "bits": "10:8",
+    "name": "HSTX_DS",
+    "type": "RW",
+    "reset": "0x4",
+    "description": "High Speed TX current Driver Selection – These bits control the driving current for the TX in high speed mode.",
+    "enums": []
+   },
+   {
+    "bits": "7:6",
+    "name": "D3_DELAY_SEL[5:4]",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Data lane 3 DELAY SELect[5:4] –These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "D2_DELAY_SEL",
+    "type": "RW",
+    "reset": "0x20",
+    "description": "Data lane 2 DELAY SELect – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xDA",
+  "mnemonic": "ACR3",
+  "name": "Analog Control Register 3",
+  "reset_value": "0x99A4",
+  "section": "8.1.42",
+  "pdf_page": 72,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "TLFT1",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "14",
+    "name": "TLFT0",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "13:11",
+    "name": "PREEM_SEL",
+    "type": "RW",
+    "reset": "0x3",
+    "description": "PREEM_SEL – Used for tap selection for preemphasis.",
+    "enums": []
+   },
+   {
+    "bits": "10:9",
+    "name": "PREEM_MOD",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "PREEM_MOD – Preemphasis mode selection.",
+    "enums": []
+   },
+   {
+    "bits": "8",
+    "name": "PREEM_ E",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "PRE-EMphasis Enable – Used for HSTX.",
+    "enums": []
+   },
+   {
+    "bits": "7",
+    "name": "THFT1",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "ThresHold 1 – This bit controls the low power receiver schmitt trigger high to low threshold selection1.",
+    "enums": []
+   },
+   {
+    "bits": "6",
+    "name": "THFT0",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "ThresHold 0 – This bit controls the low power receiver schmitt trigger high to low threshold selection 0.",
+    "enums": []
+   },
+   {
+    "bits": "5:3",
+    "name": "TC",
+    "type": "RW",
+    "reset": "0x04",
+    "description": "Temperature Coefficient Select – These bits control the temperature coefficient of the bandbap regulator.",
+    "enums": []
+   },
+   {
+    "bits": "2:0",
+    "name": "ISEL",
+    "type": "RW",
+    "reset": "0x04",
+    "description": "Current Output Trim – These bits control current output trim of the bandgap regulator.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xDB",
+  "mnemonic": "ACR4",
+  "name": "Analog Control Register 4",
+  "reset_value": "0x8098",
+  "section": "8.1.43",
+  "pdf_page": 73,
+  "fields": [
+   {
+    "bits": "15:10",
+    "name": "CLK_DELAY_SEL",
+    "type": "RW",
+    "reset": "0x20",
+    "description": "CLocK lane DELAY SELect – These bits control the delay for serializer output to the HS transmitter.",
+    "enums": []
+   },
+   {
+    "bits": "9",
+    "name": "CKF",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "ClocK Flip – This bit controls whether to flip the TX_LP_CP and TX_LP_CN to the analog block. It should be set to 0 for normal operation.",
+    "enums": []
+   },
+   {
+    "bits": "7:5",
+    "name": "TCI",
+    "type": "RW",
+    "reset": "0x4",
+    "description": "Current Temperature Coefficient Select",
+    "enums": []
+   },
+   {
+    "bits": "4",
+    "name": "ENLV",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "BandGap Reference Enable",
+    "enums": []
+   },
+   {
+    "bits": "3",
+    "name": "CD_EN",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Contention Detection Enable",
+    "enums": []
+   },
+   {
+    "bits": "2",
+    "name": "GFFT1",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Glitch Filter Selection 1",
+    "enums": []
+   },
+   {
+    "bits": "1",
+    "name": "GFFT0",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Glitch Filter Selection 0",
+    "enums": []
+   },
+   {
+    "bits": "0",
+    "name": "GF_E",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Glitch filter Enable",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xDC",
+  "mnemonic": "IOCR",
+  "name": "Interrupt Output Control Register",
+  "reset_value": "0x0000",
+  "section": "8.1.44",
+  "pdf_page": 74,
+  "fields": [
+   {
+    "bits": "2:1",
+    "name": "IOT",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Interrupt Output Type – These bits specify the type of output for the int. Write to this bit is only valid when all the enable bits in the Interrupt Control Registers(0xC5) are 0.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "CMOS output"
+     },
+     {
+      "value": "01",
+      "meaning": "Open Drain active low"
+     },
+     {
+      "value": "11",
+      "meaning": "NA"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "IAS",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Interrupt Active State – This bit selects the polarity of the int pin at the chip IO. Write to this bit is only valid when all the enable bits in the Interrupt Control Registers(0xC5) are 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "int pin is active low, when there is no interrupt events, it is normally high."
+     },
+     {
+      "value": "1",
+      "meaning": "int pin is active high, when there is no interrupt events, it is normally low."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xDD",
+  "mnemonic": "VICR7",
+  "name": "RGB Interface Control Register 7",
+  "reset_value": "0x0000",
+  "section": "8.1.45",
+  "pdf_page": 75,
+  "fields": [
+   {
+    "bits": "7:4",
+    "name": "VBN",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Vertical Front Porch Non Video Data Window These fields specify the number of vertical back porch counting backward from the first vertical active line in which non-video data is not allowed to be sent via MIPI link. This field is only valid when VEN is 1 and the interface setting is RGB + SPI. This field should not larger than VBP. If it is larger, the internal logic will cap this field to VBP.",
+    "enums": []
+   },
+   {
+    "bits": "3:0",
+    "name": "VFN",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Vertical Back Porch Non Video Data Window These fields specify the number of vertical front porch from the last vertical active line in which non-video data is not allowed to be sent via MIPI link. This field is only valid when VEN is 1 and the interface setting is RGB + SPI. This field should not larger than VFP. If it is larger, the internal logic will cap this field to VFP.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xDE",
+  "mnemonic": "LCFR",
+  "name": "Lane Configuration Register",
+  "reset_value": "0x0000",
+  "section": "8.1.46",
+  "pdf_page": 76,
+  "fields": [
+   {
+    "bits": "1:0",
+    "name": "LS",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Lane Select – These bits define the number of lane to be used for SSD2828.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "1 lane mode"
+     },
+     {
+      "value": "01",
+      "meaning": "2 lane mode"
+     },
+     {
+      "value": "10",
+      "meaning": "3 lane mode"
+     },
+     {
+      "value": "11",
+      "meaning": "4 lane mode"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xDF",
+  "mnemonic": "DAR7",
+  "name": "Delay Adjustment Register 7",
+  "reset_value": "0x0010",
+  "section": "8.1.47",
+  "pdf_page": 77,
+  "fields": [
+   {
+    "bits": "5:0",
+    "name": "HED",
+    "type": "RW",
+    "reset": "0x10",
+    "description": "HS Exit Delay – These bits specifies the number of nibble clock for HS exit delay period for data and clock lane.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xE0",
+  "mnemonic": "PUCR1",
+  "name": "Pull Control Register 1",
+  "reset_value": "0x5556",
+  "section": "8.1.48",
+  "pdf_page": 78,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "XTAL_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Xtal Mode Pull – These bits select the pull state of the pin xtal_mode.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "13:12",
+    "name": "PS4_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pin Select 3 Pull – These bits select the pull state of the pin ps[4].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "11:10",
+    "name": "PS3_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pin Select 3 Pull – These bits select the pull state of the pin ps[3].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "9:8",
+    "name": "PS2_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pin Select 2 Pull – These bits select the pull state of the pin ps[2].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "7:6",
+    "name": "PS1_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pin Select 1 Pull – These bits select the pull state of the pin ps[1].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "5:4",
+    "name": "PS0_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pin Select 0 Pull – These bits select the pull state of the pin ps[0].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "3:2",
+    "name": "IS_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "If_Sel Pull – These bits select the pull state of the pin if_sel.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "1:0",
+    "name": "MR_PULL",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "MIPI Reset Pull – These bits select the pull state of the pin mipi_reset_b.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xE1",
+  "mnemonic": "PUCR2",
+  "name": "Pull Control Register 2",
+  "reset_value": "0x6656",
+  "section": "8.1.49",
+  "pdf_page": 80,
+  "fields": [
+   {
+    "bits": "15:14",
+    "name": "DEN_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Den Pull – These bits select the pull state of the pin den.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "13:12",
+    "name": "HS_PULL",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Hsync Pull – These bits select the pull state of the pin hsync.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "11:10",
+    "name": "PC_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Pixel_clk Pull – These bits select the pull state of the pin pclk.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "9:8",
+    "name": "VS_PULL",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Vsync Pull – These bits select the pull state of the pin vsync.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "7:6",
+    "name": "DH_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Data high byte Pull – These bits select the pull state of the pins data[23:16].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "5:4",
+    "name": "DM_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Data medium byte Pull – These bits select the pull state of the pins data[15:8].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "3:2",
+    "name": "DL_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "Data low byte Pull – These bits select the pull state of the pins data[7:0].",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "1:0",
+    "name": "CSX_PULL",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Chip Select Pull – These bits select the pull state of the pin csx.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xE2",
+  "mnemonic": "PUCR3",
+  "name": "Pull Control Register 3",
+  "reset_value": "0x0159",
+  "section": "8.1.50",
+  "pdf_page": 81,
+  "fields": [
+   {
+    "bits": "9:8",
+    "name": "SDI_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "SDI Pull – These bits select the pull state of the pin sdi.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "7:6",
+    "name": "SCK_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "SCK Pull – These bits select the pull state of the pin sck.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "5:4",
+    "name": "SDC_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "SDC Pull – These bits select the pull state of the pin sdc.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "3:2",
+    "name": "SHUT_PULL",
+    "type": "RW",
+    "reset": "0x2",
+    "description": "Shut Pull – These bits select the pull state of the pin shut.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   },
+   {
+    "bits": "1:0",
+    "name": "CM_PULL",
+    "type": "RW",
+    "reset": "0x1",
+    "description": "CM Pull – These bits select the pull state of the pin cm.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xE9",
+  "mnemonic": "CBCR1",
+  "name": "CABC Brightness Control Register 1",
+  "reset_value": "0x0000",
+  "section": "8.1.51",
+  "pdf_page": 82,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "WDBV",
+    "type": "RW",
+    "reset": "0x00",
+    "description": "Write Display Brightness Value – These bits control the brightness setting.",
+    "enums": []
+   },
+   {
+    "bits": "6",
+    "name": "GAM18",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Gamma 18 – This bit controls gamma 18 select.",
+    "enums": []
+   },
+   {
+    "bits": "5",
+    "name": "BL",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "BackLight Control – This bit controls the backlight on/off at BC line.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Off (Completely turn off backlight circuit)"
+     },
+     {
+      "value": "1",
+      "meaning": "On"
+     }
+    ]
+   },
+   {
+    "bits": "4",
+    "name": "DD",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Display Dimming – This bit controls the display dimming feature.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Display Dimming Off"
+     },
+     {
+      "value": "1",
+      "meaning": "Display Dimming On"
+     }
+    ]
+   },
+   {
+    "bits": "3",
+    "name": "BCTR",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "Brightness Control – This bit controls the On/Off state of the Brightness Control block.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Off"
+     },
+     {
+      "value": "1",
+      "meaning": "On"
+     }
+    ]
+   },
+   {
+    "bits": "2:1",
+    "name": "BP_MODE",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "BP MODE – These bits control the Brightness Preservation of the CABC.",
+    "enums": [
+     {
+      "value": "00",
+      "meaning": "Disable DABC"
+     },
+     {
+      "value": "01",
+      "meaning": "Conservation Mode"
+     },
+     {
+      "value": "10",
+      "meaning": "Normal Mode"
+     },
+     {
+      "value": "11",
+      "meaning": "Aggressive Mode"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "CABC_ EN",
+    "type": "RW",
+    "reset": "0x0",
+    "description": "CABC ENable – This bit enable the CABC feature. This bit is valid only when if_sel is 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "CABC is disable"
+     },
+     {
+      "value": "1",
+      "meaning": "CABC is enable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xEA",
+  "mnemonic": "CBCR2",
+  "name": "CABC Brightness Control Register 2",
+  "reset_value": "0x6900",
+  "section": "8.1.52",
+  "pdf_page": 83,
+  "fields": [
+   {
+    "bits": "15:12",
+    "name": "PWM_PS",
+    "type": "RW",
+    "reset": "",
+    "description": "PWM PreScale – These bits control the PWM signal frequency.",
+    "enums": []
+   },
+   {
+    "bits": "11:8",
+    "name": "BCB_PS",
+    "type": "RW",
+    "reset": "",
+    "description": "BCB PreScale – These bits control the number of iternation per second carried out by the BCB unit.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "CABC_MB",
+    "type": "RW",
+    "reset": "",
+    "description": "CABC Minimum Brightness – These bits control the CABC Minimum Brightness level.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xEB",
+  "mnemonic": "CBSR",
+  "name": "CABC Brightness Status Register",
+  "reset_value": "0x0000",
+  "section": "8.1.53",
+  "pdf_page": 84,
+  "fields": [
+   {
+    "bits": "15:12",
+    "name": "VGA_SEL",
+    "type": "RW",
+    "reset": "",
+    "description": "VGA SELect – These bits select the type of resolution of the RGB frame. Panel resolutions need not be matched exactly. For example, \"0111\" will work for any panel with 384000 pixels (+/- 15%). In other words, the range is 326400 to 441600 pixels. Hence, 800x480, 480x800, 512x750 and 750x512 will be supported by VGA_SEL= \"0111\".",
+    "enums": [
+     {
+      "value": "0001",
+      "meaning": "400x240 (WQVGA)"
+     },
+     {
+      "value": "0010",
+      "meaning": "400x300 (SQVGA)"
+     },
+     {
+      "value": "0011",
+      "meaning": "480x320 (FVGA)"
+     },
+     {
+      "value": "0100",
+      "meaning": "540x360 (FVGA+)"
+     },
+     {
+      "value": "0101",
+      "meaning": "600x400 (FVGA++)"
+     },
+     {
+      "value": "0110",
+      "meaning": "640x480 (VGA)"
+     },
+     {
+      "value": "0111",
+      "meaning": "800x480 (WVGA)"
+     },
+     {
+      "value": "1000",
+      "meaning": "800x600 (SVGA)"
+     },
+     {
+      "value": "1001",
+      "meaning": "1024x600 (WSVGA)"
+     },
+     {
+      "value": "1010",
+      "meaning": "1024x768 (XGA)"
+     },
+     {
+      "value": "1011",
+      "meaning": "1280x768 (WXGA)"
+     },
+     {
+      "value": "1100",
+      "meaning": "1280x960 (SXGA)"
+     },
+     {
+      "value": "1101",
+      "meaning": "Reserved"
+     },
+     {
+      "value": "1110",
+      "meaning": "Reserved"
+     },
+     {
+      "value": "1111",
+      "meaning": "Reserved"
+     }
+    ]
+   },
+   {
+    "bits": "8",
+    "name": "BCL",
+    "type": "RO",
+    "reset": "",
+    "description": "Brightness Control Line – This bit is the pulse width modulation signal output to control external backlight power source. This output is used for Architecture I.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "RDBV",
+    "type": "RO",
+    "reset": "",
+    "description": "Read Display Brightness Value – These bits show the brightness value of the CABC. This output is used for Architecture II.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xEC",
+  "mnemonic": "ECR",
+  "name": "Encoder Control Register",
+  "reset_value": "0x7800",
+  "section": "8.1.54",
+  "pdf_page": 85,
+  "fields": [
+   {
+    "bits": "15:4",
+    "name": "ENC_LW",
+    "type": "RW",
+    "reset": "",
+    "description": "ENCoder LineWidth – These bits define the input line width of the Encoder input.",
+    "enums": []
+   },
+   {
+    "bits": "1",
+    "name": "ENC_MO DE",
+    "type": "RW",
+    "reset": "",
+    "description": "ENCoder Mode – This bit select the Smartlink Encoder mode. This bit is valid only when if_sel is 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Type 1"
+     },
+     {
+      "value": "1",
+      "meaning": "Type 2"
+     }
+    ]
+   },
+   {
+    "bits": "0",
+    "name": "ENC_EN",
+    "type": "RW",
+    "reset": "",
+    "description": "ENCoder ENable – This bit enable the Smartlink Encoder feature. This bit is valid only when if_sel is 0.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Encoder is disable"
+     },
+     {
+      "value": "1",
+      "meaning": "Encoder is enable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xED",
+  "mnemonic": "VSDR",
+  "name": "Video Sync Delay Register",
+  "reset_value": "0x0002",
+  "section": "8.1.55",
+  "pdf_page": 86,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "VSD",
+    "type": "RW",
+    "reset": "",
+    "description": "VSync Delay – These bits control the internal pipeline delay of the Vsync input.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "HSD",
+    "type": "RW",
+    "reset": "",
+    "description": "HSync Delay – These bits control the internal pipeline delay of the Hsync input.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xEE",
+  "mnemonic": "TMR",
+  "name": "Trimming Register",
+  "reset_value": "0x0000",
+  "section": "8.1.56",
+  "pdf_page": 87,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "TRIM_ DONE",
+    "type": "RO",
+    "reset": "",
+    "description": "TRIMming DONE – This bit indicates if the trimming process is done.",
+    "enums": []
+   },
+   {
+    "bits": "14",
+    "name": "TRIM_ PASS",
+    "type": "RO",
+    "reset": "",
+    "description": "TRIMming PASS – This bit indicates if the trimming process is successful. It is valid when bit 15 is set to 1.",
+    "enums": []
+   },
+   {
+    "bits": "13",
+    "name": "XORC_ DONE",
+    "type": "RO",
+    "reset": "",
+    "description": "XOR Calibration DONE – This bit indicates if the trimming process is done. This bit will be cleared when read.",
+    "enums": []
+   },
+   {
+    "bits": "12",
+    "name": "XORC_ SEL",
+    "type": "RW",
+    "reset": "",
+    "description": "XOR Calibration SELect – This bit select the internal byte data for calibration to be 8’hAA or 8’h55.",
+    "enums": []
+   },
+   {
+    "bits": "11",
+    "name": "XORC_ EN",
+    "type": "RWAC",
+    "reset": "",
+    "description": "XOR Calibration ENable – This bit starts the internal XOR calibration process and when the calibration is done, this bit will be auto clear and the status bits at bit 13 indicates that the calibration process is done.",
+    "enums": []
+   },
+   {
+    "bits": "10",
+    "name": "VBIST_ SRT",
+    "type": "RW",
+    "reset": "",
+    "description": "Video BIST StaRT – This bit starts the video bist process. Once clear, the video bist engine will stop at the frame boundary. The software should wait for at least 1 frame time before disabling the VBIST_EN bit.",
+    "enums": []
+   },
+   {
+    "bits": "9",
+    "name": "VBIST_ EN",
+    "type": "RW",
+    "reset": "",
+    "description": "Video BIST ENable – This bit enables the video bist function. The SSD2828 will automatically send the color, red, green, blue, black and white repeatedly base on current setting. This bit should be 0 in normal mode.",
+    "enums": []
+   },
+   {
+    "bits": "8",
+    "name": "TRIM_EN",
+    "type": "RWAC",
+    "reset": "",
+    "description": "TRIMming ENable – This bit enables the auto trimming process and when the trimming is done, this bit will be auto clear and the status bits at bit 14 and bit 15 indicates if the trimming process is successful.",
+    "enums": []
+   },
+   {
+    "bits": "7:4",
+    "name": "TRIM_CMD[7:4]",
+    "type": "RW",
+    "reset": "",
+    "description": "TRIMming CoMmanD – These bits define the upper 4 bits of the command header byte to be used in auto-trimming mode, when TRIM_EN=1, where SSD2828 send out a read request to the MIPI receiver.",
+    "enums": []
+   },
+   {
+    "bits": "3:0",
+    "name": "TRIM_CMD[3:0]/XORC_FILTER[3:0]",
+    "type": "RW",
+    "reset": "",
+    "description": "TRIMming CoMmanD – These bits define the lower 4 bits of the command header byte to be used in auto-trimming mode, when TRIM_EN=1, where SSD2828 send out a read request to the MIPI receiver. When XORC_EN=1, these bits define the filter to qualify the XOR calibration pulse width.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xEF",
+  "mnemonic": "GPIO1",
+  "name": "GPIO Register 1",
+  "reset_value": "0x0000",
+  "section": "8.1.57",
+  "pdf_page": 89,
+  "fields": [
+   {
+    "bits": "15",
+    "name": "GPIO1_ STAT",
+    "type": "RO",
+    "reset": "",
+    "description": "GPIO 1 Status – This bit provide the status of the te pin when it is configured as input.",
+    "enums": []
+   },
+   {
+    "bits": "14:8",
+    "name": "GPIO1_CTR",
+    "type": "RW",
+    "reset": "",
+    "description": "GPIO 1 Control – These bits control the output behavior of the te pin.",
+    "enums": []
+   },
+   {
+    "bits": "7",
+    "name": "GPIO0_ STAT",
+    "type": "RO",
+    "reset": "",
+    "description": "GPIO 0 Status – This bit provide the status of the dbcl pin when it is configured as input.",
+    "enums": []
+   },
+   {
+    "bits": "6:0",
+    "name": "GPIO0_CTR",
+    "type": "RW",
+    "reset": "",
+    "description": "GPIO 0 Control – These bits control the output behavior of the dbcl pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Module controlled"
+     },
+     {
+      "value": "1",
+      "meaning": "Register controlled"
+     },
+     {
+      "value": "0",
+      "meaning": "Pin is input"
+     },
+     {
+      "value": "1",
+      "meaning": "Pin is output"
+     },
+     {
+      "value": "0",
+      "meaning": "Output state is 0"
+     },
+     {
+      "value": "1",
+      "meaning": "Output state is 1"
+     },
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xF0",
+  "mnemonic": "GPIO2",
+  "name": "GPIO Register 2",
+  "reset_value": "0x0000",
+  "section": "8.1.58",
+  "pdf_page": 91,
+  "fields": [
+   {
+    "bits": "7",
+    "name": "GPIO2_ STAT",
+    "type": "RO",
+    "reset": "",
+    "description": "GPIO 2 Status – This bit provide the status of the sys_clk_out pin when it is configured as input.",
+    "enums": []
+   },
+   {
+    "bits": "6:0",
+    "name": "GPIO2_CTR",
+    "type": "RW",
+    "reset": "",
+    "description": "GPIO 2 Control – These bits control the output behavior of the sys_clk_out pin.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Module controlled"
+     },
+     {
+      "value": "1",
+      "meaning": "Register controlled"
+     },
+     {
+      "value": "0",
+      "meaning": "Pin is input"
+     },
+     {
+      "value": "1",
+      "meaning": "Pin is output"
+     },
+     {
+      "value": "0",
+      "meaning": "Output state is 0"
+     },
+     {
+      "value": "1",
+      "meaning": "Output state is 1"
+     },
+     {
+      "value": "00",
+      "meaning": "No pull"
+     },
+     {
+      "value": "10",
+      "meaning": "75k pull-up"
+     },
+     {
+      "value": "01",
+      "meaning": "75k pull-down"
+     },
+     {
+      "value": "11",
+      "meaning": "75k Keeper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xF1",
+  "mnemonic": "DLYA01",
+  "name": "DLYA01 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.59",
+  "pdf_page": 93,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_A_1",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY A for lane 1 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 0.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_A_0",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY A for lane 0 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 0.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF2",
+  "mnemonic": "DLYA23",
+  "name": "DLYA23 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.60",
+  "pdf_page": 94,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_A_3",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY A for lane 3 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 0.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_A_2",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY A for lane 2 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 0.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF3",
+  "mnemonic": "DLYB01",
+  "name": "DLYB01 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.61",
+  "pdf_page": 95,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_B_1",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY B for lane 1 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 1.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_B_0",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY B for lane 0 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 1.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF4",
+  "mnemonic": "DLYB23",
+  "name": "DLYB23 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.62",
+  "pdf_page": 96,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_B_3",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY B for lane 3 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 1.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_B_2",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY B for lane 2 – These bits provide the status of the XOR calibration results when XORC_SEL is set to 1.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF5",
+  "mnemonic": "DLYC01",
+  "name": "DLYC01 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.63",
+  "pdf_page": 97,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_C_1",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY C for lane 1 – These bits provide the status of the average XOR calibration results from DELAY_A_1 and DELAY_B_1.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_C_0",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY C for lane 0 – These bits provide the status of the average XOR calibration results from DELAY_A_0 and DELAY_B_0.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF6",
+  "mnemonic": "DLYC23",
+  "name": "DLYC23 Register",
+  "reset_value": "0x2020",
+  "section": "8.1.64",
+  "pdf_page": 98,
+  "fields": [
+   {
+    "bits": "13:8",
+    "name": "DELAY_C_3",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY C for lane 3 – These bits provide the status of the average XOR calibration results from DELAY_A_3 and DELAY_B_3.",
+    "enums": []
+   },
+   {
+    "bits": "5:0",
+    "name": "DELAY_C_2",
+    "type": "RO",
+    "reset": "",
+    "description": "DELAY C for lane 2 – These bits provide the status of the average XOR calibration results from DELAY_A_2 and DELAY_B_2.",
+    "enums": []
+   }
+  ]
+ },
+ {
+  "offset": "0xF7",
+  "mnemonic": "ACR5",
+  "name": "Analog Control Register 5",
+  "reset_value": "0x0000",
+  "section": "8.1.65",
+  "pdf_page": 99,
+  "fields": [
+   {
+    "bits": "7",
+    "name": "DEC_XO R_E",
+    "type": "RW",
+    "reset": "",
+    "description": "DECoder XOR Enable – This bit enables the XOR function in the analog when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "6",
+    "name": "DEC_FB_ E",
+    "type": "RW",
+    "reset": "",
+    "description": "DECoder FeedBack Enable – This bit enables the Decoder function in the analog when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "5",
+    "name": "D3_FB_E",
+    "type": "RW",
+    "reset": "",
+    "description": "D3 FeedBack Enable – This bit enables the XOR Feedback Tuning for lane 3 when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "4",
+    "name": "D2_FB_E",
+    "type": "RW",
+    "reset": "",
+    "description": "D2 FeedBack Enable – This bit enables the XOR Feedback Tuning for lane 2 when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "3",
+    "name": "D1_FB_E",
+    "type": "RW",
+    "reset": "",
+    "description": "D1 FeedBack Enable – This bit enables the XOR Feedback Tuning for lane 1 when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "2",
+    "name": "D0_FB_E",
+    "type": "RW",
+    "reset": "",
+    "description": "D0 FeedBack Enable – This bit enables the XOR Feedback Tuning for lane 0 when Bit[0] is set.",
+    "enums": []
+   },
+   {
+    "bits": "1",
+    "name": "XOR_TU NE_EN",
+    "type": "RW",
+    "reset": "",
+    "description": "XOR TUNE ENable – This bit enables the XOR Feedback Tuning when Bit[0] is set. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": []
+   },
+   {
+    "bits": "0",
+    "name": "REG_ CTR",
+    "type": "RW",
+    "reset": "",
+    "description": "Analog REGister ConTRol – This bit enable the control of the XOR feedback tuning through register Bit[7:1] or through Analog Test mode 4. This bit is used for internal testing and should be programmed to 0 for normal use.",
+    "enums": [
+     {
+      "value": "0",
+      "meaning": "Controlled by Analog Test mode 4."
+     },
+     {
+      "value": "1",
+      "meaning": "Controlled from Bit[7:1]."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "offset": "0xFF",
+  "mnemonic": "RR",
+  "name": "Read Register",
+  "reset_value": "0x0000",
+  "section": "8.1.66",
+  "pdf_page": 101,
+  "fields": [
+   {
+    "bits": "15:8",
+    "name": "RD[15:8]",
+    "type": "RO",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   },
+   {
+    "bits": "15:0",
+    "name": "RD",
+    "type": "",
+    "reset": "",
+    "description": "Read Data – This register is not a true register. It is the entry point for the internal buffer. It is used to read the data returned by the MIPI slave. The application processor can treat this register as an FIFO and continuously read data from it. When the interface is 16-bit, the width of this field is 16-bit. When the interface is 8-bit, the width of this field is 8-bit. The read of this register is only valid when the RDY bit is 1. In other words, only when the data returned by the MIPI slave is received, the application processor can read this register to get return data.",
+    "enums": []
+   },
+   {
+    "bits": "7:0",
+    "name": "RD[7:0]",
+    "type": "RO",
+    "reset": "0x00",
+    "description": "",
+    "enums": []
+   }
+  ]
+ }
+]

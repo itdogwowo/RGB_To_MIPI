@@ -1,0 +1,14 @@
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2071:24:CLOCK_GetRootClockMux	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2112:24:CLOCK_GetRootClockDiv	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2157:20:CLOCK_SetRootClock	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2240:24:CLOCK_GetRootClockFreq	32	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2379:20:CLOCK_OSC_EnableOsc48M	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2411:20:CLOCK_OSC_EnableOsc48MDiv2	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_clock.h:2493:20:CLOCK_OSC_GateOscRc400M	16	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_iomuxc.h:1685:20:IOMUXC_SetSaiMClkClockSource	24	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_iomuxc.h:1755:20:IOMUXC_MQSConfig	24	static
+/Users/andylithia/github/schlitzblende/NXP-Breakout/FW/evkmimxrt1170_iled_blinky_cm7/drivers/fsl_dcdc.h:629:20:DCDC_SetVDD1P0BuckModeTargetVoltage	16	static
+../board/clock_config.c:46:6:BOARD_InitBootClocks	8	static
+../board/clock_config.c:55:6:UpdateSemcClock	4	static
+../board/clock_config.c:281:6:BOARD_BootClockRUN	16	static
+../board/clock_config.c:1094:6:BOARD_BootClockRUN_800M	16	static

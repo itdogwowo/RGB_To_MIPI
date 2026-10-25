@@ -1,0 +1,13 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C4, C5",0805,3,100nF,
+"C2, C3",0805,2,10uF,
+"D1, D2, D3, D4",0603,4,LED,
+"H1, H2, H3, H4",MountingHole_2.2mm_M2_DIN965,4,MountingHole,
+J1,TE_4-1734839-0_1x40-1MP_P0.5mm_Horizontal,1,Conn_01x40,
+J2,DF40PG(1.5)-26DS-04V,1,DF40PG(1.5)-26DS-04V,
+J5,PinHeader_2x03_P2.54mm_Vertical,1,Conn_02x03_Odd_Even,
+"JP1, JP2",PinHeader_1x02_P2.54mm_Vertical,2,Jumper_2_Bridged,
+"R1, R2",0805,2,0.1,
+"R3, R4, R5, R6",0603,4,100,
+"R7, R8",0603,2,10k,
+U1,Texas_RGV_S-PVQFN-N16_EP2.1x2.1mm,1,INA3221,

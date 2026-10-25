@@ -1,0 +1,16 @@
+../drivers/fsl_clock.h:2178:20:CLOCK_ControlGate	16	static
+../drivers/fsl_clock.h:2197:20:CLOCK_EnableClock	16	static
+../drivers/fsl_clock.h:2207:20:CLOCK_DisableClock	16	static
+../drivers/fsl_lcdifv2.c:53:17:LCDIFV2_GetInstance	24	static
+../drivers/fsl_lcdifv2.c:73:13:LCDIFV2_ResetRegister	24	static
+../drivers/fsl_lcdifv2.c:115:6:LCDIFV2_Init	24	static
+../drivers/fsl_lcdifv2.c:134:6:LCDIFV2_Deinit	24	static
+../drivers/fsl_lcdifv2.c:150:6:LCDIFV2_Reset	16	static
+../drivers/fsl_lcdifv2.c:163:6:LCDIFV2_DisplayGetDefaultConfig	16	static
+../drivers/fsl_lcdifv2.c:187:6:LCDIFV2_SetDisplayConfig	16	static
+../drivers/fsl_lcdifv2.c:217:6:LCDIFV2_SetCscMode	16	static
+../drivers/fsl_lcdifv2.c:266:6:LCDIFV2_SetLayerBufferConfig	32	static
+../drivers/fsl_lcdifv2.c:299:10:LCDIFV2_SetLut	32	static
+../drivers/fsl_lcdifv2.c:341:6:LCDIFV2_SetLayerBlendConfig	32	static
+../drivers/fsl_lcdifv2.c:379:10:LCDIFV2_GetPorterDuffConfig	24	static
+../drivers/fsl_lcdifv2.c:477:10:LCDIFV2_GetMultiLayerGlobalAlpha	40	static

@@ -1,0 +1,89 @@
+{
+  "name": "ESP32P4+C61口袋开发板",
+  "owner_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "creator_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "created_at": "2026-10-25 22:08:54",
+  "updated_at": "2026-10-25 22:08:54",
+  "modifier_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "content": "#  WT9932P4C61-TINY（ESP32P4+ESP32C61） 口袋开发板\n\n## 视频介绍\n\nhttps://www.bilibili.com/video/BV1T57965EXt\n\n\n## 简介\n\n本开发板是基于启明云端模组：[WT01P461-S1](https://www.wireless-tag.com/product-item-144.html) 模组设计的开发板。拥有一下特点：\n1. **双芯片组合**：依靠 `ESP32-P4` 的高性能处理能力，搭配 `ESP32-C61` 的无线连接能力，在性能和成本之间取得平衡。\n2. **板载 RGB 指示灯**：`WS2812 RGB LED` 连接在 `IO51`，可用于状态指示和基础交互验证。\n3. **双 USB 开发接口**：C6串口连接到P4引脚。可以仅使用 `USB Type-C` 数据线即可分别进行 `P4` 和 `C61` 相关开发与调试。\n4. **EN 与 BOOT 按键**：板载复位与下载模式按键，方便手动进入烧录模式。\n5. **面包板友好间距**：排针采用 `2.54mm` 间距，适合原型开发和外设扩展。\n6. **MIPI CSI/DSI 接口**：摄像头和屏幕接口兼容树莓派引脚顺序，便于显示与图像采集应用验证。\n7. **板载 MicroSD 卡槽**：支持四线 `MicroSD` 卡接口，可用于文件系统、媒体资源和数据记录场景。\n\n&gt; ⚠注意：请参考原理图和PCB丝印注意FPC线序，以防接反烧坏屏幕或摄像头模块\n\n## 功能框图\n\n\n![ESP32P4C61_arch.png](https://image.lceda.cn/oshwhub/pullImage/372c64a50f4445f0a7582caf8b15c392.png)\n\n## 开源软件例程序\n\ngithub：【暂未整理完毕】\n\n官方WIKI：https://wiki.wireless-tag.com/docs/zh/WT9932P4C61-TINY/board_resources.html\n\n## 引脚定义\n\n\n![WT9932P4-TINY_引脚定义_V1.0.png](https://image.lceda.cn/oshwhub/pullImage/a483cc7cea7146de8de949abd39f549f.png)\n\n## 开发板展示\n\n![800x800正反面白底.png](https://image.lceda.cn/oshwhub/pullImage/9f4a62b6a9194cdd87a58fe1fb058547.png)\n",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "163fa5ea31dab67a",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "163fa5ea31dab67a",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true
+        }
+      }
+    }
+  },
+  "profile": {
+    "boards": {
+      "e8dde57f04908ba8": {
+        "uuid": "e8dde57f04908ba8",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "236e29a047429c9a": {
+        "uuid": "236e29a047429c9a",
+        "name": "Schematic1",
+        "board": "e8dde57f04908ba8",
+        "source": "",
+        "version": "1776173795566",
+        "updateTime": 1776173795566
+      }
+    },
+    "sheets": {
+      "e67073898d561d96": {
+        "uuid": "e67073898d561d96",
+        "title": "P1",
+        "schematic_uuid": "236e29a047429c9a",
+        "zIndex": 1,
+        "source": "",
+        "version": "1780996693238",
+        "updateTime": 1780996693238
+      }
+    },
+    "pcbs": {
+      "a6701ac1539e7531": {
+        "uuid": "a6701ac1539e7531",
+        "title": "PCB1",
+        "board": "e8dde57f04908ba8",
+        "zIndex": null,
+        "parent_uuid": "",
+        "source": "",
+        "version": "1781080243502",
+        "updateTime": 1781080243502
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "/Users/tungkinlee/Documents/Git/Sourcetree/RGB_To_MIPI/RGB_To_MIPI-pcb",
+      "username": "",
+      "nickname": ""
+    }
+  }
+}

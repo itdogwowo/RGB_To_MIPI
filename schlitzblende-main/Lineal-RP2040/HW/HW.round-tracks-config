@@ -1,0 +1,8 @@
+Default	True	2.0	5
+DSI	True	2.0	5
+I2S	True	2.0	5
+QSPI	True	2.0	5
+SD	True	2.0	5
+SDRAM	True	2.0	5
+USB	True	2.0	5
+False	True	False

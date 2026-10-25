@@ -1,0 +1,1718 @@
+[
+ {
+  "num": "1",
+  "title": "GENERAL DESCRIPTION",
+  "level": 1,
+  "page": 9
+ },
+ {
+  "num": "2",
+  "title": "FEATURES",
+  "level": 1,
+  "page": 10
+ },
+ {
+  "num": "2.1",
+  "title": "REFERENCES",
+  "level": 2,
+  "page": 10
+ },
+ {
+  "num": "2.2",
+  "title": "DEFINITIONS",
+  "level": 2,
+  "page": 10
+ },
+ {
+  "num": "3",
+  "title": "ORDERING INFORMATION",
+  "level": 1,
+  "page": 11
+ },
+ {
+  "num": "4",
+  "title": "BLOCK DIAGRAM",
+  "level": 1,
+  "page": 11
+ },
+ {
+  "num": "5",
+  "title": "FUNCTIONAL DESCRIPTION",
+  "level": 1,
+  "page": 14
+ },
+ {
+  "num": "5.1",
+  "title": "FUNCTIONAL BLOCKS",
+  "level": 2,
+  "page": 14
+ },
+ {
+  "num": "5.2",
+  "title": "CLOCK AND RESET MODULE",
+  "level": 2,
+  "page": 14
+ },
+ {
+  "num": "5.3",
+  "title": "EXTERNAL INTERFACE",
+  "level": 2,
+  "page": 15
+ },
+ {
+  "num": "5.4",
+  "title": "PROTOCOL CONTROL UNIT (PCU)",
+  "level": 2,
+  "page": 15
+ },
+ {
+  "num": "5.5",
+  "title": "PACKET PROCESSING UNIT (PPU)",
+  "level": 2,
+  "page": 15
+ },
+ {
+  "num": "5.6",
+  "title": "ERROR CORRECTION CODE/ CYCLIC REDUNDANCY CHECK (ECC/CRC)",
+  "level": 2,
+  "page": 16
+ },
+ {
+  "num": "5.7",
+  "title": "LONG AND COMMAND BUFFERS",
+  "level": 2,
+  "page": 16
+ },
+ {
+  "num": "5.8",
+  "title": "INTERRUPT SIGNAL",
+  "level": 2,
+  "page": 16
+ },
+ {
+  "num": "5.9",
+  "title": "D-PHY CONTROLLER",
+  "level": 2,
+  "page": 16
+ },
+ {
+  "num": "5.10",
+  "title": "ANALOG TRANSCEIVER",
+  "level": 2,
+  "page": 16
+ },
+ {
+  "num": "5.11",
+  "title": "INTERNAL PLL",
+  "level": 2,
+  "page": 17
+ },
+ {
+  "num": "6",
+  "title": "SSD2828QN4 PIN ASSIGNMENT",
+  "level": 1,
+  "page": 18
+ },
+ {
+  "num": "7",
+  "title": "PIN DESCRIPTION",
+  "level": 1,
+  "page": 20
+ },
+ {
+  "num": "8",
+  "title": "COMMAND TABLE",
+  "level": 1,
+  "page": 23
+ },
+ {
+  "num": "8.1",
+  "title": "REGISTER DESCRIPTION",
+  "level": 2,
+  "page": 25
+ },
+ {
+  "num": "8.1.1",
+  "title": "Device Identification Register",
+  "level": 3,
+  "page": 25
+ },
+ {
+  "num": "8.1.2",
+  "title": "RGB Interface Control Register 1",
+  "level": 3,
+  "page": 26
+ },
+ {
+  "num": "8.1.3",
+  "title": "RGB Interface Control Register 2",
+  "level": 3,
+  "page": 27
+ },
+ {
+  "num": "8.1.4",
+  "title": "RGB Interface Control Register 3",
+  "level": 3,
+  "page": 28
+ },
+ {
+  "num": "8.1.5",
+  "title": "RGB Interface Control Register 4",
+  "level": 3,
+  "page": 29
+ },
+ {
+  "num": "8.1.6",
+  "title": "RGB Interface Control Register 5",
+  "level": 3,
+  "page": 30
+ },
+ {
+  "num": "8.1.7",
+  "title": "RGB Interface Control Register 6",
+  "level": 3,
+  "page": 31
+ },
+ {
+  "num": "8.1.8",
+  "title": "Configuration Register",
+  "level": 3,
+  "page": 33
+ },
+ {
+  "num": "8.1.9",
+  "title": "VC Control Register",
+  "level": 3,
+  "page": 35
+ },
+ {
+  "num": "8.1.10",
+  "title": "PLL Control Register",
+  "level": 3,
+  "page": 36
+ },
+ {
+  "num": "8.1.11",
+  "title": "PLL Configuration Register",
+  "level": 3,
+  "page": 37
+ },
+ {
+  "num": "8.1.12",
+  "title": "Clock Control Register",
+  "level": 3,
+  "page": 38
+ },
+ {
+  "num": "8.1.13",
+  "title": "Packet Size Control Register 1",
+  "level": 3,
+  "page": 39
+ },
+ {
+  "num": "8.1.14",
+  "title": "Packet Size Control Register 2",
+  "level": 3,
+  "page": 40
+ },
+ {
+  "num": "8.1.15",
+  "title": "Packet Size Control Register 3",
+  "level": 3,
+  "page": 41
+ },
+ {
+  "num": "8.1.16",
+  "title": "Generic Packet Drop Register",
+  "level": 3,
+  "page": 42
+ },
+ {
+  "num": "8.1.17",
+  "title": "Operation Control Register",
+  "level": 3,
+  "page": 43
+ },
+ {
+  "num": "8.1.18",
+  "title": "Maximum Return Size Register",
+  "level": 3,
+  "page": 44
+ },
+ {
+  "num": "8.1.19",
+  "title": "Return Data Count Register",
+  "level": 3,
+  "page": 45
+ },
+ {
+  "num": "8.1.20",
+  "title": "ACK Response Status Register",
+  "level": 3,
+  "page": 46
+ },
+ {
+  "num": "8.1.21",
+  "title": "Line Control Register",
+  "level": 3,
+  "page": 47
+ },
+ {
+  "num": "8.1.22",
+  "title": "Interrupt Control Register",
+  "level": 3,
+  "page": 49
+ },
+ {
+  "num": "8.1.23",
+  "title": "Interrupt Status Register",
+  "level": 3,
+  "page": 50
+ },
+ {
+  "num": "8.1.24",
+  "title": "Error Status Register",
+  "level": 3,
+  "page": 52
+ },
+ {
+  "num": "8.1.25",
+  "title": "Delay Adjustment Register 1",
+  "level": 3,
+  "page": 54
+ },
+ {
+  "num": "8.1.26",
+  "title": "Delay Adjustment Register 2",
+  "level": 3,
+  "page": 55
+ },
+ {
+  "num": "8.1.27",
+  "title": "Delay Adjustment Register 3",
+  "level": 3,
+  "page": 56
+ },
+ {
+  "num": "8.1.28",
+  "title": "Delay Adjustment Register 4",
+  "level": 3,
+  "page": 57
+ },
+ {
+  "num": "8.1.29",
+  "title": "Delay Adjustment Register 5",
+  "level": 3,
+  "page": 58
+ },
+ {
+  "num": "8.1.30",
+  "title": "Delay Adjustment Register 6",
+  "level": 3,
+  "page": 59
+ },
+ {
+  "num": "8.1.31",
+  "title": "HS TX Timer Register 1",
+  "level": 3,
+  "page": 60
+ },
+ {
+  "num": "8.1.32",
+  "title": "HS TX Timer Register 2",
+  "level": 3,
+  "page": 61
+ },
+ {
+  "num": "8.1.33",
+  "title": "LP RX Timer Register 1",
+  "level": 3,
+  "page": 62
+ },
+ {
+  "num": "8.1.34",
+  "title": "LP RX Timer Register 2",
+  "level": 3,
+  "page": 63
+ },
+ {
+  "num": "8.1.35",
+  "title": "TE Status Register",
+  "level": 3,
+  "page": 64
+ },
+ {
+  "num": "8.1.36",
+  "title": "SPI Read Register",
+  "level": 3,
+  "page": 65
+ },
+ {
+  "num": "8.1.37",
+  "title": "PLL Lock Register",
+  "level": 3,
+  "page": 66
+ },
+ {
+  "num": "8.1.38",
+  "title": "Test Register",
+  "level": 3,
+  "page": 67
+ },
+ {
+  "num": "8.1.39",
+  "title": "TE Count Register",
+  "level": 3,
+  "page": 69
+ },
+ {
+  "num": "8.1.40",
+  "title": "Analog Control Register",
+  "level": 3,
+  "page": 70
+ },
+ {
+  "num": "8.1.41",
+  "title": "Analog Control Register 2",
+  "level": 3,
+  "page": 71
+ },
+ {
+  "num": "8.1.42",
+  "title": "Analog Control Register 3",
+  "level": 3,
+  "page": 72
+ },
+ {
+  "num": "8.1.43",
+  "title": "Analog Control Register 4",
+  "level": 3,
+  "page": 73
+ },
+ {
+  "num": "8.1.44",
+  "title": "Interrupt Output Control Register",
+  "level": 3,
+  "page": 74
+ },
+ {
+  "num": "8.1.45",
+  "title": "RGB Interface Control Register 7",
+  "level": 3,
+  "page": 75
+ },
+ {
+  "num": "8.1.46",
+  "title": "Lane Configuration Register",
+  "level": 3,
+  "page": 76
+ },
+ {
+  "num": "8.1.47",
+  "title": "Delay Adjustment Register 7",
+  "level": 3,
+  "page": 77
+ },
+ {
+  "num": "8.1.48",
+  "title": "Pull Control Register 1",
+  "level": 3,
+  "page": 78
+ },
+ {
+  "num": "8.1.49",
+  "title": "Pull Control Register 2",
+  "level": 3,
+  "page": 80
+ },
+ {
+  "num": "8.1.50",
+  "title": "Pull Control Register 3",
+  "level": 3,
+  "page": 81
+ },
+ {
+  "num": "8.1.51",
+  "title": "CABC Brightness Control Register 1",
+  "level": 3,
+  "page": 82
+ },
+ {
+  "num": "8.1.52",
+  "title": "CABC Brightness Control Register 2",
+  "level": 3,
+  "page": 83
+ },
+ {
+  "num": "8.1.53",
+  "title": "CABC Brightness Status Register",
+  "level": 3,
+  "page": 84
+ },
+ {
+  "num": "8.1.54",
+  "title": "Encoder Control Register",
+  "level": 3,
+  "page": 85
+ },
+ {
+  "num": "8.1.55",
+  "title": "Video Sync Delay Register",
+  "level": 3,
+  "page": 86
+ },
+ {
+  "num": "8.1.56",
+  "title": "Trimming Register",
+  "level": 3,
+  "page": 87
+ },
+ {
+  "num": "8.1.57",
+  "title": "GPIO1 Register",
+  "level": 3,
+  "page": 89
+ },
+ {
+  "num": "8.1.58",
+  "title": "GPIO2 Register",
+  "level": 3,
+  "page": 91
+ },
+ {
+  "num": "8.1.59",
+  "title": "DLYA01 Register",
+  "level": 3,
+  "page": 93
+ },
+ {
+  "num": "8.1.60",
+  "title": "DLYA23 Register",
+  "level": 3,
+  "page": 94
+ },
+ {
+  "num": "8.1.61",
+  "title": "DLYB01 Register",
+  "level": 3,
+  "page": 95
+ },
+ {
+  "num": "8.1.62",
+  "title": "DLYB23 Register",
+  "level": 3,
+  "page": 96
+ },
+ {
+  "num": "8.1.63",
+  "title": "DLYC01 Register",
+  "level": 3,
+  "page": 97
+ },
+ {
+  "num": "8.1.64",
+  "title": "DLYC23 Register",
+  "level": 3,
+  "page": 98
+ },
+ {
+  "num": "8.1.65",
+  "title": "Analog Control Register 5",
+  "level": 3,
+  "page": 99
+ },
+ {
+  "num": "8.1.66",
+  "title": "Read Register",
+  "level": 3,
+  "page": 101
+ },
+ {
+  "num": "9",
+  "title": "CONFIGURATION",
+  "level": 1,
+  "page": 102
+ },
+ {
+  "num": "9.1",
+  "title": "LANE MANAGEMENT",
+  "level": 2,
+  "page": 102
+ },
+ {
+  "num": "9.2",
+  "title": "USE CASES",
+  "level": 2,
+  "page": 103
+ },
+ {
+  "num": "9.2.1",
+  "title": "RGB + SPI Interface",
+  "level": 3,
+  "page": 103
+ },
+ {
+  "num": "9.2.2",
+  "title": "MIPI DC Characteristics",
+  "level": 3,
+  "page": 105
+ },
+ {
+  "num": "9.2.3",
+  "title": "High Speed Clock Transmission",
+  "level": 3,
+  "page": 106
+ },
+ {
+  "num": "9.2.4",
+  "title": "Data Lane State Flow",
+  "level": 3,
+  "page": 106
+ },
+ {
+  "num": "9.2.5",
+  "title": "High Speed Data Transmission",
+  "level": 3,
+  "page": 107
+ },
+ {
+  "num": "9.2.6",
+  "title": "Bi-Directional Data Lane Turnaround",
+  "level": 3,
+  "page": 109
+ },
+ {
+  "num": "9.2.7",
+  "title": "Escape Mode",
+  "level": 3,
+  "page": 109
+ },
+ {
+  "num": "9.2.8",
+  "title": "Low Power Data Transmission",
+  "level": 3,
+  "page": 111
+ },
+ {
+  "num": "9.2.9",
+  "title": "Reset Trigger",
+  "level": 3,
+  "page": 112
+ },
+ {
+  "num": "9.2.10",
+  "title": "Tearing Effect",
+  "level": 3,
+  "page": 113
+ },
+ {
+  "num": "9.2.11",
+  "title": "Acknowledge",
+  "level": 3,
+  "page": 114
+ },
+ {
+  "num": "9.2.12",
+  "title": "Packet Transmission",
+  "level": 3,
+  "page": 115
+ },
+ {
+  "num": "9.2.13",
+  "title": "HS Transmission Example",
+  "level": 3,
+  "page": 115
+ },
+ {
+  "num": "9.2.14",
+  "title": "General Packet Structure",
+  "level": 3,
+  "page": 116
+ },
+ {
+  "num": "9.2.15",
+  "title": "Long Packet Format",
+  "level": 3,
+  "page": 116
+ },
+ {
+  "num": "9.2.16",
+  "title": "Short Packet Structure",
+  "level": 3,
+  "page": 117
+ },
+ {
+  "num": "9.2.17",
+  "title": "Data Identifier (DI)",
+  "level": 3,
+  "page": 117
+ },
+ {
+  "num": "9.2.18",
+  "title": "Victual Channel Identifier (VC)",
+  "level": 3,
+  "page": 118
+ },
+ {
+  "num": "9.2.19",
+  "title": "Data Type (DT)",
+  "level": 3,
+  "page": 118
+ },
+ {
+  "num": "9.3",
+  "title": "OPERATING MODES",
+  "level": 2,
+  "page": 122
+ },
+ {
+  "num": "9.3.2",
+  "title": "State machine operation",
+  "level": 3,
+  "page": 135
+ },
+ {
+  "num": "9.3.3",
+  "title": "D-PHY operation",
+  "level": 3,
+  "page": 136
+ },
+ {
+  "num": "9.3.4",
+  "title": "Analog Transceiver",
+  "level": 3,
+  "page": 137
+ },
+ {
+  "num": "9.3.5",
+  "title": "PLL",
+  "level": 3,
+  "page": 137
+ },
+ {
+  "num": "9.3.6",
+  "title": "Clock Source Example",
+  "level": 3,
+  "page": 138
+ },
+ {
+  "num": "10",
+  "title": "EXTERNAL INTERFACE",
+  "level": 1,
+  "page": 139
+ },
+ {
+  "num": "10.1",
+  "title": "SPI INTERFACE 8 BIT 4 WIRE",
+  "level": 2,
+  "page": 139
+ },
+ {
+  "num": "10.2",
+  "title": "SPI INTERFACE 8 BIT 3 WIRE",
+  "level": 2,
+  "page": 141
+ },
+ {
+  "num": "10.2.1",
+  "title": "3 or 4 wires 8bit SPI read back sequence for 0xFF register which is stored MIPI read back data",
+  "level": 3,
+  "page": 143
+ },
+ {
+  "num": "10.3",
+  "title": "SPI INTERFACE 24 BIT 3 WIRE",
+  "level": 2,
+  "page": 145
+ },
+ {
+  "num": "10.3.1",
+  "title": "3 wires 24bit SPI read back sequence for 0xFF register which is stored MIPI read back data",
+  "level": 3,
+  "page": 147
+ },
+ {
+  "num": "11",
+  "title": "MAXIMUM RATINGS",
+  "level": 1,
+  "page": 149
+ },
+ {
+  "num": "12",
+  "title": "RECOMMENDED OPERATING CONDITIONS",
+  "level": 1,
+  "page": 150
+ },
+ {
+  "num": "13",
+  "title": "DC CHARACTERISTICS",
+  "level": 1,
+  "page": 151
+ },
+ {
+  "num": "14",
+  "title": "AC CHARACTERISTICS",
+  "level": 1,
+  "page": 153
+ },
+ {
+  "num": "14.1",
+  "title": "8 BIT 4 WIRE SPI INTERFACE TIMING",
+  "level": 2,
+  "page": 154
+ },
+ {
+  "num": "14.2",
+  "title": "8 BIT 3 WIRE SPI INTERFACE TIMING",
+  "level": 2,
+  "page": 155
+ },
+ {
+  "num": "14.3",
+  "title": "24 BIT 3 WIRE SPI INTERFACE TIMING",
+  "level": 2,
+  "page": 156
+ },
+ {
+  "num": "14.4",
+  "title": "RGB INTERFACE TIMING",
+  "level": 2,
+  "page": 157
+ },
+ {
+  "num": "14.5",
+  "title": "RESET TIMING",
+  "level": 2,
+  "page": 158
+ },
+ {
+  "num": "14.6",
+  "title": "TX_CLK TIMING",
+  "level": 2,
+  "page": 158
+ },
+ {
+  "num": "15",
+  "title": "POWER UP SEQUENCE",
+  "level": 1,
+  "page": 159
+ },
+ {
+  "num": "16",
+  "title": "POWER OFF SEQUENCE",
+  "level": 1,
+  "page": 160
+ },
+ {
+  "num": "17",
+  "title": "EXAMPLE FOR SYSTEM SLEEP IN AND OUT",
+  "level": 1,
+  "page": 161
+ },
+ {
+  "num": "18",
+  "title": "SERIAL LINK DATA ORDER",
+  "level": 1,
+  "page": 162
+ },
+ {
+  "num": "19",
+  "title": "PACKAGE INFORMATION",
+  "level": 1,
+  "page": 165
+ },
+ {
+  "num": "19.1",
+  "title": "DIMENSION FOR SSD2828QN4",
+  "level": 2,
+  "page": 165
+ },
+ {
+  "num": null,
+  "title": "TABLE 3-1: ORDERING INFORMATION",
+  "level": 0,
+  "page": 11
+ },
+ {
+  "num": null,
+  "title": "TABLE 6-1: SSD2828QN4 PINOUT DIAGRAM – 68 QFN-EP (TOP VIEW)",
+  "level": 0,
+  "page": 18
+ },
+ {
+  "num": null,
+  "title": "TABLE 6-2: SSD2828QN4 PIN ASSIGNMENT – 68 QFN-EP (TOP VIEW)",
+  "level": 0,
+  "page": 19
+ },
+ {
+  "num": null,
+  "title": "TABLE 6-3: SSD2828QN4 RGB DATA ARRANGEMENT",
+  "level": 0,
+  "page": 19
+ },
+ {
+  "num": null,
+  "title": "TABLE 7-1: MIPI PINS",
+  "level": 0,
+  "page": 20
+ },
+ {
+  "num": null,
+  "title": "TABLE 7-2: INTERFACE LOGIC PINS",
+  "level": 0,
+  "page": 21
+ },
+ {
+  "num": null,
+  "title": "TABLE 7-3: MISCELLANEOUS PINS",
+  "level": 0,
+  "page": 22
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-1: SSD2828 REGISTER SUMMARY",
+  "level": 0,
+  "page": 23
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-2: DEVICE IDENTIFICATION REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 25
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-3: RGB INTERFACE CONTROL REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 26
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-4: RGB INTERFACE CONTROL REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 27
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-5: RGB INTERFACE CONTROL REGISTER 3 DESCRIPTION",
+  "level": 0,
+  "page": 28
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-6: RGB INTERFACE CONTROL REGISTER 4 DESCRIPTION",
+  "level": 0,
+  "page": 29
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-7: RGB INTERFACE CONTROL REGISTER 5 DESCRIPTION",
+  "level": 0,
+  "page": 30
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-8: RGB INTERFACE CONTROL REGISTER 6 DESCRIPTION",
+  "level": 0,
+  "page": 31
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-9: CONFIGURATION REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 33
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-10: VC CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 35
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-11: PLL CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 36
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-12: PLL CONFIGURATION REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 37
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-13: CLOCK CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 38
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-14: PACKET SIZE CONTROL REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 39
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-15: PACKET SIZE CONTROL REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 40
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-16: PACKET SIZE CONTROL REGISTER 3 DESCRIPTION",
+  "level": 0,
+  "page": 41
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-17: GENERIC PACKET DROP REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 42
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-18: OPERATION CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 43
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-19: MAXIMUM RETURN SIZE REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 44
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-20: RETURN DATA COUNT REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 45
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-21: ACK RESPONSE STATUS REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 46
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-22: LINE CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 47
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-23: INTERRUPT CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 49
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-24: INTERRUPT STATUS REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 50
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-25: ERROR STATUS REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 52
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-26: DELAY ADJUSTMENT REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 54
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-27: DELAY ADJUSTMENT REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 55
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-28: DELAY ADJUSTMENT REGISTER 3 DESCRIPTION",
+  "level": 0,
+  "page": 56
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-29: DELAY ADJUSTMENT REGISTER 4 0/1 DESCRIPTION",
+  "level": 0,
+  "page": 57
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-30: DELAY ADJUSTMENT REGISTER 5 DESCRIPTION",
+  "level": 0,
+  "page": 58
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-31: DELAY ADJUSTMENT REGISTER 6 DESCRIPTION",
+  "level": 0,
+  "page": 59
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-32: HS TX TIMER REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 60
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-33: HS RX TIMER REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 61
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-34: LP TX TIMER REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 62
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-35: LP TX TIMER REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 63
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-36: TE STATUS REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 64
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-37: SPI READ REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 65
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-38: PLL LOCK REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 66
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-39: TEST REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 67
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-40: TE COUNT REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 69
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-41: ANALOG CONTROL 1 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 70
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-42: ANALOG CONTROL REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 71
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-43: ANALOG CONTROL REGISTER 3 DESCRIPTION",
+  "level": 0,
+  "page": 72
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-44: ANALOG CONTROL REGISTER 4 DESCRIPTION",
+  "level": 0,
+  "page": 73
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-45: INTERRUPT OUTPUT CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 74
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-46: RGB INTERFACE CONTROL REGISTER 7 DESCRIPTION",
+  "level": 0,
+  "page": 75
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-47: LANE CONFIGURATION REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 76
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-48: DELAY ADJUSTMENT REGISTER 7 DESCRIPTION",
+  "level": 0,
+  "page": 77
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-49: PULL CONTROL REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 78
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-50: PULL CONTROL REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 80
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-51: PULL CONTROL REGISTER 3 DESCRIPTION",
+  "level": 0,
+  "page": 81
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-52: CABC BRIGHTNESS CONTROL REGISTER 1 DESCRIPTION",
+  "level": 0,
+  "page": 82
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-53: CABC BRIGHTNESS CONTROL REGISTER 2 DESCRIPTION",
+  "level": 0,
+  "page": 83
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-54: CABC BRIGHTNESS STATUS REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 84
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-55: ENCODER CONTROL REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 85
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-56: VIDEO SYNC DELAY REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 86
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-57: TRIMMING REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 87
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-58: GPIO1 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 89
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-59: GPIO1 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 91
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-60: DLYA01 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 93
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-61: DLYA23 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 94
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-62: DLYB01 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 95
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-63: DLYB23 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 96
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-64: DLYC01 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 97
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-65: DLYC23 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 98
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-66: ACR5 REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 99
+ },
+ {
+  "num": null,
+  "title": "TABLE 8-67: READ REGISTER DESCRIPTION",
+  "level": 0,
+  "page": 101
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-1: SSD2828 LANE MANAGEMENT",
+  "level": 0,
+  "page": 102
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-2: OPERATION DURING VIDEO MODE BLLP PERIOD",
+  "level": 0,
+  "page": 104
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-3: DSI STATE CODE AND DC CHARACTERISTICS",
+  "level": 0,
+  "page": 105
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-4: DATA LANE MODE ENTERING/EXITING SEQUENCES",
+  "level": 0,
+  "page": 106
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-5: START-OF-TRANSMISSION SEQUENCE",
+  "level": 0,
+  "page": 107
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-6: END-OF-TRANSMISSION SEQUENCE",
+  "level": 0,
+  "page": 107
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-7: MIPI ESCAPE MODE ENTRY CODE",
+  "level": 0,
+  "page": 110
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-8: DATA TYPES FOR PROCESSOR-SOURCED PACKETS",
+  "level": 0,
+  "page": 118
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-9: DATA TYPES FOR PERIPHERAL-SOURCED PACKETS",
+  "level": 0,
+  "page": 119
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-10: PLL SETTING FOR NON-BURST MODE (PLL REFERENCE USING PCLK)",
+  "level": 0,
+  "page": 123
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-11: PLL SETTING FOR NON-BURST MODE (PLL REFERENCE USING TX_CLK)",
+  "level": 0,
+  "page": 123
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-12: PLL SETTING FOR BURST MODE",
+  "level": 0,
+  "page": 124
+ },
+ {
+  "num": null,
+  "title": "TABLE 9-13: MIPI ERROR REPORT",
+  "level": 0,
+  "page": 132
+ },
+ {
+  "num": null,
+  "title": "TABLE 11-1: MAXIMUM RATINGS (VOLTAGE REFERENCED TO V SS )",
+  "level": 0,
+  "page": 149
+ },
+ {
+  "num": null,
+  "title": "TABLE 12-1: RECOMMENDED OPERATING CONDITIONS",
+  "level": 0,
+  "page": 150
+ },
+ {
+  "num": null,
+  "title": "TABLE 13-1: DC CHARACTERISTICS",
+  "level": 0,
+  "page": 151
+ },
+ {
+  "num": null,
+  "title": "TABLE 13-2: HS TRANSMITTER DC CHARACTERISTICS",
+  "level": 0,
+  "page": 152
+ },
+ {
+  "num": null,
+  "title": "TABLE 13-3: LP TRANSMITTER DC CHARACTERISTICS",
+  "level": 0,
+  "page": 152
+ },
+ {
+  "num": null,
+  "title": "TABLE 13-4: LP RECEIVER DC CHARACTERISTICS",
+  "level": 0,
+  "page": 152
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-1: 8 BIT 4 WIRE SPI INTERFACE TIMING CHARACTERISTICS",
+  "level": 0,
+  "page": 154
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-2: 8 BIT 3 WIRE SPI INTERFACE TIMING CHARACTERISTICS",
+  "level": 0,
+  "page": 155
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-3: 24 BIT 3 WIRE SPI INTERFACE TIMING CHARACTERISTICS",
+  "level": 0,
+  "page": 156
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-4: RGB INTERFACE TIMING CHARACTERISTICS",
+  "level": 0,
+  "page": 157
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-5: RESET TIMING",
+  "level": 0,
+  "page": 158
+ },
+ {
+  "num": null,
+  "title": "TABLE 14-6: TX_CLK TIMING CHARACTERISTICS",
+  "level": 0,
+  "page": 158
+ },
+ {
+  "num": null,
+  "title": "FIGURE 4-1: OVERVIEW OF DISPLAY SYSTEM USING SSD2828",
+  "level": 0,
+  "page": 11
+ },
+ {
+  "num": null,
+  "title": "FIGURE 4-2: SSD2828 INTERFACE DIAGRAM",
+  "level": 0,
+  "page": 12
+ },
+ {
+  "num": null,
+  "title": "FIGURE 4-3: BLOCK DIAGRAM",
+  "level": 0,
+  "page": 13
+ },
+ {
+  "num": null,
+  "title": "FIGURE 5-1: THE CLOCKING SCHEME OF SSD2828",
+  "level": 0,
+  "page": 14
+ },
+ {
+  "num": null,
+  "title": "FIGURE 8-1: TIMING FOR DELAY CALCULATION",
+  "level": 0,
+  "page": 54
+ },
+ {
+  "num": null,
+  "title": "FIGURE 8-2: TIMING FOR DELAY CALCULATION",
+  "level": 0,
+  "page": 55
+ },
+ {
+  "num": null,
+  "title": "FIGURE 8-3: T WAKEUP PERIOD DELAY CALCULATION",
+  "level": 0,
+  "page": 58
+ },
+ {
+  "num": null,
+  "title": "FIGURE 8-4: TIMING FOR DELAY CALCULATION",
+  "level": 0,
+  "page": 59
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-1: SSD2828 WITH RGB AND SPI INTERFACE",
+  "level": 0,
+  "page": 103
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-2: MIPI LINE LEVELS",
+  "level": 0,
+  "page": 105
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-3: SWITCHING THE CLOCK LANE BETWEEN HIGH SPEED MODE AND LOW-POWER MODE",
+  "level": 0,
+  "page": 106
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-4: HIGH-SPEED DATA TRANSMISSION IN BURSTS",
+  "level": 0,
+  "page": 108
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-5: TURNAROUND PROCEDURE",
+  "level": 0,
+  "page": 109
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-6: LOW POWER DATA TRANSMISSION",
+  "level": 0,
+  "page": 111
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-7: TRIGGER – RESET COMMAND IN ESCAPE MODE",
+  "level": 0,
+  "page": 112
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-8: TEARING EFFECT COMMAND IN ESCAPE MODE",
+  "level": 0,
+  "page": 113
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-9: ACKNOWLEDGE COMMAND IN ESCAPE MODE",
+  "level": 0,
+  "page": 114
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-10: TWO DATA TRANSMISSION MODE (SEPARATE, SINGLE)",
+  "level": 0,
+  "page": 115
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-11: ONE LANE DATA TRANSMISSION EXAMPLE",
+  "level": 0,
+  "page": 115
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-12: TWO LANE HS TRANSMISSION EXAMPLE",
+  "level": 0,
+  "page": 115
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-13: ENDIAN EXAMPLE (LONG PACKET)",
+  "level": 0,
+  "page": 116
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-14: LONG PACKET STRUCTURE",
+  "level": 0,
+  "page": 116
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-15: SHORT PACKET STRUCTURE",
+  "level": 0,
+  "page": 117
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-16: DATA INDENTIFIER STRUCTURE",
+  "level": 0,
+  "page": 117
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-17: 16-BIT PER PIXEL RGB COLOR FORMAT, LONG PACKET FOR MIPI INTERFACE",
+  "level": 0,
+  "page": 120
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-18: 18-BIT PER PIXEL– RGB COLOR FORMAT, LONG PACKET FOR MIPI INTERFACE",
+  "level": 0,
+  "page": 120
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-19: 18-BIT PER PIXEL IN THREE BYTES – RGB COLOR FORMAT, LONG PACKET FOR MIPI INTERFACE",
+  "level": 0,
+  "page": 121
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-20: 24-BIT PER PIXEL – RGB COLOR FORMAT, LONG PACKET FOR MIPI INTERFACE",
+  "level": 0,
+  "page": 121
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-21: ILLUSTRATION OF RGB INTERFACE PARAMETERS FOR NON-BURST MODE WITH SYNC PULSES",
+  "level": 0,
+  "page": 122
+ },
+ {
+  "num": null,
+  "title": "MODE",
+  "level": 0,
+  "page": 123
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-23: NON-BURST MODE MIPI STRUCTURE",
+  "level": 0,
+  "page": 124
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-24: BURST MODE MIPI STRUCTURE",
+  "level": 0,
+  "page": 125
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-25: ACKNOWLEDGEMENT HANDLING AFTER NON-READ COMMAND",
+  "level": 0,
+  "page": 130
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-26: ACKNOWLEDGEMENT HANDLING AFTER READ COMMAND",
+  "level": 0,
+  "page": 131
+ },
+ {
+  "num": null,
+  "title": "FIGURE 9-27: ILLUSTRATION OF INTERRUPT LATENCY",
+  "level": 0,
+  "page": 134
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-1: ILLUSTRATION OF WRITE OPERATION FOR 8 BIT 4 WIRE INTERFACE",
+  "level": 0,
+  "page": 140
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-2: ILLUSTRATION OF READ OPERATION FOR 8 BIT 4 WIRE INTERFACE",
+  "level": 0,
+  "page": 140
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-3: ILLUSTRATION OF WRITE OPERATION FOR 8 BIT 3 WIRE INTERFACE",
+  "level": 0,
+  "page": 141
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-4: ILLUSTRATION OF READ OPERATION FOR 8 BIT 3 WIRE INTERFACE",
+  "level": 0,
+  "page": 142
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-5: ILLUSTRATION OF WRITE OPERATION FOR 24 BIT 3 WIRE INTERFACE",
+  "level": 0,
+  "page": 145
+ },
+ {
+  "num": null,
+  "title": "FIGURE 10-6: ILLUSTRATION OF READ OPERATION FOR 24 BIT 3 WIRE INTERFACE",
+  "level": 0,
+  "page": 146
+ },
+ {
+  "num": null,
+  "title": "FIGURE 14-1: 8 BIT 4 WIRE SPI INTERFACE TIMING DIAGRAM",
+  "level": 0,
+  "page": 154
+ },
+ {
+  "num": null,
+  "title": "FIGURE 14-2: 8 BIT 3 WIRE SPI INTERFACE TIMING DIAGRAM",
+  "level": 0,
+  "page": 155
+ },
+ {
+  "num": null,
+  "title": "FIGURE 14-3: 24 BIT 3 WIRE SPI INTERFACE TIMING DIAGRAM",
+  "level": 0,
+  "page": 156
+ },
+ {
+  "num": null,
+  "title": "FIGURE 14-4: RGB INTERFACE TIMING DIAGRAM",
+  "level": 0,
+  "page": 157
+ },
+ {
+  "num": null,
+  "title": "FIGURE 14-5: TX_CLK TIMING DIAGRAM",
+  "level": 0,
+  "page": 158
+ },
+ {
+  "num": null,
+  "title": "FIGURE 18-1- PACKAGE INFORMATION",
+  "level": 0,
+  "page": 165
+ },
+ {
+  "num": null,
+  "title": "FIGURE 18-2- MARKING INFORMATION",
+  "level": 0,
+  "page": 166
+ },
+ {
+  "num": null,
+  "title": "FIGURE 18-3- TRAY INFORMATION",
+  "level": 0,
+  "page": 167
+ }
+]

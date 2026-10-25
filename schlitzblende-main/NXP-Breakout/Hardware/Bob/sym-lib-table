@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "footprint")(type "KiCad")(uri "C:/Users/andy1/github/schlitzblende/Lib/symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "DFR")(type "KiCad")(uri "C:/Users/andy1/github/schlitzblende/Lib/DFR.kicad_sym")(options "")(descr ""))
+)
