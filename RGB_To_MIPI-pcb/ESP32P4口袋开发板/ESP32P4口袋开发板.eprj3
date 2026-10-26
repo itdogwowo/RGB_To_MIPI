@@ -1,0 +1,86 @@
+{
+  "name": "ESP32P4口袋开发板",
+  "owner_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "creator_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "created_at": "2026-10-25 23:34:09",
+  "updated_at": "2026-10-25 23:34:09",
+  "modifier_uuid": "6ba6973c4b274172af09ca78aad14674",
+  "content": "# WT9932P4-TINY（ESP32P4） 口袋开发板\n\n## 视频介绍\n[https://www.bilibili.com/video/BV1Pfe1zgEMR/](https://www.bilibili.com/video/BV1Pfe1zgEMR/)\n\n## 淘宝链接\n\n![image.png](//image.lceda.cn/pullimage/gfliYmPqfe61o38HCTvqfUUVYzxV5lqX0Ba0Ce7c.png)\n[https://item.taobao.com/item.htm?id=970926753621](https://item.taobao.com/item.htm?id=970926753621)\n\n## 简介\n本开发板是基于启明云端模组：[WT0132P4-A1](https://item.taobao.com/item.htm?id=920942891606)模组设计的口袋开发板。拥有以下特点：\n\n1. 核心配置：以高性能乐鑫 ESP32P4 芯片为核心，满足嵌入式开发性能需求。\n2. 紧凑尺寸：仅 69x28mm 的小巧规格，适配空间受限的应用场景。\n3. 稳定设计：基于 WT0132P4‑A1 模组打造，采用两层板设计，保证稳定性同时降低成本。\n4. 图像接口：板载 MIPI DSI 和 CSI 的 FPC 接口与树莓派兼容，支持显示输出与图像采集功能。**（链接FPC请注意线序）**\n5. 扩展灵活：全部引脚引出，排针支持面包板连接，方便扩展外设。\n6. 状态指示：配备板载 RGB 灯，可实现多彩状态指示与交互效果。\n7. 便捷接口：搭载 Type‑C 接口的 FUSB 和 HUSB，传输快速且支持正反插，便于调试与供电\n\n&gt; ⚠注意：请参考原理图和PCB丝印注意FPC线序，以防接反烧坏屏幕或摄像头模块\n\n## 功能框图\n\n\n![WT9932P4-TINY_HWDesc.png](//image.lceda.cn/pullimage/9CbHtHbAGrtrjOJylNpZmVsUZxWLFpqk5r93K2oh.png)\n\n## 开源软件例程\n[github](https://github.com/wireless-tag-com/WT9932P4-TINY)\n这里的DSI屏幕和CSI摄像头，均采用乐鑫ESP32-P4-Function-EV-Board配套的摄像头和屏幕（目前淘宝乐康显示已经支持我们的开发板）\n[官方ESP32P4在线资料](https://docs.espressif.com/projects/esp-idf/zh_CN/v5.4.2/esp32p4/get-started/index.html)\n\n## 引脚定义\n\n![image.png](https://image.lceda.cn/oshwhub/pullImage/76c22bf413c5427baa9b40c5d00c7e5b.png)\n## 开发板展示\n\n![WT9932P4-TINY_front.png](//image.lceda.cn/pullimage/i8Pc9qLwXI9qgDh9QM77sSbzIFOo3IbpApJ7YXkq.png)\n\n![WT9932P4-TINY_back.png](//image.lceda.cn/pullimage/AbWWJqE4yuiOfH3sCQxameUyY0v6tehkVFfbAnGX.png)",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  },
+  "profile": {
+    "boards": {
+      "d7193644ce03548a": {
+        "uuid": "d7193644ce03548a",
+        "title": "WT9932P4-TINY_1v2",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "f9a6ed9be8604183b0455690c8979cc7": {
+        "uuid": "f9a6ed9be8604183b0455690c8979cc7",
+        "name": "Schematic1",
+        "board": "d7193644ce03548a",
+        "version": "1755569872000",
+        "updateTime": 1755569872000
+      }
+    },
+    "sheets": {
+      "3da125981fe74127b5cadeef736171c9": {
+        "uuid": "3da125981fe74127b5cadeef736171c9",
+        "title": "P1",
+        "schematic_uuid": "f9a6ed9be8604183b0455690c8979cc7",
+        "zIndex": 1,
+        "version": "1755569872000",
+        "updateTime": 1755569872000
+      },
+      "63db3bb13f584ca5b10fe2586c7b17e8": {
+        "uuid": "63db3bb13f584ca5b10fe2586c7b17e8",
+        "title": "P2",
+        "schematic_uuid": "f9a6ed9be8604183b0455690c8979cc7",
+        "zIndex": 2,
+        "version": "1754551249000",
+        "updateTime": 1754551249000
+      }
+    },
+    "pcbs": {
+      "67c9af150382471b8054912f9c9aaf3b": {
+        "uuid": "67c9af150382471b8054912f9c9aaf3b",
+        "title": "PCB1",
+        "board": "d7193644ce03548a",
+        "parent_uuid": "",
+        "version": "1760093036000",
+        "updateTime": 1760093036000
+      }
+    },
+    "panels": {},
+    "blockSymbols": {
+      "b4032f2fb4494b3d9fc9f32265eacec4": {
+        "uuid": "b4032f2fb4494b3d9fc9f32265eacec4",
+        "title": "Schematic1",
+        "docType": 17,
+        "source": "",
+        "version": 1752629763736,
+        "updateTime": 1752629763000
+      }
+    },
+    "owner": {
+      "uuid": "6ba6973c4b274172af09ca78aad14674"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  }
+}
