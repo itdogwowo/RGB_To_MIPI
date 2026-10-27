@@ -958,10 +958,24 @@ J2 = `IO16,17,18,19,20,21,22,23,GND,IO39,38,37,36,GND,34,33,32,26,27,28,29,30,31
 
 | 坑 | 症狀 | 正解 |
 |---|---|---|
-| `sch_PrimitiveAttribute.modify(id, {fontSize: 7})` | 實際存成 **700**（放大 100 倍）→ 整頁變巨大藍字 | 要傳 **0.07**（API 單位是 pt/100） |
-| `sch_PrimitivePin.modify(id, {noConnected:true})` | NC 標記落在圖框外 → `OBJECTOUTSIDESHEET` | 不要用，改放 `×` 文字 |
+| `sch_PrimitiveAttribute.modify(id, {fontSize: 7})` | 實際存成 **700**（放大 100 倍）→ 整頁變巨大藍字 | 要傳 **0.07**（API 單位是 pt/100） || `sch_PrimitivePin.modify(id, {noConnected:true})` | NC 標記落在圖框外 → `OBJECTOUTSIDESHEET` | 不要用，改放 `×` 文字 |
 | `getAllPinsByPrimitiveId()` 的座標 | **有時是 symbol 本地座標**（U3 pin4 回報 y=-240） | 位移元件時用「舊座標 + 位移量」，不要重讀；或先驗證 |
 | 元件間距 < 5 單位時建標籤 | 兩個腳的 stub 會**合併成一條 wire**，造成短路（R28 曾把 IO28 併進 T_CLK_RST_L） | 移動前先確認間距；事後用匯出網表逐腳 diff |
 | 刪 netport 會連帶刪掉共用 wire | 電阻腳、接頭腳一起斷 | 先記下每個腳的網路名，重建後 diff 網表 |
 
 驗證方式：每次移動後都 `getNetlistFile()` 匯出，與整理前的網表**逐腳比對**（`lost/added` 必須為空）。
+
+### 14.13 磁碟檔與記憶體不同步（2026-10-27 23:15 發現）
+
+| 現象 | 數據 |
+|---|---|
+| 編輯器（API／出圖／網表） | 23 顆元件、3 個文字、203 條線、DRC 3 |
+| 磁碟上的 `P1.esch2` | 同一個 SCH_PAGE 卻有 **61 個 COMPONENT、113 個 TEXT、319 條 WIRE** |
+
+- 檔案裡多出來的是**歷史殘留**（含 27 個 y 為負、在圖框外的 `×` 文字）。
+- 這些殘留**不會出現在編輯器畫面**，但會讓 `getPngFile` 直接把畫布撐成 2400×3268（下面一片空白），
+  也會在編輯器重新載入時「復活」。
+- **對策**：API 刪掉後要**確認磁碟**（解析 `.esch2` 數 TEXT）；若還在，代表 save 沒把它寫掉。
+  要徹底清掉得在專案關閉時離線整理檔案，或另存新專案後重新載入。
+- 另外：**沒有網路名的線**在出圖時會被標成 `NET1`、`NET2`…（編輯器預設不顯示），
+  這也是「截圖有 NETx、實際看不到」的原因。把線的 `net` 補上（`sch_PrimitiveWire.modify(id,{line,net})`）即可消除。

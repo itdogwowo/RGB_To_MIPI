@@ -1,2 +1,3 @@
-{"type":"DOCHEAD"}||{"docType":"PANEL","client":"2182161c574b0a57","uuid":"6212128621ca31da","updateTime":1793105766695,"version":"1793105766695","editVersion":"4.1.71","user":{}}|
-{"type":"META","ticket":193,"id":"META"}||{"title":"Panel1","zIndex":null}
+{"type":"DOCHEAD","ticket":12293}||{"docType":"PANEL","client":"7dc21f8246e445bc","uuid":"6212128621ca31da","updateTime":1793114241325,"version":"1793114241325","editVersion":"4.1.71","user":{}}|
+{"type":"META","ticket":193,"id":"META"}||{"title":"Panel1","zIndex":null}|
+{"type":"CANVAS","ticket":12291,"id":"CANVAS"}||{"material":"acrylic","thickness":"0.8mm","print":"Bottom Side","craft":"Transparent","desc":"","coverColor":"white","width":"393mm","height":"579mm","originX":0,"originY":0,"orderWidth":"579mm","orderHeight":""}
