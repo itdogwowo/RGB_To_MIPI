@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27T22:20+08:00",
+  "project": "ESP32P4_SSD2828_TouchBar",
+  "drc_baseline": {
+    "total": 66,
+    "SHOWDANDLING": 62,
+    "MISSFOOTPRINT": 1,
+    "CHECKFLOATPIN_groups": 3,
+    "float_pins": 69
+  },
+  "drc_final": {
+    "total": 3,
+    "SHOWDANDLING": 3,
+    "MISSFOOTPRINT": 0,
+    "CHECKFLOATPIN_groups": 0,
+    "float_pins": 0,
+    "OBJECTOUTSIDESHEET": 0
+  },
+  "parts": 23,
+  "nets": 89,
+  "notes": "U1 replaced with library SSD2828QN4R (C48596); U2 AMS1117-1.8 C351432; U3 AP2112K-1.2 C460310; U4/U5 TXS0108E C21210229; Y1 24MHz C9900010233; C1/C2 12pF C2208800",
+  "nc_marked_pins": 28,
+  "netports_removed": 15,
+  "netlist_check": "0 lost / 0 added vs pre-cleanup",
+  "nc_flags": {
+    "count": 28,
+    "method": "pin.setState_NoConnected(true)+done()",
+    "note": "modify() writes symbol coords -> outside sheet"
+  }
+}

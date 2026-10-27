@@ -1,0 +1,1770 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+R1
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R1
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+NC/0R
+Name
+NC/0R
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge1
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+R2
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R2
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge2
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+R3
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R3
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge3
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+J1
+FOOTPRINT
+DFR:DF40PG(1.5)-26DS-04V
+PARTTYPE
+DFR_DFR_Disp_Conn
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+J1
+Device
+DFR_DFR_Disp_Conn
+PCB Layer
+Default
+Symbol
+DFR_DFR_Disp_Conn
+Origin Footprint
+DF40PG(1.5)-26DS-04V
+Unique ID
+51bfc0e5166a1c40
+Name
+DFR_DFR_Disp_Conn
+Value
+DF40PG(1.5)-26DS-04V
+User doc link
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Datasheet
+https://www.findic.com/doc/browser/YL48bZXOL?doc_id=73365992#locale=zh-CN
+Description
+
+
+*
+]
+[
+DESIGNATOR
+R5
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R5
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K/NC
+Name
+4.7K/NC
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge6
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R6
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R6
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+10K/NC
+Name
+10K/NC
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge7
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R7
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R7
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge8
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+R8
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R8
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+NC/0R
+Name
+NC/0R
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge9
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R9
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R9
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge10
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R10
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R10
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge11
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R11
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R11
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge12
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+R28
+FOOTPRINT
+R0603
+PARTTYPE
+Res_0603
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R28
+Device
+Res_0603
+PCB Layer
+Default
+Symbol
+电阻
+Value
+4.7K
+Name
+4.7K
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge42
+Supplier Footprint
+0603
+Description
+
+3D Model Title
+R0603
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+
+
+*
+]
+[
+DESIGNATOR
+J2
+FOOTPRINT
+DFR:AA07-S022VA1-Mockup
+PARTTYPE
+DFR_DFR_Touch_Conn
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+J2
+Device
+DFR_DFR_Touch_Conn
+PCB Layer
+Default
+Symbol
+DFR_DFR_Touch_Conn
+Origin Footprint
+AA07-S022VA1-Mockup
+Unique ID
+1fb9863844ab5169
+Name
+DFR_DFR_Touch_Conn
+Value
+AA07-S022VA1
+User doc link
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Description
+
+
+*
+]
+[
+DESIGNATOR
+J6
+FOOTPRINT
+HDR-TH_27P-P2.54-V-M
+PARTTYPE
+X6511WV-27H-C60D30
+DESCRIPTION
+插针结构:1x27P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;排数:单排;总PIN位数:27P;额定电流:3A;额定电压:250V;配合针长度:-;塑高:2.5mm;端接针长度:-;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+X6511WV-27H-C60D30
+PCB Layer
+Default
+Symbol
+X6511WV-27H-C30D60
+Designator
+J6
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge288
+LCSC Part Name
+1x27P 间距:2.54mm 方针
+Supplier Part
+C725959
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+X6511WV-27H-C60D30
+Supplier Footprint
+插件,P=2.54mm
+JLCPCB Part Class
+扩展库
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+HDR-TH_27P-P2.54-M-LI-1X27P
+Pin Structure
+1x27P
+Pitch
+2.54mm
+Row Spacing
+2.54mm
+Circluar Pins/Square Pins
+方针
+Number of Rows
+单排
+Number of Pins
+27P
+Current Rating
+3A
+Voltage Rating (Max)
+250V
+Length of Mating Pin
+-
+Insulation Height
+2.5mm
+Length of End Connection Pin
+-
+Contact Material
+黄铜
+Contact Plating
+金
+Operating Temperature
+-40℃~+105℃
+Color
+黑色
+Name
+X6511WV-27H-C60D30
+Description
+插针结构:1x27P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;排数:单排;总PIN位数:27P;额定电流:3A;额定电压:250V;配合针长度:-;塑高:2.5mm;端接针长度:-;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+J7
+FOOTPRINT
+HDR-TH_27P-P2.54-V-M
+PARTTYPE
+X6511WV-27H-C60D30
+DESCRIPTION
+插针结构:1x27P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;排数:单排;总PIN位数:27P;额定电流:3A;额定电压:250V;配合针长度:-;塑高:2.5mm;端接针长度:-;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+X6511WV-27H-C60D30
+PCB Layer
+Default
+Symbol
+X6511WV-27H-C30D60
+Designator
+J7
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Unique ID
+gge289
+LCSC Part Name
+1x27P 间距:2.54mm 方针
+Supplier Part
+C725959
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+X6511WV-27H-C60D30
+Supplier Footprint
+插件,P=2.54mm
+JLCPCB Part Class
+扩展库
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+HDR-TH_27P-P2.54-M-LI-1X27P
+Pin Structure
+1x27P
+Pitch
+2.54mm
+Row Spacing
+2.54mm
+Circluar Pins/Square Pins
+方针
+Number of Rows
+单排
+Number of Pins
+27P
+Current Rating
+3A
+Voltage Rating (Max)
+250V
+Length of Mating Pin
+-
+Insulation Height
+2.5mm
+Length of End Connection Pin
+-
+Contact Material
+黄铜
+Contact Plating
+金
+Operating Temperature
+-40℃~+105℃
+Color
+黑色
+Name
+X6511WV-27H-C60D30
+Description
+插针结构:1x27P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;排数:单排;总PIN位数:27P;额定电流:3A;额定电压:250V;配合针长度:-;塑高:2.5mm;端接针长度:-;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;
+
+*
+]
+[
+DESIGNATOR
+U1
+FOOTPRINT
+QFN-68_L8.0-W8.0-P0.40-BL-EP4.4
+PARTTYPE
+SSD2828QN4R
+DESCRIPTION
+接口类型:SPI;数据速率:1Gbps;
+Component Kind
+Standard
+Unique ID
+gge290
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+SSD2828QN4R
+PCB Layer
+Default
+Symbol
+SSD2828QN4
+Designator
+U1
+LCSC Part Name
+SSD2828QN4R 停产
+Supplier Part
+C48596
+Manufacturer
+SOLOMON(晶门科技)
+Manufacturer Part
+SSD2828QN4R
+Supplier Footprint
+QFN-68-EP(8x8)
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/SSD2828QN4R/49603.html
+Supplier
+LCSC
+3D Model Title
+QFN-68_L8.0-W8.0-H0.9-P0.40-BL-EP4.4
+Interface
+SPI
+Data Rate
+1Gbps
+Voltage - Supply
+1.2V；1.8V；3.3V
+Operating Temperature
+-30℃~+85℃
+Supply Current
+-
+Quiescent Supply Current
+-
+Features
+中断生成
+Name
+SSD2828QN4R
+Description
+接口类型:SPI;数据速率:1Gbps;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+Y1
+FOOTPRINT
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+PARTTYPE
+24MHz
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge291
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+24MHz
+PCB Layer
+Default
+Symbol
+24MHZ
+Designator
+Y1
+LCSC Part Name
+24MHz
+Supplier Part
+C9900010233
+Manufacturer
+
+Manufacturer Part
+24MHz
+Supplier Footprint
+3225
+JLCPCB Part Class
+Extended Part
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+Name
+24MHz
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+C0603
+PARTTYPE
+06036C120KAT4A
+DESCRIPTION
+容值:12pF;精度:±10%;额定电压:6.3V;材质(温度系数):X7R;
+Component Kind
+Standard
+Unique ID
+gge292
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+06036C120KAT4A
+PCB Layer
+Default
+Symbol
+06036C120KAT4A
+Designator
+C1
+LCSC Part Name
+12pF ±10% 6.3V
+Supplier Part
+C2208800
+Manufacturer
+Kyocera AVX
+Manufacturer Part
+06036C120KAT4A
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20211125/9559F68C371FC513E807C3C71A51015C.pdf
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+12pF
+Tolerance
+±10%
+Voltage Rated
+6.3V
+Temperature Coefficient
+X7R
+Name
+12pF
+Description
+容值:12pF;精度:±10%;额定电压:6.3V;材质(温度系数):X7R;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+C0603
+PARTTYPE
+06036C120KAT4A
+DESCRIPTION
+容值:12pF;精度:±10%;额定电压:6.3V;材质(温度系数):X7R;
+Component Kind
+Standard
+Unique ID
+gge293
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+06036C120KAT4A
+PCB Layer
+Default
+Symbol
+06036C120KAT4A
+Designator
+C2
+LCSC Part Name
+12pF ±10% 6.3V
+Supplier Part
+C2208800
+Manufacturer
+Kyocera AVX
+Manufacturer Part
+06036C120KAT4A
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20211125/9559F68C371FC513E807C3C71A51015C.pdf
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+12pF
+Tolerance
+±10%
+Voltage Rated
+6.3V
+Temperature Coefficient
+X7R
+Name
+12pF
+Description
+容值:12pF;精度:±10%;额定电压:6.3V;材质(温度系数):X7R;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U2
+FOOTPRINT
+SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR
+PARTTYPE
+AMS1117-1.8
+DESCRIPTION
+输出极性:正极;工作电压:12V;输出电压:1.8V;输出电流:1A;电源纹波抑制比(PSRR):70dB@(120Hz);输出类型:固定;
+Component Kind
+Standard
+Unique ID
+gge294
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+AMS1117-1.8
+PCB Layer
+Default
+Symbol
+AMS1117-1.8_C351432
+Designator
+U2
+LCSC Part Name
+1.8V 1A 12V
+Supplier Part
+C351432
+Manufacturer
+PUOLOP(迪浦)
+Manufacturer Part
+AMS1117-1.8
+Supplier Footprint
+SOT-223-4
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/AMS1117-1.8/327650.html
+Supplier
+LCSC
+3D Model Title
+SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30
+Output Configuration
+正极
+Voltage - Supply
+12V
+Output Voltage
+1.8V
+Output Current
+1A
+Power Supply Rejection Ratio (PSRR)
+70dB@(120Hz)
+Voltage Dropout
+1.4V@(1A)
+standby current
+10mA
+Noise
+0.003%Vout
+Features
+热关断
+Operating Temperature
+-40℃~+125℃@(Tj)
+Output Type
+固定
+Number of Outputs
+1
+Name
+AMS1117-1.8
+Description
+输出极性:正极;工作电压:12V;输出电压:1.8V;输出电流:1A;电源纹波抑制比(PSRR):70dB@(120Hz);输出类型:固定;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U3
+FOOTPRINT
+SOT-25_L3.0-W1.6-P0.95-LS2.8-BR
+PARTTYPE
+AP2112K-1.2TRG1
+DESCRIPTION
+输出极性:正极;工作电压:6V;输出电压:1.2V;输出电流:600mA;电源纹波抑制比(PSRR):65dB@(1kHz);输出类型:固定;
+Component Kind
+Standard
+Unique ID
+gge295
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+AP2112K-1.2TRG1
+PCB Layer
+Default
+Symbol
+AP2112K-1.2TRG1
+Designator
+U3
+LCSC Part Name
+1.2V 600mA 6V
+Supplier Part
+C460310
+Manufacturer
+DIODES(美台)
+Manufacturer Part
+AP2112K-1.2TRG1
+Supplier Footprint
+SOT-25
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/AP2112K-1.2TRG1/464739.html
+Supplier
+LCSC
+3D Model Title
+SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95
+Output Configuration
+正极
+Voltage - Supply
+6V
+Output Voltage
+1.2V
+Output Current
+600mA
+Power Supply Rejection Ratio (PSRR)
+65dB@(1kHz)
+Voltage Dropout
+250mV@(600mA)
+standby current
+55uA
+Noise
+50uVrms
+Features
+使能控制；短路保护；输出放电；过流保护；热关断
+Operating Temperature
+-40℃~+85℃@(Ta)
+Output Type
+固定
+Number of Outputs
+1
+Name
+AP2112K-1.2TRG1
+Description
+输出极性:正极;工作电压:6V;输出电压:1.2V;输出电流:600mA;电源纹波抑制比(PSRR):65dB@(1kHz);输出类型:固定;
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U4
+FOOTPRINT
+TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
+PARTTYPE
+TXS0108EPWRG4
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge296
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+TXS0108EPWRG4
+PCB Layer
+Default
+Symbol
+TXS0108EPWRG4_C21210229
+Designator
+U4
+LCSC Part Name
+TXS0108EPWRG4
+Supplier Part
+C21210229
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TXS0108EPWRG4
+Supplier Footprint
+-
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65
+Name
+TXS0108EPWRG4
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U5
+FOOTPRINT
+TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL
+PARTTYPE
+TXS0108EPWRG4
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge297
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+TXS0108EPWRG4
+PCB Layer
+Default
+Symbol
+TXS0108EPWRG4_C21210229
+Designator
+U5
+LCSC Part Name
+TXS0108EPWRG4
+Supplier Part
+C21210229
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TXS0108EPWRG4
+Supplier Footprint
+-
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65
+Name
+TXS0108EPWRG4
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+(
+GND 
+R1-2 Res_0603-2 Input   
+J1-1 DFR_DFR_Disp_Conn-GND Input   
+J1-13 DFR_DFR_Disp_Conn-GND Input   
+J1-14 DFR_DFR_Disp_Conn-GND Input   
+J1-16 DFR_DFR_Disp_Conn-GND Input   
+J1-19 DFR_DFR_Disp_Conn-GND Input   
+J1-2 DFR_DFR_Disp_Conn-GND Input   
+J1-24 DFR_DFR_Disp_Conn-GND Input   
+J1-25 DFR_DFR_Disp_Conn-GND Input   
+J1-26 DFR_DFR_Disp_Conn-GND Input   
+J1-27 DFR_DFR_Disp_Conn-GND Input   
+J1-28 DFR_DFR_Disp_Conn-GND Input   
+J1-29 DFR_DFR_Disp_Conn-GND Input   
+J1-30 DFR_DFR_Disp_Conn-GND Input   
+J1-7 DFR_DFR_Disp_Conn-GND Input   
+J2-11 DFR_DFR_Touch_Conn-GND Input   
+J2-12 DFR_DFR_Touch_Conn-GND Input   
+J2-17 DFR_DFR_Touch_Conn-GND Input   
+J2-23 DFR_DFR_Touch_Conn-GND Input   
+J2-24 DFR_DFR_Touch_Conn-GND Input   
+J2-25 DFR_DFR_Touch_Conn-GND Input   
+J2-26 DFR_DFR_Touch_Conn-GND Input   
+J2-5 DFR_DFR_Touch_Conn-GND Input   
+J2-6 DFR_DFR_Touch_Conn-GND Input   
+J6-27 X6511WV-27H-C60D30-27 Passive 
+J7-9 X6511WV-27H-C60D30-9 Passive 
+J7-14 X6511WV-27H-C60D30-14 Passive 
+J7-26 X6511WV-27H-C60D30-26 Passive 
+U1-3 SSD2828QN4R-GND Passive 
+U1-6 SSD2828QN4R-GND Passive 
+U1-9 SSD2828QN4R-GND Passive 
+U1-12 SSD2828QN4R-GND Passive 
+U1-17 SSD2828QN4R-PS0 Passive 
+U1-29 SSD2828QN4R-HSYNC Passive 
+U1-32 SSD2828QN4R-GND Passive 
+U1-65 SSD2828QN4R-GND Passive 
+U1-67 SSD2828QN4R-GND Passive 
+U1-69 SSD2828QN4R-69 Passive 
+Y1-4 24MHz-GND Passive 
+Y1-2 24MHz-GND Passive 
+C1-2 06036C120KAT4A-2 Passive 
+C2-2 06036C120KAT4A-2 Passive 
+U2-1 AMS1117-1.8-GND Passive 
+U3-2 AP2112K-1.2TRG1-GND Passive 
+U4-11 TXS0108EPWRG4-GND Passive 
+U5-11 TXS0108EPWRG4-GND Passive 
+)
+(
+$1N15 
+R1-1 Res_0603-1 Input   
+J1-8 DFR_DFR_Disp_Conn-GND Input   
+)
+(
+1V8 
+R2-2 Res_0603-2 Input   
+R3-2 Res_0603-2 Input   
+J1-15 DFR_DFR_Disp_Conn-PP1V8 Input   
+J1-17 DFR_DFR_Disp_Conn-PP1V8 Input   
+R6-2 Res_0603-2 Input   
+R9-2 Res_0603-2 Input   
+R10-2 Res_0603-2 Input   
+R11-2 Res_0603-2 Input   
+R28-2 Res_0603-2 Input   
+J2-20 DFR_DFR_Touch_Conn-PP1V8 Input   
+J2-21 DFR_DFR_Touch_Conn-PP1V8 Input   
+J2-7 DFR_DFR_Touch_Conn-SPI_MISO_R Output  
+U2-4 AMS1117-1.8-VOUT Passive 
+U2-2 AMS1117-1.8-VOUT Passive 
+U4-10 TXS0108EPWRG4-OE Passive 
+U4-2 TXS0108EPWRG4-VCCA Passive 
+U5-10 TXS0108EPWRG4-OE Passive 
+U5-4 TXS0108EPWRG4-A3 Passive 
+U5-2 TXS0108EPWRG4-VCCA Passive 
+)
+(
+D_SCL 
+R2-1 Res_0603-1 Input   
+J1-21 DFR_DFR_Disp_Conn-DFRDRV_I2C_SCL Input   
+)
+(
+D_SDA 
+R3-1 Res_0603-1 Input   
+)
+(
+D_CLK_P 
+J1-3 DFR_DFR_Disp_Conn-MIPI_CLK_P Input   
+U1-7 SSD2828QN4R-CLKP Passive 
+)
+(
+D_INT 
+J1-10 DFR_DFR_Disp_Conn-DFR_DISP_INT Output  
+)
+(
+D_DATA_N 
+J1-11 DFR_DFR_Disp_Conn-MIPI_DATA_N Input   
+U1-2 SSD2828QN4R-DATAN0 Passive 
+)
+(
+D_RST 
+J1-12 DFR_DFR_Disp_Conn-DISP_RESET_L Input   
+U4-1 TXS0108EPWRG4-A1 Passive 
+)
+(
+3V3 
+J1-18 DFR_DFR_Disp_Conn-PP3V3 Input   
+J1-20 DFR_DFR_Disp_Conn-PP3V3 Input   
+J1-22 DFR_DFR_Disp_Conn-PP3V3 Input   
+J7-25 X6511WV-27H-C60D30-25 Passive 
+U1-16 SSD2828QN4R-VDDIO Passive 
+U1-18 SSD2828QN4R-PS1 Passive 
+U1-27 SSD2828QN4R-SHUT Passive 
+U1-33 SSD2828QN4R-VDDIO Passive 
+U1-64 SSD2828QN4R-VDDIO Passive 
+U1-68 SSD2828QN4R-VDDIO Passive 
+U3-3 AP2112K-1.2TRG1-EN Passive 
+U3-1 AP2112K-1.2TRG1-IN Passive 
+U4-19 TXS0108EPWRG4-VCCB Passive 
+U5-19 TXS0108EPWRG4-VCCB Passive 
+)
+(
+D_VSYNC 
+J1-4 DFR_DFR_Disp_Conn-DFR_DISP_SYNC Output  
+R8-1 Res_0603-1 Input   
+U4-4 TXS0108EPWRG4-A3 Passive 
+)
+(
+D_CLK_N 
+J1-5 DFR_DFR_Disp_Conn-MIPI_CLK_N Input   
+U1-8 SSD2828QN4R-CLKN Passive 
+)
+(
+D_TE 
+J1-6 DFR_DFR_Disp_Conn-DFR_DISP_TE Output  
+U4-3 TXS0108EPWRG4-A2 Passive 
+)
+(
+D_DATA_P 
+J1-9 DFR_DFR_Disp_Conn-MIPI_DATA_P Input   
+U1-1 SSD2828QN4R-DATAP0 Passive 
+)
+(
+T_INT_L 
+R5-1 Res_0603-1 Input   
+U5-6 TXS0108EPWRG4-A5 Passive 
+)
+(
+T_ROM_WC 
+R6-1 Res_0603-1 Input   
+)
+(
+T_LID 
+R7-1 Res_0603-1 Input   
+J2-2 DFR_DFR_Touch_Conn-LID Input   
+)
+(
+T_VSYNC 
+R8-2 Res_0603-2 Input   
+J2-3 DFR_DFR_Touch_Conn-DISP_VSYNC Output  
+)
+(
+T_I2C_SCL 
+R9-1 Res_0603-1 Input   
+U5-9 TXS0108EPWRG4-A8 Passive 
+)
+(
+T_I2C_SDA 
+R10-1 Res_0603-1 Input   
+U5-8 TXS0108EPWRG4-A7 Passive 
+)
+(
+T_RST_L 
+R11-1 Res_0603-1 Input   
+U5-7 TXS0108EPWRG4-A6 Passive 
+)
+(
+T_DETECT 
+J2-1 DFR_DFR_Touch_Conn-PANEL_DETECT Passive 
+)
+(
+T_SPI_MOSI 
+J2-10 DFR_DFR_Touch_Conn-SPI_MOSI_R Input   
+U5-3 TXS0108EPWRG4-A2 Passive 
+)
+(
+5V 
+J2-22 DFR_DFR_Touch_Conn-PP5V Input   
+J7-27 X6511WV-27H-C60D30-27 Passive 
+U2-3 AMS1117-1.8-VIN Passive 
+)
+(
+T_GPIO2 
+J2-4 DFR_DFR_Touch_Conn-GPIO2 Passive 
+)
+(
+T_SPI_CS_L 
+J2-8 DFR_DFR_Touch_Conn-SPI_CS_L Input   
+U5-5 TXS0108EPWRG4-A4 Passive 
+)
+(
+T_SPI_CLK_L 
+J2-9 DFR_DFR_Touch_Conn-SPI_CLK_R Input   
+U5-1 TXS0108EPWRG4-A1 Passive 
+)
+(
+IO15 
+J6-1 X6511WV-27H-C60D30-1 Passive 
+U1-35 SSD2828QN4R-DATA0 Passive 
+)
+(
+IO14 
+J6-2 X6511WV-27H-C60D30-2 Passive 
+U1-36 SSD2828QN4R-DATA1 Passive 
+)
+(
+IO13 
+J6-3 X6511WV-27H-C60D30-3 Passive 
+U1-37 SSD2828QN4R-DATA2 Passive 
+)
+(
+IO12 
+J6-4 X6511WV-27H-C60D30-4 Passive 
+U1-38 SSD2828QN4R-DATA3 Passive 
+)
+(
+IO11 
+J6-5 X6511WV-27H-C60D30-5 Passive 
+U1-39 SSD2828QN4R-DATA4 Passive 
+)
+(
+IO10 
+J6-6 X6511WV-27H-C60D30-6 Passive 
+U1-40 SSD2828QN4R-DATA5 Passive 
+)
+(
+IO9 
+J6-7 X6511WV-27H-C60D30-7 Passive 
+U1-41 SSD2828QN4R-DATA6 Passive 
+)
+(
+IO6 
+J6-8 X6511WV-27H-C60D30-8 Passive 
+U1-42 SSD2828QN4R-DATA7 Passive 
+)
+(
+IO5 
+J6-9 X6511WV-27H-C60D30-9 Passive 
+U1-43 SSD2828QN4R-DATA8 Passive 
+)
+(
+IO4 
+J6-10 X6511WV-27H-C60D30-10 Passive 
+U1-44 SSD2828QN4R-DATA9 Passive 
+)
+(
+IO3 
+J6-11 X6511WV-27H-C60D30-11 Passive 
+U1-45 SSD2828QN4R-DATA10 Passive 
+)
+(
+IO2 
+J6-12 X6511WV-27H-C60D30-12 Passive 
+U1-46 SSD2828QN4R-DATA11 Passive 
+)
+(
+IO54 
+J6-13 X6511WV-27H-C60D30-13 Passive 
+U1-47 SSD2828QN4R-DATA12 Passive 
+)
+(
+IO53 
+J6-14 X6511WV-27H-C60D30-14 Passive 
+U1-48 SSD2828QN4R-DATA13 Passive 
+)
+(
+IO52 
+J6-15 X6511WV-27H-C60D30-15 Passive 
+U1-49 SSD2828QN4R-DATA14 Passive 
+)
+(
+IO50 
+J6-16 X6511WV-27H-C60D30-16 Passive 
+U1-50 SSD2828QN4R-DATA15 Passive 
+)
+(
+IO49 
+J6-17 X6511WV-27H-C60D30-17 Passive 
+U1-51 SSD2828QN4R-DATA16 Passive 
+)
+(
+IO48 
+J6-18 X6511WV-27H-C60D30-18 Passive 
+U1-52 SSD2828QN4R-DATA17 Passive 
+)
+(
+IO47 
+J6-19 X6511WV-27H-C60D30-19 Passive 
+U1-53 SSD2828QN4R-DATA18 Passive 
+)
+(
+IO46 
+J6-20 X6511WV-27H-C60D30-20 Passive 
+U1-54 SSD2828QN4R-DATA19 Passive 
+)
+(
+IO45 
+J6-21 X6511WV-27H-C60D30-21 Passive 
+U1-55 SSD2828QN4R-DATA20 Passive 
+)
+(
+IO16 
+J7-1 X6511WV-27H-C60D30-1 Passive 
+U1-56 SSD2828QN4R-DATA21 Passive 
+)
+(
+IO17 
+J7-2 X6511WV-27H-C60D30-2 Passive 
+U1-57 SSD2828QN4R-DATA22 Passive 
+)
+(
+IO18 
+J7-3 X6511WV-27H-C60D30-3 Passive 
+U1-58 SSD2828QN4R-DATA23 Passive 
+)
+(
+IO19 
+J7-4 X6511WV-27H-C60D30-4 Passive 
+U1-30 SSD2828QN4R-PCLK Passive 
+)
+(
+IO20 
+J7-5 X6511WV-27H-C60D30-5 Passive 
+U1-28 SSD2828QN4R-DEN Passive 
+)
+(
+IO21 
+J7-6 X6511WV-27H-C60D30-6 Passive 
+U1-34 SSD2828QN4R-VSYNC Passive 
+)
+(
+IO22 
+J7-7 X6511WV-27H-C60D30-7 Passive 
+U1-25 SSD2828QN4R-SCK Passive 
+U5-20 TXS0108EPWRG4-B1 Passive 
+)
+(
+IO23 
+J7-8 X6511WV-27H-C60D30-8 Passive 
+U1-24 SSD2828QN4R-SDI Passive 
+U5-18 TXS0108EPWRG4-B2 Passive 
+)
+(
+IO38 
+J7-11 X6511WV-27H-C60D30-11 Passive 
+U1-23 SSD2828QN4R-SDO Passive 
+U5-17 TXS0108EPWRG4-B3 Passive 
+)
+(
+IO37 
+J7-12 X6511WV-27H-C60D30-12 Passive 
+U1-59 SSD2828QN4R-CSX0 Passive 
+)
+(
+IO36 
+J7-13 X6511WV-27H-C60D30-13 Passive 
+U1-26 SSD2828QN4R-SDC Passive 
+)
+(
+IO34 
+J7-15 X6511WV-27H-C60D30-15 Passive 
+U1-22 SSD2828QN4R-RESET Passive 
+)
+(
+IO33 
+J7-16 X6511WV-27H-C60D30-16 Passive 
+U4-18 TXS0108EPWRG4-B2 Passive 
+)
+(
+IO32 
+J7-17 X6511WV-27H-C60D30-17 Passive 
+U5-14 TXS0108EPWRG4-B6 Passive 
+)
+(
+IO26 
+J7-18 X6511WV-27H-C60D30-18 Passive 
+U5-15 TXS0108EPWRG4-B5 Passive 
+)
+(
+IO27 
+J7-19 X6511WV-27H-C60D30-19 Passive 
+U5-16 TXS0108EPWRG4-B4 Passive 
+)
+(
+IO28 
+J7-20 X6511WV-27H-C60D30-20 Passive 
+U5-13 TXS0108EPWRG4-B7 Passive 
+)
+(
+IO29 
+J7-21 X6511WV-27H-C60D30-21 Passive 
+U5-12 TXS0108EPWRG4-B8 Passive 
+)
+(
+IO30 
+J7-22 X6511WV-27H-C60D30-22 Passive 
+U4-20 TXS0108EPWRG4-B1 Passive 
+)
+(
+IO31 
+J7-23 X6511WV-27H-C60D30-23 Passive 
+U4-17 TXS0108EPWRG4-B3 Passive 
+)
+(
+1V2 
+U1-15 SSD2828QN4R-MVDD Passive 
+U1-31 SSD2828QN4R-MVDD Passive 
+U1-60 SSD2828QN4R-MVDD Passive 
+U1-66 SSD2828QN4R-MVDD Passive 
+U3-5 AP2112K-1.2TRG1-OUT Passive 
+)
+(
+XTAL_OUT 
+U1-62 SSD2828QN4R-TX_CLK_XIO Passive 
+Y1-3 24MHz-OSC2 Passive 
+C2-1 06036C120KAT4A-1 Passive 
+)
+(
+XTAL_IN 
+U1-63 SSD2828QN4R-TX_CLK_XIN Passive 
+Y1-1 24MHz-OSC1 Passive 
+C1-1 06036C120KAT4A-1 Passive 
+)
