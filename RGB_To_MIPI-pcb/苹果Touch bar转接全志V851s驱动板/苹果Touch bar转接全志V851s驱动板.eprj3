@@ -17,7 +17,10 @@
   "branch_uuid": "",
   "pcb_count": 0,
   "format": "folder",
-  "config": "{\"type\":\"DOCHEAD\",\"ticket\":2}||{\"docType\":\"BOARD\",\"client\":\"440eec4774e7a8c4\",\"uuid\":\"9524c56ddfc9de67\",\"updateTime\":1792936655937,\"version\":\"1792936655937\",\"editVersion\":\"4.1.71\",\"user\":{\"uuid\":\"6ba6973c4b274172af09ca78aad14674\",\"nickname\":\"itbilly\",\"username\":\"itbilly\",\"avatar\":\"\"}}|\n{\"type\":\"META\",\"ticket\":1,\"id\":\"META\"}||{\"title\":\"Touchbar验证转接板-V1\",\"zIndex\":1}|\n{\"type\":\"DOCHEAD\",\"ticket\":4}||{\"docType\":\"BOARD\",\"client\":\"440eec4774e7a8c4\",\"uuid\":\"64aef2e34f1df910\",\"updateTime\":1792936655937,\"version\":\"1792936655937\",\"editVersion\":\"4.1.71\",\"user\":{\"uuid\":\"6ba6973c4b274172af09ca78aad14674\",\"nickname\":\"itbilly\",\"username\":\"itbilly\",\"avatar\":\"\"}}|\n{\"type\":\"META\",\"ticket\":3,\"id\":\"META\"}||{\"title\":\"Touchbar验证转接板-V2\",\"zIndex\":2}|\n{\"type\":\"DOCHEAD\",\"ticket\":240}||{\"docType\":\"CONFIG\",\"client\":\"440eec4774e7a8c4\",\"uuid\":\"CONFIG\",\"updateTime\":1792936655937,\"version\":\"1792936655937\",\"editVersion\":\"4.1.71\",\"user\":{\"uuid\":\"6ba6973c4b274172af09ca78aad14674\",\"nickname\":\"itbilly\",\"username\":\"itbilly\",\"avatar\":\"\"}}|\n{\"type\":\"META\",\"ticket\":241,\"id\":\"META\"}||{\"defaultSheet\":\"\"}",
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  },
   "profile": {
     "boards": {
       "9524c56ddfc9de67": {
@@ -70,7 +73,6 @@
         "uuid": "26c461a1f728470c9381355d0a02c06a",
         "title": "PCB1",
         "board": "9524c56ddfc9de67",
-        "zIndex": null,
         "parent_uuid": "",
         "version": "1792936655937",
         "updateTime": 1792936655937
@@ -79,7 +81,6 @@
         "uuid": "4eb07ef0c32c42d5b1ce34938ca6263f",
         "title": "PCB2",
         "board": "64aef2e34f1df910",
-        "zIndex": null,
         "parent_uuid": "",
         "version": "1792936655937",
         "updateTime": 1792936655937
@@ -88,9 +89,9 @@
     "panels": {},
     "blockSymbols": {},
     "owner": {
-      "uuid": "/Users/tungkinlee/Documents/Git/Sourcetree/RGB_To_MIPI/RGB_To_MIPI-pcb",
-      "username": "",
-      "nickname": ""
-    }
+      "uuid": "6ba6973c4b274172af09ca78aad14674"
+    },
+    "simSchematics": {},
+    "simulations": {}
   }
 }
