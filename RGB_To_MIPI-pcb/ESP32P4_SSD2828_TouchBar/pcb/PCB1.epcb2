@@ -1,4 +1,4 @@
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"04472a560d9b0b96","updateTime":1793368604627,"version":"1740987923000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"04472a560d9b0b96","updateTime":1793439004034,"version":"1740987923000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6943,"id":"META"}||{"title":"AMS1117-1.8_C351432","description":"","tags":["电源管理","线性稳压器(LDO)"],"docType":2,"source":"20c708882c724d6c942500aa0eedc4b9|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"AMS1117-1.8_C351432.1"}||{"BBOX":[-30,-20,30,20],"title":"AMS1117-1.8_C351432.1"}|
@@ -28,7 +28,7 @@
 {"type":"RECT","ticket":26,"id":"e7"}||{"partId":"AMS1117-1.8_C351432.1","groupId":"","locked":false,"zIndex":7,"dotX1":-30,"dotY1":20,"dotX2":30,"dotY2":-20,"radiusX":0,"radiusY":0,"rotation":0,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"yAxisDirection":"up"}|
 {"type":"ELE_PLACEHOLDER","ticket":27,"id":"placeholder6"}||{"dataType":"TEXT","max":7}|
 {"type":"TEXT","ticket":28,"id":"e8"}||{"partId":"AMS1117-1.8_C351432.1","groupId":"","locked":false,"zIndex":8,"x":-11,"y":-19.4,"rotation":0,"value":"GND","color":null,"fillColor":null,"fontFamily":null,"fontSize":10,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"111443d103dc8233","updateTime":1793368604627,"version":"1785199256000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"111443d103dc8233","updateTime":1793439004034,"version":"1785199256000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":12390,"id":"META"}||{"title":"CC0603KRX7R9BB104","description":"100nF (104) ±10% 50V","tags":["电容","贴片电容(MLCC)"],"docType":2,"source":"061a2c804ac94030b09af596bddca03c|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"CC0603KRX7R9BB104.1"}||{"BBOX":[-10.5,-8.5,10.5,8.5],"title":"CC0603KRX7R9BB104.1"}|
@@ -50,7 +50,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":18,"id":"placeholder4"}||{"dataType":"ATTR","max":11}|
 {"type":"ATTR","ticket":19,"id":"e12"}||{"partId":"CC0603KRX7R9BB104.1","groupId":"","locked":false,"zIndex":13,"parentId":"","key":"Name","value":"CC0603KRX7R9BB104","keyVisible":false,"valueVisible":false,"x":null,"y":null,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":6.75,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":20,"id":"e13"}||{"partId":"CC0603KRX7R9BB104.1","groupId":"","locked":false,"zIndex":14,"parentId":"","key":"Designator","value":"C?","keyVisible":false,"valueVisible":false,"x":null,"y":null,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":6.75,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"2a5e51f50cf0ea77","updateTime":1793368604627,"version":"1726216330000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"2a5e51f50cf0ea77","updateTime":1793439004034,"version":"1726216330000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6855,"id":"META"}||{"title":"06036C120KAT4A","description":"","tags":["电容","贴片电容(MLCC)"],"docType":2,"source":"77a9e5dfa22a4a29ab2dc915e173c7be|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"06036C120KAT4A.1"}||{"BBOX":[-10.5,-8.5,10.5,8.5],"title":"06036C120KAT4A.1"}|
@@ -73,7 +73,7 @@
 {"type":"ATTR","ticket":19,"id":"e11"}||{"partId":"06036C120KAT4A.1","groupId":"","locked":false,"zIndex":11,"parentId":"e10","key":"Pin Name","value":"2","keyVisible":false,"valueVisible":false,"x":6,"y":-1.91498,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":20,"id":"e12"}||{"partId":"06036C120KAT4A.1","groupId":"","locked":false,"zIndex":12,"parentId":"e10","key":"Pin Number","value":"2","keyVisible":false,"valueVisible":false,"x":14,"y":2.08502,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":21,"id":"e13"}||{"partId":"06036C120KAT4A.1","groupId":"","locked":false,"zIndex":13,"parentId":"e10","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":20,"y":0,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"6dc06d69f4faa20a","updateTime":1793368604627,"version":"1735201266000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"6dc06d69f4faa20a","updateTime":1793439004034,"version":"1735201266000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":3276,"id":"META"}||{"title":"SSD2828QN4","description":"","tags":["通信接口芯片","其他接口"],"docType":2,"source":"d44ab345b9014686a2260a06929639da|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":2,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":3,"id":"SSD2828QN4.1"}||{"BBOX":[-130,-120,130,120],"title":"SSD2828QN4.1"}|
@@ -426,7 +426,7 @@
 {"type":"ATTR","ticket":350,"id":"e277"}||{"partId":"SSD2828QN4.1","groupId":"","locked":false,"zIndex":277,"parentId":"e276","key":"Pin Name","value":"69","keyVisible":false,"valueVisible":true,"x":-97,"y":116.08502,"rotation":90,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":351,"id":"e278"}||{"partId":"SSD2828QN4.1","groupId":"","locked":false,"zIndex":278,"parentId":"e276","key":"Pin Number","value":"69","keyVisible":false,"valueVisible":true,"x":-101,"y":123.08502,"rotation":90,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":352,"id":"e279"}||{"partId":"SSD2828QN4.1","groupId":"","locked":false,"zIndex":279,"parentId":"e276","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":-100,"y":140,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"815c7ea8911be121","updateTime":1793368604627,"version":"1653966354","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"815c7ea8911be121","updateTime":1793439004034,"version":"1653966354","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":197,"id":"META"}||{"title":"电阻","description":"","tags":[],"docType":2,"source":"337f98afd0264cae93d16cc3bf65754a|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"电阻.1"}||{"BBOX":[-10,-4,10,4],"title":"电阻.1"}|
@@ -440,7 +440,7 @@
 {"type":"ATTR","ticket":10,"id":"e6"}||{"partId":"电阻.1","groupId":"","locked":false,"zIndex":7,"parentId":"e5","key":"Pin Name","value":"1","keyVisible":false,"valueVisible":false,"x":null,"y":null,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":8,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":11,"id":"e7"}||{"partId":"电阻.1","groupId":"","locked":false,"zIndex":8,"parentId":"e5","key":"Pin Number","value":"1","keyVisible":false,"valueVisible":false,"x":null,"y":null,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":8,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":12,"id":"e8"}||{"partId":"电阻.1","groupId":"","locked":false,"zIndex":9,"parentId":"e5","key":"Pin Type","value":"IN","keyVisible":false,"valueVisible":false,"x":null,"y":null,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":8,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"81eeca53a9e85e5d","updateTime":1793368604627,"version":1730100953436,"editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"81eeca53a9e85e5d","updateTime":1793439004034,"version":1730100953436,"editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2163,"id":"META"}||{"title":"DFR_DFR_Touch_Conn","description":"","tags":[],"docType":2,"source":"d9b27d07cbf47dff8f1b9868ac01e490|d178a39f1b0d4a9a8b5bb6fbb3d1ca87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"1"}||{"BBOX":[0,-169.99966,129.99974,0],"title":"1"}|
@@ -583,7 +583,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":139,"id":"placeholder28"}||{"dataType":"CIRCLE","max":108}|
 {"type":"CIRCLE","ticket":140,"id":"e109"}||{"partId":"1","groupId":"","locked":false,"zIndex":110,"centerX":64.99987,"centerY":-154.99969,"radius":4.99999,"strokeColor":null,"strokeStyle":"SOLID","fillColor":null,"strokeWidth":1,"fillStyle":"SOLID","yAxisDirection":"up"}|
 {"type":"CIRCLE","ticket":141,"id":"e110"}||{"partId":"1","groupId":"","locked":false,"zIndex":111,"centerX":64.99987,"centerY":-14.99997,"radius":4.99999,"strokeColor":null,"strokeStyle":"SOLID","fillColor":null,"strokeWidth":1,"fillStyle":"SOLID","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"90a15d52aa74439d","updateTime":1793368604627,"version":1730006086125,"editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"90a15d52aa74439d","updateTime":1793439004034,"version":1730006086125,"editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":199,"id":"META"}||{"title":"DFR_DFR_Disp_Conn","description":"","tags":[],"docType":2,"source":"db7259f44d39850087c04142f73b52de|d178a39f1b0d4a9a8b5bb6fbb3d1ca87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"1"}||{"BBOX":[0,-239.99952,129.99974,0],"title":"1"}|
@@ -746,7 +746,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":159,"id":"placeholder32"}||{"dataType":"CIRCLE","max":124}|
 {"type":"CIRCLE","ticket":160,"id":"e125"}||{"partId":"1","groupId":"","locked":false,"zIndex":126,"centerX":64.99987,"centerY":-229.99954,"radius":4.99999,"strokeColor":null,"strokeStyle":"SOLID","fillColor":null,"strokeWidth":1,"fillStyle":"SOLID","yAxisDirection":"up"}|
 {"type":"CIRCLE","ticket":161,"id":"e126"}||{"partId":"1","groupId":"","locked":false,"zIndex":127,"centerX":64.99987,"centerY":-9.99998,"radius":4.99999,"strokeColor":null,"strokeStyle":"SOLID","fillColor":null,"strokeWidth":1,"fillStyle":"SOLID","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"93718641d5f14258","updateTime":1793368604627,"version":"1732275400000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"93718641d5f14258","updateTime":1793439004034,"version":"1732275400000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7007,"id":"META"}||{"title":"AP2112K-1.2TRG1","description":"","tags":["电源管理","线性稳压器(LDO)"],"docType":2,"source":"66f7c85059124f65ad411a7e1437a631|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"AP2112K-1.2TRG1.1"}||{"BBOX":[-30,-20,20,20],"title":"AP2112K-1.2TRG1.1"}|
@@ -781,7 +781,7 @@
 {"type":"CIRCLE","ticket":31,"id":"e23"}||{"partId":"AP2112K-1.2TRG1.1","groupId":"","locked":false,"zIndex":23,"centerX":-25,"centerY":15,"radius":1.5,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"yAxisDirection":"up"}|
 {"type":"ELE_PLACEHOLDER","ticket":32,"id":"placeholder7"}||{"dataType":"RECT","max":23}|
 {"type":"RECT","ticket":33,"id":"e24"}||{"partId":"AP2112K-1.2TRG1.1","groupId":"","locked":false,"zIndex":24,"dotX1":-30,"dotY1":-20,"dotX2":20,"dotY2":20,"radiusX":0,"radiusY":0,"rotation":0,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"9474003661d8dde0","updateTime":1793368604627,"version":"1747074359000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"9474003661d8dde0","updateTime":1793439004034,"version":"1747074359000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6803,"id":"META"}||{"title":"24MHZ","description":"","tags":[],"docType":2,"source":"53f5342660ea46cbab9ac7f2e9f96687|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"24MHZ.1"}||{"BBOX":[-20.5,-20,20.5,20],"title":"24MHZ.1"}|
@@ -819,7 +819,7 @@
 {"type":"ATTR","ticket":34,"id":"e28"}||{"partId":"24MHZ.1","groupId":"","locked":false,"zIndex":28,"parentId":"e25","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":30,"y":10,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ELE_PLACEHOLDER","ticket":35,"id":"placeholder6"}||{"dataType":"RECT","max":19}|
 {"type":"RECT","ticket":36,"id":"e20"}||{"partId":"24MHZ.1","groupId":"","locked":false,"zIndex":20,"dotX1":-20,"dotY1":20,"dotX2":20,"dotY2":-20,"radiusX":0,"radiusY":0,"rotation":0,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"9c4323aa22380428","updateTime":1793368604627,"version":"1744296931000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"9c4323aa22380428","updateTime":1793439004034,"version":"1744296931000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":12978,"id":"META"}||{"title":"CL10A106KP8NNNC","description":"","tags":["电容","贴片电容(MLCC)"],"docType":2,"source":"05254382fb9c403fb13b612218a7ea4f|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"CL10A106KP8NNNC.1"}||{"BBOX":[-10.5,-8.5,10.5,8.5],"title":"CL10A106KP8NNNC.1"}|
@@ -842,7 +842,7 @@
 {"type":"ATTR","ticket":19,"id":"e11"}||{"partId":"CL10A106KP8NNNC.1","groupId":"","locked":false,"zIndex":11,"parentId":"e10","key":"Pin Name","value":"2","keyVisible":false,"valueVisible":false,"x":6,"y":-1.91498,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":20,"id":"e12"}||{"partId":"CL10A106KP8NNNC.1","groupId":"","locked":false,"zIndex":12,"parentId":"e10","key":"Pin Number","value":"2","keyVisible":false,"valueVisible":false,"x":14,"y":2.08502,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":21,"id":"e13"}||{"partId":"CL10A106KP8NNNC.1","groupId":"","locked":false,"zIndex":13,"parentId":"e10","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":20,"y":0,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"bfc95489e38ac172","updateTime":1793368604627,"version":"1722013312000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"bfc95489e38ac172","updateTime":1793439004034,"version":"1722013312000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":14243,"id":"META"}||{"title":"CL21A106KAYNNNE","description":"10uF (106) ±10% 25V","tags":["电容","贴片电容(MLCC)"],"docType":2,"source":"5f9529790e034d94aefbb6c46308260a|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"CL21A106KAYNNNE.1"}||{"BBOX":[-10.5,-8.5,10.5,8.5],"title":"CL21A106KAYNNNE.1"}|
@@ -865,7 +865,7 @@
 {"type":"ATTR","ticket":19,"id":"e11"}||{"partId":"CL21A106KAYNNNE.1","groupId":"","locked":false,"zIndex":11,"parentId":"e10","key":"Pin Name","value":"1","keyVisible":false,"valueVisible":false,"x":-6,"y":-1.91498,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":20,"id":"e12"}||{"partId":"CL21A106KAYNNNE.1","groupId":"","locked":false,"zIndex":12,"parentId":"e10","key":"Pin Number","value":"1","keyVisible":false,"valueVisible":false,"x":-14,"y":2.08502,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":21,"id":"e13"}||{"partId":"CL21A106KAYNNNE.1","groupId":"","locked":false,"zIndex":13,"parentId":"e10","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":-20,"y":0,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"ce4a1c24dd0cc7d5","updateTime":1793368604627,"version":"1741164654","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"ce4a1c24dd0cc7d5","updateTime":1793439004034,"version":"1741164654","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2691,"id":"META"}||{"title":"X6511WV-27H-C30D60","description":"","tags":["连接器","排针"],"docType":2,"source":"4db4fb1a456046d0ad823191dd4ffe19|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"X6511WV-27H-C30D60.1"}||{"BBOX":[-10,-140,10,140],"title":"X6511WV-27H-C30D60.1"}|
@@ -1010,7 +1010,7 @@
 {"type":"ATTR","ticket":141,"id":"e110"}||{"partId":"X6511WV-27H-C30D60.1","groupId":"","locked":false,"zIndex":110,"parentId":"e109","key":"Pin Name","value":"27","keyVisible":false,"valueVisible":true,"x":-6.3,"y":-135.91498,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":142,"id":"e111"}||{"partId":"X6511WV-27H-C30D60.1","groupId":"","locked":false,"zIndex":111,"parentId":"e109","key":"Pin Number","value":"27","keyVisible":false,"valueVisible":true,"x":-10.5,"y":-130.91498,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":143,"id":"e112"}||{"partId":"X6511WV-27H-C30D60.1","groupId":"","locked":false,"zIndex":112,"parentId":"e109","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":-20,"y":-130,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"d50e165c8797f680","updateTime":1793368604627,"version":"1713800122000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"d50e165c8797f680","updateTime":1793439004034,"version":"1713800122000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":13251,"id":"META"}||{"title":"0603WAF220JT5E","description":"22Ω (22R0) ±1%","tags":["电阻","贴片电阻"],"docType":2,"source":"7b764cce74a145b9b19cbfb2cf5035e3|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"0603WAF220JT5E.1"}||{"BBOX":[-10,-4,10,4],"title":"0603WAF220JT5E.1"}|
@@ -1028,7 +1028,7 @@
 {"type":"ATTR","ticket":14,"id":"e10"}||{"partId":"0603WAF220JT5E.1","groupId":"","locked":false,"zIndex":10,"parentId":"e7","key":"Pin Type","value":"IN","keyVisible":false,"valueVisible":false,"x":-20,"y":0,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ELE_PLACEHOLDER","ticket":15,"id":"placeholder3"}||{"dataType":"RECT","max":10}|
 {"type":"RECT","ticket":16,"id":"e11"}||{"partId":"0603WAF220JT5E.1","groupId":"","locked":false,"zIndex":11,"dotX1":-10,"dotY1":-4,"dotX2":10,"dotY2":4,"radiusX":0,"radiusY":0,"rotation":0,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"e1279e2775ac8757","updateTime":1793368604627,"version":"1724306288000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"SYMBOL","client":"6c92aaf75f4f45d4","uuid":"e1279e2775ac8757","updateTime":1793439004034,"version":"1724306288000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7071,"id":"META"}||{"title":"TXS0108EPWRG4_C21210229","description":"","tags":["逻辑器件","转换器/电平移位器"],"docType":2,"source":"1ab5f11f2c7c40f6a89787497fd3aa0a|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"yAxisDirection":"up"}|
 {"type":"PART","ticket":2,"id":"TXS0108EPWRG4_C21210229.1"}||{"BBOX":[-25,-80,25,80],"title":"TXS0108EPWRG4_C21210229.1"}|
@@ -1138,7 +1138,7 @@
 {"type":"ATTR","ticket":106,"id":"e82"}||{"partId":"TXS0108EPWRG4_C21210229.1","groupId":"","locked":false,"zIndex":82,"parentId":"e81","key":"Pin Name","value":"VCCA","keyVisible":false,"valueVisible":true,"x":21.3,"y":64.08502,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"RIGHT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":107,"id":"e83"}||{"partId":"TXS0108EPWRG4_C21210229.1","groupId":"","locked":false,"zIndex":83,"parentId":"e81","key":"Pin Number","value":"2","keyVisible":false,"valueVisible":true,"x":25.5,"y":69.08502,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":false,"underline":false,"italic":false,"fontWeight":false,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
 {"type":"ATTR","ticket":108,"id":"e84"}||{"partId":"TXS0108EPWRG4_C21210229.1","groupId":"","locked":false,"zIndex":84,"parentId":"e81","key":"Pin Type","value":"Undefined","keyVisible":false,"valueVisible":false,"x":35,"y":70,"rotation":0,"color":null,"fillColor":null,"fontFamily":null,"fontSize":null,"strikeout":null,"underline":null,"italic":null,"fontWeight":null,"align":"LEFT_BOTTOM","version":"2.0","yAxisDirection":"up"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"0541b0e5492fb8ff","updateTime":1793368604627,"version":"1683770067","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"0541b0e5492fb8ff","updateTime":1793439004034,"version":"1683770067","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2692,"id":"META"}||{"title":"HDR-TH_27P-P2.54-V-M","description":";插件,P=2.54mm;直插,P=2.54mm","tags":["HDR-TH"],"source":"8f328c7eb2684040a621983da37acdc7|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1229,7 +1229,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":88,"id":"placeholder5"}||{"dataType":"ATTR","max":62}|
 {"type":"ATTR","ticket":89,"id":"e62"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"HDR-TH_27P-P2.54-V-M","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":62}|
 {"type":"ATTR","ticket":90,"id":"e63"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":63}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"182f9ad6f4f6bc9c","updateTime":1793368604627,"version":"1734501471000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"182f9ad6f4f6bc9c","updateTime":1793439004034,"version":"1734501471000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6388,"id":"META"}||{"title":"C0603","description":";0603;1206;0805;0201;/;---;-;SMD;C0603;AAAAAA1;c0603;0603封装;Cap;CAP;0604;C0603_L;0603-CAP;1608;0704","tags":["CAP-SMD"],"source":"76d6c29a47804db487f8a92b2621751b|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1275,7 +1275,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":43,"id":"placeholder5"}||{"dataType":"ATTR","max":17}|
 {"type":"ATTR","ticket":44,"id":"e17"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"C0603","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":17}|
 {"type":"ATTR","ticket":45,"id":"e18"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":18}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"2d61632a914a2433","updateTime":1793368604627,"version":1730025832222,"editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"2d61632a914a2433","updateTime":1793439004034,"version":1730025832222,"editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":201,"id":"META"}||{"title":"DFR:DF40PG(1.5)-26DS-04V","description":"","tags":[],"source":"2a714457a5ddef9f76bb7a9b9e1f9c3b|d178a39f1b0d4a9a8b5bb6fbb3d1ca87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"unit":"mm","gridXSize":5,"gridYSize":5,"snapXSize":5,"snapYSize":5,"altSnapXSize":0.5,"altSnapYSize":0.5,"gridType":"NONE","multiGridType":"NONE","multiGridRatio":5,"highlightValue":0.5,"layerBrightness":"NORMAL"}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#ff0000","activateTransparency":1,"inactiveColor":"#7f0000","inactiveTransparency":0.5}|
@@ -1430,7 +1430,7 @@
 {"type":"POLY","ticket":151,"id":"e40"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[39.37,127.9525,"L",78.74,127.9525],"locked":false,"zIndex":40,"polyType":"NORMAL"}|
 {"type":"POLY","ticket":152,"id":"e41"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[39.37,-127.9525,"L",78.74,-127.9525],"locked":false,"zIndex":41,"polyType":"NORMAL"}|
 {"type":"POLY","ticket":153,"id":"e42"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[88.5825,0,"L",108.2675,0],"locked":false,"zIndex":42,"polyType":"NORMAL"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"44fb379eecaa7ca3","updateTime":1793368604627,"version":"1720420805000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"44fb379eecaa7ca3","updateTime":1793439004034,"version":"1720420805000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":12652,"id":"META"}||{"title":"C0805","description":";0805;1206;1808;0603;插件;WLCSP-30(2.33x2.61);-;C0805;0805_C;SMD-0805C;CAP-2P;CAP CER 6.2PF 50V NP0 0805;CAP CER 10PF 50V C0G/NP0 0805;C 0805_M;2012;CAP0805-SMD-2P;CAP0805;AN0805","tags":["CAP-SMD"],"source":"ccb32feceadc4298b406326a506ce8e7|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1478,7 +1478,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":45,"id":"placeholder5"}||{"dataType":"ATTR","max":19}|
 {"type":"ATTR","ticket":46,"id":"e19"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"C0805","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":19}|
 {"type":"ATTR","ticket":47,"id":"e20"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":20}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"78200541693e8d59","updateTime":1793368604627,"version":"1652426260000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"78200541693e8d59","updateTime":1793439004034,"version":"1652426260000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6944,"id":"META"}||{"title":"SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR","description":";SOT-223-4;SOT-223-3;SOT-223;SOT223-4;SOT-223-4-24;SOT-223-4L;PG-SOT-223-4;SOT223-3L;SC-73(SOT-223);SOT-223-3L;SOT23-3;SOT223-3;SOT223;SOT-223-3_L6.3-W3.5-P2.30-LS7.0;SOT-223-4(F);-;SOT-89;SOT-233;SOT-223R;SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR;TO-261-4","tags":["SOT-223-4"],"source":"ad4d89affdbe4c3ea53e7a6c4c6ed088|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1528,7 +1528,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":47,"id":"placeholder6"}||{"dataType":"ATTR","max":20}|
 {"type":"ATTR","ticket":48,"id":"e20"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":20}|
 {"type":"ATTR","ticket":49,"id":"e21"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":21}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"7d1849ed4c461ba0","updateTime":1793368604627,"version":1730006070812,"editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"7d1849ed4c461ba0","updateTime":1793439004034,"version":1730006070812,"editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":202,"id":"META"}||{"title":"DFR:DF40PG(1.5)-26DS-04V","description":"","tags":[],"source":"2a714457a5ddef9f76bb7a9b9e1f9c3b|d178a39f1b0d4a9a8b5bb6fbb3d1ca87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"unit":"mil","gridXSize":5,"gridYSize":5,"snapXSize":5,"snapYSize":5,"altSnapXSize":1,"altSnapYSize":1,"gridType":"NONE","multiGridType":"NONE","multiGridRatio":5,"highlightValue":0.5,"layerBrightness":"NORMAL"}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#ff0000","activateTransparency":1,"inactiveColor":"#7f0000","inactiveTransparency":0.5}|
@@ -1683,7 +1683,7 @@
 {"type":"PAD","ticket":151,"id":"e40"}||{"groupId":0,"netName":"","layerId":1,"num":"28","centerX":-11.4173,"centerY":116.33835,"padAngle":180,"hole":{"holeType":"ROUND","width":0.03937,"height":0.03937},"defaultPad":{"padType":"RECT","width":22.8346,"height":13.7795,"radius":20},"specialPad":[],"padOffsetX":0,"padOffsetY":0,"relativeAngle":0,"plated":true,"padType":"NORMAL","topSolderExpansion":0,"bottomSolderExpansion":0,"topPasteExpansion":0,"bottomPasteExpansion":0,"locked":false,"zIndex":40,"connectMode":null,"spokeSpace":null,"spokeWidth":null,"spokeAngle":null,"padLen":0}|
 {"type":"PAD","ticket":152,"id":"e41"}||{"groupId":0,"netName":"","layerId":1,"num":"29","centerX":-67.3227,"centerY":-104.92105,"padAngle":0,"hole":{"holeType":"ROUND","width":0.03937,"height":0.03937},"defaultPad":{"padType":"RECT","width":22.8346,"height":13.7795,"radius":20},"specialPad":[],"padOffsetX":0,"padOffsetY":0,"relativeAngle":0,"plated":true,"padType":"NORMAL","topSolderExpansion":0,"bottomSolderExpansion":0,"topPasteExpansion":0,"bottomPasteExpansion":0,"locked":false,"zIndex":41,"connectMode":null,"spokeSpace":null,"spokeWidth":null,"spokeAngle":null,"padLen":0}|
 {"type":"PAD","ticket":153,"id":"e42"}||{"groupId":0,"netName":"","layerId":1,"num":"30","centerX":67.3227,"centerY":-104.92105,"padAngle":0,"hole":{"holeType":"ROUND","width":0.03937,"height":0.03937},"defaultPad":{"padType":"RECT","width":22.8346,"height":13.7795,"radius":20},"specialPad":[],"padOffsetX":0,"padOffsetY":0,"relativeAngle":0,"plated":true,"padType":"NORMAL","topSolderExpansion":0,"bottomSolderExpansion":0,"topPasteExpansion":0,"bottomPasteExpansion":0,"locked":false,"zIndex":42,"connectMode":null,"spokeSpace":null,"spokeWidth":null,"spokeAngle":null,"padLen":0}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"85c43349ea0b25a8","updateTime":1793368604627,"version":"1652421601000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"85c43349ea0b25a8","updateTime":1793439004034,"version":"1652421601000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7072,"id":"META"}||{"title":"TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL","description":";SSOP-20-4.4mm;TSSOP-20;SSOP-20;-;TSSOPB-20;TSSOP-14;TSSOP-20(4.4x6.4);QFN-20(3.5x4.5);SOIC-20;SOT360;TSSOP-20WB;TSSOP20;SSOP-B20;TSSOP-20-44mm;TSSOP-20_4.4x6.5x0.65P;LGA20;TSSOP-20(4.4x6.5x0.65);TSSOP-20(4.4x6.5);TSSOP-20L;TSSOP-20(6.5x4.4x0.65mm);ETSSOP-20(6.5x4.4x0.65mm);TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL;TSSOP-20EP(6.5x4.4x0.65mm);ETSSOP-20(6.5x4.4x0.65);TSS0P-20_L6.5-W4.4-P0.65-LS6.4;SOIC(D);TSSOP-20_L6.5-W4.4-P0.65-LS6.4;RT18FX;TTSOP20;TSSOP-20_6.5-W4.4-P0.65-LS6.4-BL;TSSOP_20;ICS_TSSOP20_P0.65;TSSOP-20(SLG);LC-SSOP-20_208MIL;TSSOP-20 6.5x6.5;SOP20;STC-IAP15W1K29S/TSSOP20/贴片IC;TSSOP(PW);TSSOP20-0.65;TSSOP20-640X645;N76E003;TSS0P20;tssop20;TSOP-20;TSSOP20P-0_65-4_4x6_5-H1_2;SOP-20;SMD-20P;TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL_1;ETSSOP-20(7.8x4.4x0.65mm);TSSOP-20_L6.5-W4.4-P0.65;TSSOP-20 6.5x4.4;TSOP-20D;TSSOP-20-0.65;TSSOP-20-B;TSSOP-20_L6.5-W4.4-P0.65-LS6.5;TSSOP-20-175mil;TSS0P-20;SOT-360-1;TSSOP20 20-pin package pinout (top view);stp;TSSOP-20(6.5x4.4);TSSOP;TSSOP20(6.5mmx4.4mm);TSSOP20B;TSS0P20B;20TSSOP;TSSOP20 / 6.5*6.4*1.0mm;ESOP8/5*6*1.8mm","tags":["TSSOP-20"],"source":"08f0e45068c44ec591768da0e3519843|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1784,7 +1784,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":98,"id":"placeholder7"}||{"dataType":"ATTR","max":70}|
 {"type":"ATTR","ticket":99,"id":"e70"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":70}|
 {"type":"ATTR","ticket":100,"id":"e71"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":71}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"8b40afaaa9b04632","updateTime":1793368604627,"version":"1766627124000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"8b40afaaa9b04632","updateTime":1793439004034,"version":"1766627124000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6804,"id":"META"}||{"title":"CRYSTAL-SMD_4P-L3.2-W2.5-BL","description":"SMD-4P;SMD2520-4P;SMD3225-4P;SMD5032-4P;SMD3225-2P;SMD2016-4P;SX-3225;SMD,3.2x2.5x1mm;SMD3225;SMD3215;SMD-3225;-;---;SMD3225_4P;SMD-3225_4P;SMD,2520_4P;1210;SMD-4_2.5X3.2X1.50P;SMD-4_2.5X3.2X1.65P;CRYSTAL-SMD_4P-L3.2-W2.5;SMD-4_2.5X3.2X1.70P;SMD_3225;SMD-4_3225;SMD-4_2.5X3.2X1.60P;SMD-4_3225P;SMD4_3225;CRYSTAL32MHZ;48MHz/10ppm/12pF;SMD3225-4;SMD-4_3525;24MHz;XTAL3225;12MHz/22pF(10PPM);OSC3225-4P;8M20ppm18PF;CRYSTAL-SMD_4P-L3.2-W2.5-BL;XTAL_3225;CY_3225;SMD-4;smd-3225-4p;SMD-4_5232;COSC-SMD-3225_4P;SMD;3225;3225-4P;CRYSTALS_3225;CAYSTAL-SMD_4P-L3.2-W2.5;CRYSTAL-SMD;XTAL4_3225;SMD_4P-3225;3225T;晶振Crystal.32MHZ15PF,+/-30PPM,-40°C~85°C,5032SMD4PAD;SMT-3225;LC-SMD-3225_4P;CJ13-271201210B20-27.12MHZ;SMD-CRY-3225_4P;OSC-3225_4P;smd_xtal4-3225;smd-3225;晶振,SMD-8M-20PF-20PPM,3225,ROHS;CRYSTAL-SMD_4P_3225;X3225;32254PIN;XTALS-2_5X3_2MM;12M;3225-4p;OSC_3225-4P;OSC-SMD-4P;DSX321G;BT-XTAL_2520;CY3225;Y-3.2X2.5MM;24M-12pF-10PPM;26M-20pF-10ppm;3225_4P;8MHz10ppm;SMD 3225;OSC-SMD_3225;CRYSTAL-SMD_4PL3.2-W2.5;晶振3225;3.2x2.5x0.7mm;SMD_3225-4P;CRYSTAL3225;晶振3225-SMD-4P;CRYSTAL-SMD3225-4P;OSC3225-SMD-4P;CRX3225-SMD-4P;XTAL3225-SMD-4P;OSC3225_4P;Crystal-SMT-3225-4P;CRY_4P_SMD3.2X2.5X0.7;CR-SMD3225-4P;SMD_3.2X2.5-4P;CRYSTAL3225-SMD_4P;SMD-3225-4P;OSC3225;3.2*2.5*0.8;CRY-D3225;SMD3225-6P;OSC4_SMD_3225;crystal-250x320x150-4n;SMD-_3225-4P;SMD_3225-4;SMD_3.2x2.5-4P;SMD2532-4P;SMD-4P-L3.2-W2.5;SMD_4P-L3.2-W2.5;SMD322-4P;SMD3225-4P 无源","tags":["CRYSTAL-SMD"],"source":"7ad2c95bfc5a4739a91ef8a01dcb9dc1|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -1831,7 +1831,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":44,"id":"placeholder5"}||{"dataType":"ATTR","max":18}|
 {"type":"ATTR","ticket":45,"id":"e18"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"CRYSTAL-SMD_4P-L3.2-W2.5-BL","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":18}|
 {"type":"ATTR","ticket":46,"id":"e19"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":19}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"b7fcd05f5328323a","updateTime":1793368604627,"version":"1720420739","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"b7fcd05f5328323a","updateTime":1793439004034,"version":"1720420739","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":200,"id":"META"}||{"title":"R0603","description":";0603;-;1206;1608;0201;SMD;0805;---;2.2KR;R0603;R603;603;插件;Res2;0603R;ESD0603;0603-S;0603-R;LC-0603_R;RES0603;RES0603-SMD-2P;5101%;Res0603;ROHM Semiconductor","tags":[],"source":"50b4943912284dab97752312e589e9e2|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"unit":"mm","gridXSize":10,"gridYSize":10,"snapXSize":0.03937,"snapYSize":0.03937,"altSnapXSize":1,"altSnapYSize":1,"gridType":"NONE","multiGridType":"NONE","multiGridRatio":5,"highlightValue":0.5,"layerBrightness":"NORMAL"}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#ff0000","activateTransparency":1,"inactiveColor":"#7f0000","inactiveTransparency":0.5}|
@@ -1955,7 +1955,7 @@
 {"type":"PAD","ticket":120,"id":"e15"}||{"groupId":0,"netName":"","layerId":1,"num":"1","centerX":-29.66,"centerY":0,"padAngle":0,"hole":{"holeType":"ROUND","width":0.03937,"height":0.03937},"defaultPad":{"padType":"RECT","width":31.751,"height":34.016,"radius":0},"specialPad":[],"padOffsetX":0,"padOffsetY":0,"relativeAngle":0,"plated":true,"padType":"NORMAL","topSolderExpansion":2,"bottomSolderExpansion":2,"topPasteExpansion":-3937.0080000000003,"bottomPasteExpansion":-3937.0080000000003,"locked":false,"zIndex":15,"connectMode":null,"spokeSpace":null,"spokeWidth":null,"spokeAngle":null,"padLen":0}|
 {"type":"ATTR","ticket":1859,"id":"6d2ffb1f1a261750"}||{"groupId":"","parentId":"","layerId":3,"x":null,"y":null,"key":"3D Model Title","value":"R0603","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":"#000000"}|
 {"type":"ATTR","ticket":1860,"id":"e8f4f71931154474"}||{"groupId":"","parentId":"","layerId":3,"x":null,"y":null,"key":"3D Model","value":"fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":"#000000"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"c3c5d89fb2d3aed9","updateTime":1793368604627,"version":1730025963567,"editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"c3c5d89fb2d3aed9","updateTime":1793439004034,"version":1730025963567,"editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2164,"id":"META"}||{"title":"DFR:AA07-S022VA1-Mockup","description":"","tags":[],"source":"8a7fdf9a021a54569b5f7f544fc1a4f7|d178a39f1b0d4a9a8b5bb6fbb3d1ca87"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0,"unit":"mm","gridXSize":5,"gridYSize":5,"snapXSize":5,"snapYSize":5,"altSnapXSize":0.5,"altSnapYSize":0.5,"gridType":"NONE","multiGridType":"NONE","multiGridRatio":5,"highlightValue":0.5,"layerBrightness":"NORMAL"}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#ff0000","activateTransparency":1,"inactiveColor":"#7f0000","inactiveTransparency":0.5}|
@@ -2106,7 +2106,7 @@
 {"type":"POLY","ticket":147,"id":"e36"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[39.37,-125.984,"L",78.74,-125.984],"locked":false,"zIndex":36,"polyType":"NORMAL"}|
 {"type":"POLY","ticket":148,"id":"e37"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[39.37,125.984,"L",78.74,125.984],"locked":false,"zIndex":37,"polyType":"NORMAL"}|
 {"type":"POLY","ticket":149,"id":"e38"}||{"groupId":0,"netName":"","layerId":3,"width":10,"path":[64.9605,0,"L",84.6455,0],"locked":false,"zIndex":38,"polyType":"NORMAL"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"c3ca5ad73754bf38","updateTime":1793368604627,"version":"1652003278000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"c3ca5ad73754bf38","updateTime":1793439004034,"version":"1652003278000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6404,"id":"META"}||{"title":"QFN-68_L8.0-W8.0-P0.40-BL-EP4.4","description":";QFN-68-EP(8x8);QFN-68(8x8);QFN-68;QFN-68_L8.0-W8.0-P0.40-BL-EP4.4;QFN68;QFN68-8*8;QFN-68_8X8;QFN68_EP;QFN68-8*8-0.4;68QFN_8X8","tags":["QFN-68"],"source":"8e43df56698d4559a0a7bee7a41f77d9|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -2300,7 +2300,7 @@
 {"type":"PRIMITIVE","ticket":191,"id":"[\"PRIMITIVE\",\"BOLDGRID\"]"}||{"display":true,"color":"#ffffff"}|
 {"type":"PRIMITIVE","ticket":192,"id":"[\"PRIMITIVE\",\"COORDINATEAXIS\"]"}||{"display":true,"color":"#ffffff"}|
 {"type":"PRIMITIVE","ticket":193,"id":"[\"PRIMITIVE\",\"SELECTBOX\"]"}||{"display":true,"color":"#00ffff"}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"d950a8cfba5f6801","updateTime":1793368604627,"version":"1766479705000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"d950a8cfba5f6801","updateTime":1793439004034,"version":"1766479705000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":13117,"id":"META"}||{"title":"R0603","description":"0603;-;1206;1608;0201;SMD;0805;---;2.2KR;R0603;R603;603;插件;Res2;0603R;ESD0603;0603-S;0603-R;LC-0603_R;RES0603;RES0603-SMD-2P;5101%;Res0603;ROHM Semiconductor","tags":["RES-SMD"],"source":"50b4943912284dab97752312e589e9e2|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -2345,7 +2345,7 @@
 {"type":"ELE_PLACEHOLDER","ticket":42,"id":"placeholder6"}||{"dataType":"ATTR","max":15}|
 {"type":"ATTR","ticket":43,"id":"e15"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"R0603","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":15}|
 {"type":"ATTR","ticket":44,"id":"e16"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":16}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"e6dd76ec35678c14","updateTime":1793368604627,"version":"1649423228000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"FOOTPRINT","client":"6c92aaf75f4f45d4","uuid":"e6dd76ec35678c14","updateTime":1793439004034,"version":"1649423228000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7008,"id":"META"}||{"title":"SOT-25_L3.0-W1.6-P0.95-LS2.8-BR","description":";SOT-25;SOT-25-5;SOT-23-5;SMD;-;SOT-25J;SOT23-5;SOT25","tags":["SOT-25"],"source":"7d803cbfd0154ec2848f16cf6f5bf8e0|0819f05c4eef4c71ace90d822a990e87"}|
 {"type":"LAYER","ticket":1,"id":"[\"LAYER\",1]"}||{"layerType":"TOP","layerName":"Top Layer","use":true,"show":true,"locked":false,"activeColor":"#FF0000","activateTransparency":1,"inactiveColor":"#7F0000","inactiveTransparency":1}|
 {"type":"LAYER","ticket":2,"id":"[\"LAYER\",2]"}||{"layerType":"BOTTOM","layerName":"Bottom Layer","use":true,"show":true,"locked":false,"activeColor":"#0000FF","activateTransparency":1,"inactiveColor":"#00007F","inactiveTransparency":1}|
@@ -2401,35 +2401,35 @@
 {"type":"ELE_PLACEHOLDER","ticket":53,"id":"placeholder5"}||{"dataType":"ATTR","max":27}|
 {"type":"ATTR","ticket":54,"id":"e27"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Footprint","value":"SOT-25_L3.0-W1.6-P0.95-LS2.8-BR","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":27}|
 {"type":"ATTR","ticket":55,"id":"e28"}||{"groupId":0,"parentId":"","layerId":3,"x":null,"y":null,"key":"Designator","value":"U?","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":67.5,"strokeWidth":6,"bold":false,"italic":false,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":28}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"4a0e394f99501279","updateTime":1793368604627,"version":"1726216802000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"4a0e394f99501279","updateTime":1793439004034,"version":"1726216802000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6856,"id":"META"}||{"title":"06036C120KAT4A","tags":["电容","贴片电容(MLCC)"],"source":"e3330553fd154ac489c9118d6675665a|0819f05c4eef4c71ace90d822a990e87","images":[],"attributes":{"LCSC Part Name":"12pF ±10% 6.3V","Supplier Part":"C2208800","Manufacturer":"Kyocera AVX","Manufacturer Part":"06036C120KAT4A","Supplier Footprint":"0603","JLCPCB Part Class":"Extended Part","Datasheet":"https://atta.szlcsc.com/upload/public/pdf/source/20211125/9559F68C371FC513E807C3C71A51015C.pdf","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"2a5e51f50cf0ea77","Designator":"U?","Footprint":"182f9ad6f4f6bc9c","3D Model":"ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"C0603_L1.6-W0.8-H0.8","3D Model Transform":"62.992,31.496,0,0,0,0,0,0,0","Value":"12pF","Tolerance":"±10%","Voltage Rated":"6.3V","Temperature Coefficient":"X7R","Name":"={Value}","Description":"容值:12pF;精度:±10%;额定电压:6.3V;材质(温度系数):X7R;","SymbolName":"{\"name\":\"06036C120KAT4A\",\"uuid\":\"2a5e51f50cf0ea77\",\"source\":\"\"}","FootprintName":"{\"name\":\"C0603\",\"uuid\":\"182f9ad6f4f6bc9c\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"686a04fe0e7cdda0","updateTime":1793368604627,"version":"1658435056000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"686a04fe0e7cdda0","updateTime":1793439004034,"version":"1658435056000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":13252,"id":"META"}||{"title":"0603WAF220JT5E","tags":["电阻","贴片电阻"],"source":"dc350a4449fc446cb76492694e54aa4c|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20221228/6DED9060F28737DAE689231F307F15B7.jpg"],"attributes":{"LCSC Part Name":"22Ω ±1% 100mW 厚膜电阻","Supplier Part":"C23345","Manufacturer":"UNI-ROYAL(厚声)","Manufacturer Part":"0603WAF220JT5E","Supplier Footprint":"0603","JLCPCB Part Class":"Basic Part","Datasheet":"https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"d50e165c8797f680","Designator":"R?","Footprint":"d950a8cfba5f6801","3D Model":"fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"R0603","3D Model Transform":"31.8897,63.7794,0,90,0,0,0,0,0","Type":"厚膜电阻","Value":"22Ω","Tolerance":"±1%","Power(Watts)":"100mW","Overload Voltage (Max)":"75V","Temperature Coefficient":"±100ppm/℃","Operating Temperature Range":"-55℃~+155℃","Name":"={Value}","Description":"电阻类型:厚膜电阻;阻值:22Ω;精度:±1%;功率:100mW;最大工作电压:75V;温度系数:±100ppm/℃;","SymbolName":"{\"name\":\"0603WAF220JT5E\",\"uuid\":\"d50e165c8797f680\",\"source\":\"\"}","FootprintName":"{\"name\":\"R0603\",\"uuid\":\"d950a8cfba5f6801\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"69fda7072fdbf8fe","updateTime":1793368604627,"version":"1658259903000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"69fda7072fdbf8fe","updateTime":1793439004034,"version":"1658259903000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":12391,"id":"META"}||{"title":"CC0603KRX7R9BB104","tags":["电容","贴片电容(MLCC)"],"source":"96b39256cc3f4d80bd3b503deb4f3328|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20250715/565F44E7FCAE51D13767AECBC328360D.jpg"],"attributes":{"LCSC Part Name":"100nF ±10% 50V","Supplier Part":"C14663","Manufacturer":"YAGEO(国巨)","Manufacturer Part":"CC0603KRX7R9BB104","Supplier Footprint":"0603","JLCPCB Part Class":"Basic Part","Datasheet":"https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"111443d103dc8233","Designator":"C?","Footprint":"182f9ad6f4f6bc9c","3D Model":"ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"C0603_L1.6-W0.8-H0.8","3D Model Transform":"62.992,31.496,0,0,0,0,0,0,0","Value":"100nF","Tolerance":"±10%","Voltage Rating":"50V","Temperature Coefficient":"X7R","Name":"={Value}","Description":"容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;","SymbolName":"{\"name\":\"CC0603KRX7R9BB104\",\"uuid\":\"111443d103dc8233\",\"source\":\"\"}","FootprintName":"{\"name\":\"C0603\",\"uuid\":\"182f9ad6f4f6bc9c\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"893cd2caa848d987","updateTime":1793368604627,"version":"1654803795000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"893cd2caa848d987","updateTime":1793439004034,"version":"1654803795000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6405,"id":"META"}||{"title":"SSD2828QN4R","tags":["通信接口芯片","其他接口"],"source":"88fea3344775481288e101db631c54a8|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20221230/8625164A78CA97CE1CFCD66617B5EE66.jpg"],"attributes":{"LCSC Part Name":"SSD2828QN4R 停产","Supplier Part":"C48596","Manufacturer":"SOLOMON(晶门科技)","Manufacturer Part":"SSD2828QN4R","Supplier Footprint":"QFN-68-EP(8x8)","JLCPCB Part Class":"Extended Part","Datasheet":"https://item.szlcsc.com/datasheet/SSD2828QN4R/49603.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"6dc06d69f4faa20a","Designator":"U?","Footprint":"c3ca5ad73754bf38","3D Model":"2b113d81f9a64bbea21a80c3e4547c28|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"QFN-68_L8.0-W8.0-H0.9-P0.40-BL-EP4.4","3D Model Transform":"314.96,314.96,0,90,0,0,0.002,-0.001,0","Interface":"SPI","Data Rate":"1Gbps","Voltage - Supply":"1.2V；1.8V；3.3V","Operating Temperature":"-30℃~+85℃","Supply Current":"-","Quiescent Supply Current":"-","Features":"中断生成","Name":"={Manufacturer Part}","Description":"接口类型:SPI;数据速率:1Gbps;","SymbolName":"{\"name\":\"SSD2828QN4\",\"uuid\":\"6dc06d69f4faa20a\",\"source\":\"\"}","FootprintName":"{\"name\":\"QFN-68_L8.0-W8.0-P0.40-BL-EP4.4\",\"uuid\":\"c3ca5ad73754bf38\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"8db72f723da23532","updateTime":1793368604627,"version":"62fe60a66bf538522e4616035790ea3e","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"8db72f723da23532","updateTime":1793439004034,"version":"62fe60a66bf538522e4616035790ea3e","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":208,"id":"META"}||{"title":"DFR_DFR_Disp_Conn","tags":[],"source":"4d39850087c04142|4fb7899d2f20c160e70b099c12ab24f2ba6632cd74a1c4715c8087be01bb669e","images":null,"attributes":{"Symbol":"90a15d52aa74439d","Footprint":"7d1849ed4c461ba0","Designator":"J?","Description":"","Add into BOM":"yes"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"8e56cae23963d381","updateTime":1793368604627,"version":"1658348574000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"8e56cae23963d381","updateTime":1793439004034,"version":"1658348574000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":12979,"id":"META"}||{"title":"CL10A106KP8NNNC","tags":["电容","贴片电容(MLCC)"],"source":"80646d555bcf4558bdde69f7f0e5dc8d|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20221228/9808C9BEFFFABB90D0C992860D83393B.jpg"],"attributes":{"LCSC Part Name":"10uF ±10% 10V","Supplier Part":"C19702","Manufacturer":"SAMSUNG(三星)","Manufacturer Part":"CL10A106KP8NNNC","Supplier Footprint":"0603","JLCPCB Part Class":"Basic Part","Datasheet":"https://item.szlcsc.com/datasheet/CL10A106KP8NNNC/20411.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"9c4323aa22380428","Designator":"C?","Footprint":"182f9ad6f4f6bc9c","3D Model":"ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"C0603_L1.6-W0.8-H0.8","3D Model Transform":"62.992,31.496,0,0,0,0,0,0,0","Value":"10uF","Tolerance":"±10%","Voltage Rating":"10V","Temperature Coefficient":"X5R","Name":"={Value}","Description":"容值:10uF;精度:±10%;额定电压:10V;温度系数:X5R;","SymbolName":"{\"name\":\"CL10A106KP8NNNC\",\"uuid\":\"9c4323aa22380428\",\"source\":\"\"}","FootprintName":"{\"name\":\"C0603\",\"uuid\":\"182f9ad6f4f6bc9c\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"96a643262039b8cd","updateTime":1793368604627,"version":"1658090551000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"96a643262039b8cd","updateTime":1793439004034,"version":"1658090551000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":14244,"id":"META"}||{"title":"CL21A106KAYNNNE_C15850","tags":["电容","贴片电容(MLCC)"],"source":"8c1f4a9e9d204b148b36ce719c891bd1|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20221228/D3325A0FDAD994CB215E3779F563E840.jpg"],"attributes":{"LCSC Part Name":"10uF ±10% 25V","Supplier Part":"C15850","Manufacturer":"SAMSUNG(三星)","Manufacturer Part":"CL21A106KAYNNNE","Supplier Footprint":"0805","JLCPCB Part Class":"Basic Part","Datasheet":"https://item.szlcsc.com/datasheet/CL21A106KAYNNNE/16532.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"bfc95489e38ac172","Designator":"C?","Footprint":"44fb379eecaa7ca3","3D Model":"1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"C0805_L2.0-W1.3-H1.3","3D Model Transform":"78.74,51.181,0,0,0,0,0,0.0005,0","Value":"10uF","Tolerance":"±10%","Voltage Rating":"25V","Temperature Coefficient":"X5R","Name":"={Value}","Description":"容值:10uF;精度:±10%;额定电压:25V;温度系数:X5R;","SymbolName":"{\"name\":\"CL21A106KAYNNNE\",\"uuid\":\"bfc95489e38ac172\",\"source\":\"\"}","FootprintName":"{\"name\":\"C0805\",\"uuid\":\"44fb379eecaa7ca3\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"a5786b57e64671d6","updateTime":1793368604627,"version":"1658432570000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"a5786b57e64671d6","updateTime":1793439004034,"version":"1658432570000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7009,"id":"META"}||{"title":"AP2112K-1.2TRG1","tags":["电源管理","线性稳压器(LDO)"],"source":"4e69d37e51ab425da2c620e59d731cd8|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20230810/17D62B628B0C18B50749312AED5F9177.jpg"],"attributes":{"LCSC Part Name":"1.2V 600mA 6V","Supplier Part":"C460310","Manufacturer":"DIODES(美台)","Manufacturer Part":"AP2112K-1.2TRG1","Supplier Footprint":"SOT-25","JLCPCB Part Class":"Extended Part","Datasheet":"https://item.szlcsc.com/datasheet/AP2112K-1.2TRG1/464739.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"93718641d5f14258","Designator":"U?","Footprint":"e6dd76ec35678c14","3D Model":"2af5e521bdd54ca3a4af644424b5a864|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"SOT-25-5_L3.0-W1.6-H1.3-LS2.8-P0.95","3D Model Transform":"110.73671,118.11,0,180,0,0,0,0,0","Output Configuration":"正极","Voltage - Supply":"6V","Output Voltage":"1.2V","Output Current":"600mA","Power Supply Rejection Ratio (PSRR)":"65dB@(1kHz)","Voltage Dropout":"250mV@(600mA)","standby current":"55uA","Noise":"50uVrms","Features":"使能控制；短路保护；输出放电；过流保护；热关断","Operating Temperature":"-40℃~+85℃@(Ta)","Output Type":"固定","Number of Outputs":"1","Name":"={Manufacturer Part}","Description":"输出极性:正极;工作电压:6V;输出电压:1.2V;输出电流:600mA;电源纹波抑制比(PSRR):65dB@(1kHz);输出类型:固定;","SymbolName":"{\"name\":\"AP2112K-1.2TRG1\",\"uuid\":\"93718641d5f14258\",\"source\":\"\"}","FootprintName":"{\"name\":\"SOT-25_L3.0-W1.6-P0.95-LS2.8-BR\",\"uuid\":\"e6dd76ec35678c14\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"b562b7a3115eec99","updateTime":1793368604627,"version":"1649758000000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"b562b7a3115eec99","updateTime":1793439004034,"version":"1649758000000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6945,"id":"META"}||{"title":"AMS1117-1.8","tags":["电源管理","线性稳压器(LDO)"],"source":"98448f1a2eee4bba82283d6ebd465e4d|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20251013/36E25DF2947D80248116CB0746A6876F.jpg"],"attributes":{"LCSC Part Name":"1.8V 1A 12V","Supplier Part":"C351432","Manufacturer":"PUOLOP(迪浦)","Manufacturer Part":"AMS1117-1.8","Supplier Footprint":"SOT-223-4","JLCPCB Part Class":"Extended Part","Datasheet":"https://item.szlcsc.com/datasheet/AMS1117-1.8/327650.html","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"04472a560d9b0b96","Designator":"U?","Footprint":"78200541693e8d59","3D Model":"925194bf9823436183a3e0b978a8d076|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30","3D Model Transform":"279.89794,255.905,0,180,0,0,-0.0005,-0.0005,0","Output Configuration":"正极","Voltage - Supply":"12V","Output Voltage":"1.8V","Output Current":"1A","Power Supply Rejection Ratio (PSRR)":"70dB@(120Hz)","Voltage Dropout":"1.4V@(1A)","standby current":"10mA","Noise":"0.003%Vout","Features":"热关断","Operating Temperature":"-40℃~+125℃@(Tj)","Output Type":"固定","Number of Outputs":"1","Name":"={Manufacturer Part}","Description":"输出极性:正极;工作电压:12V;输出电压:1.8V;输出电流:1A;电源纹波抑制比(PSRR):70dB@(120Hz);输出类型:固定;","SymbolName":"{\"name\":\"AMS1117-1.8_C351432\",\"uuid\":\"04472a560d9b0b96\",\"source\":\"\"}","FootprintName":"{\"name\":\"SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR\",\"uuid\":\"78200541693e8d59\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"ca41e35339f2fb4c","updateTime":1793368604627,"version":"1653975500","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"ca41e35339f2fb4c","updateTime":1793439004034,"version":"1653975500","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":206,"id":"META"}||{"title":"Res_0603","tags":[],"source":"a8c2e77d6daec499|4fb7899d2f20c160e70b099c12ab24f2ba6632cd74a1c4715c8087be01bb669e","images":null,"attributes":{"Symbol":"815c7ea8911be121","Footprint":"b7fcd05f5328323a","Convert to PCB":"yes","Add into BOM":"yes","Designator":"R?","Supplier Footprint":"0603","Value":"10K","Name":"={Value}","Description":"","3D Model":"fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"R0603","3D Model Transform":"31.8897,63.7794,0,90,0,0,0,0,0"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"d7f950bb147b7bf6","updateTime":1793368604627,"version":"d6e375252a9b0a65f94aecbc682ce35c","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"d7f950bb147b7bf6","updateTime":1793439004034,"version":"d6e375252a9b0a65f94aecbc682ce35c","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2166,"id":"META"}||{"title":"DFR_DFR_Touch_Conn","tags":[],"source":"cbf47dff8f1b9868|4fb7899d2f20c160e70b099c12ab24f2ba6632cd74a1c4715c8087be01bb669e","images":null,"attributes":{"Symbol":"81eeca53a9e85e5d","Footprint":"c3c5d89fb2d3aed9","Designator":"J?","Description":"","Add into BOM":"yes"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"ef4f880260e1e1e7","updateTime":1793368604627,"version":"1657866028","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"ef4f880260e1e1e7","updateTime":1793439004034,"version":"1657866028","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":2695,"id":"META"}||{"title":"X6511WV-27H-C60D30","tags":["连接器","排针"],"source":"8a89860e73cf425ca638624cbaa1e366|0819f05c4eef4c71ace90d822a990e87","images":["https://alimg.szlcsc.com/upload/public/product/middle/20230104/48C989C24B66C06F5A20B70ED38E5BD4.jpg"],"attributes":{"LCSC Part Name":"1x27P 间距:2.54mm 方针","Supplier Part":"C725959","Manufacturer":"XKB Connection(中国星坤)","Manufacturer Part":"X6511WV-27H-C60D30","Supplier Footprint":"插件,P=2.54mm","JLCPCB Part Class":"扩展库","Datasheet":"","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"ce4a1c24dd0cc7d5","Designator":"H?","Footprint":"0541b0e5492fb8ff","3D Model":"0464667a42fb4d418a562c363fc4d1a8|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"HDR-TH_27P-P2.54-M-LI-1X27P","3D Model Transform":"2699.995,98.425,0,0,0,0,0,0,-118.11","Pin Structure":"1x27P","Pitch":"2.54mm","Row Spacing":"2.54mm","Circluar Pins/Square Pins":"方针","Number of Rows":"单排","Number of Pins":"27P","Current Rating":"3A","Voltage Rating (Max)":"250V","Length of Mating Pin":"-","Insulation Height":"2.5mm","Length of End Connection Pin":"-","Contact Material":"黄铜","Contact Plating":"金","Operating Temperature":"-40℃~+105℃","Color":"黑色","Name":"={Manufacturer Part}","Description":"插针结构:1x27P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;排数:单排;总PIN位数:27P;额定电流:3A;额定电压:250V;配合针长度:-;塑高:2.5mm;端接针长度:-;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"f1c038e357ad0df9","updateTime":1793368604627,"version":"1657743685000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"f1c038e357ad0df9","updateTime":1793439004034,"version":"1657743685000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":6805,"id":"META"}||{"title":"24MHz","tags":[],"source":"fc08b716dd8048958a7ab59397b621c6|0819f05c4eef4c71ace90d822a990e87","images":[],"attributes":{"LCSC Part Name":"24MHz","Supplier Part":"C9900010233","Manufacturer":"","Manufacturer Part":"24MHz","Supplier Footprint":"3225","JLCPCB Part Class":"Extended Part","Datasheet":"","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"9474003661d8dde0","Designator":"U?","Footprint":"8b40afaaa9b04632","3D Model":"ff2dfd5650294453a14147960efe1838|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"CRYSTAL-SMD_4P-L3.2-W2.5-BL","3D Model Transform":"125.984,98.425,0,0,0,0,0,0,0","Name":"={Manufacturer Part}","Description":"","SymbolName":"{\"name\":\"24MHZ\",\"uuid\":\"9474003661d8dde0\",\"source\":\"\"}","FootprintName":"{\"name\":\"CRYSTAL-SMD_4P-L3.2-W2.5-BL\",\"uuid\":\"8b40afaaa9b04632\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"fc5fb5d72a8e7ff1","updateTime":1793368604627,"version":"1724307602000","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"DEVICE","client":"6c92aaf75f4f45d4","uuid":"fc5fb5d72a8e7ff1","updateTime":1793439004034,"version":"1724307602000","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":7073,"id":"META"}||{"title":"TXS0108EPWRG4","tags":["逻辑器件","转换器/电平移位器"],"source":"e188b2afacb8466ea0a1d712f16ab513|0819f05c4eef4c71ace90d822a990e87","images":[],"attributes":{"LCSC Part Name":"TXS0108EPWRG4","Supplier Part":"C21210229","Manufacturer":"TI(德州仪器)","Manufacturer Part":"TXS0108EPWRG4","Supplier Footprint":"-","JLCPCB Part Class":"","Datasheet":"","Supplier":"LCSC","Add into BOM":"yes","Convert to PCB":"yes","Symbol":"e1279e2775ac8757","Designator":"U?","Footprint":"85c43349ea0b25a8","3D Model":"c491f68934b34c649df5890a1d97cd0f|0819f05c4eef4c71ace90d822a990e87","3D Model Title":"TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65","3D Model Transform":"251.969,255.906,0,90,0,0,0.0005,0,0","Name":"={Manufacturer Part}","Description":"","SymbolName":"{\"name\":\"TXS0108EPWRG4_C21210229\",\"uuid\":\"e1279e2775ac8757\",\"source\":\"\"}","FootprintName":"{\"name\":\"TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL\",\"uuid\":\"85c43349ea0b25a8\",\"source\":\"\"}"}}|
-{"type":"DOCHEAD","ticket":51325}||{"docType":"PCB","client":"6c92aaf75f4f45d4","uuid":"800ccbd68bb33b6e","updateTime":1793368604627,"version":"1793368604627","editVersion":"4.1.71","user":{}}|
+{"type":"DOCHEAD","ticket":53169}||{"docType":"PCB","client":"6c92aaf75f4f45d4","uuid":"800ccbd68bb33b6e","updateTime":1793439004034,"version":"1793439004034","editVersion":"4.1.71","user":{}}|
 {"type":"META","ticket":4,"id":"META"}||{"title":"PCB1","parent":"","source":"","board":"97d9c683c9721c49","zIndex":null}|
 {"type":"PRIMITIVE","ticket":24900,"id":"[\"PRIMITIVE\",\"ALL\"]"}||{"display":true,"pick":false,"transparency":null,"viewMode":null}|
 {"type":"PRIMITIVE","ticket":24901,"id":"[\"PRIMITIVE\",\"COMPONENT\"]"}||{"display":true,"pick":true,"transparency":null,"viewMode":null}|
@@ -2537,7 +2537,7 @@
 {"type":"LAYER_PHYS","ticket":24896,"id":"[\"LAYER_PHYS\",6]"}||{"material":"","thickness":0,"permittivity":0,"lossTangent":0,"isKeepIsland":true,"zIndex":10000}|
 {"type":"LAYER_PHYS","ticket":24897,"id":"[\"LAYER_PHYS\",8]"}||{"material":"","thickness":0,"permittivity":0,"lossTangent":0,"isKeepIsland":true,"zIndex":10001}|
 {"type":"LAYER_PHYS","ticket":24898,"id":"[\"LAYER_PHYS\",4]"}||{"material":"","thickness":0,"permittivity":0,"lossTangent":0,"isKeepIsland":true,"zIndex":10002}|
-{"type":"ACTIVE_LAYER","ticket":50077,"id":"ACTIVE_LAYER"}||{"layerId":1}|
+{"type":"ACTIVE_LAYER","ticket":53168,"id":"ACTIVE_LAYER"}||{"layerId":1}|
 {"type":"RULE_TEMPLATE","ticket":14557,"id":"RULE_TEMPLATE"}||{"name":"JLCPCB Capability(Two Layers Board)"}|
 {"type":"RULE","ticket":14558,"id":"[\"RULE\",\"SAFE\",\"copperThickness1oz\"]"}||{"ruleState":"DEFAULT","ruleContext":{"unit":"mm","isForAll":"ALL","safeSpacing":[{"layerId":1,"isOpen":true,"content":[[4.0157],[5.9843,5.9843],[5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,5.9843],[10,10,10,10,10,10,10,10],[11.811,6,6,6,6,6,6,10,6],[6,6,6,6,6,6,6,10,11.811,6],[6,6,6,6,6,6,6,10,6,6,6],[11.8,11.8,11.8,11.8,11.8,11.8,11.8,10,11.8,11.8,11.8],[6.929,6.929,6.929,6.929,6.929,6.929,6.929,10,6.929,6.929,6.929,6.929]],"columnNames":[]}]}}|
 {"type":"RULE","ticket":14559,"id":"[\"RULE\",\"SAFE\",\"copperThickness2oz\"]"}||{"ruleState":"NORMAL","ruleContext":{"unit":"mm","isForAll":"ALL","safeSpacing":[{"layerId":1,"isOpen":true,"content":[[7.9921],[5.9843,5.9843],[5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,5.9843],[10,10,10,10,10,10,10,10],[11.811,5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,10,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,10,5.9843,5.9843],[5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,5.9843,10,5.9843,5.9843,5.9843],[11.811,11.811,11.811,11.811,11.811,11.811,11.811,10,11.811,11.811,11.811],[6.929,6.929,6.929,6.929,6.929,6.929,6.929,10,6.929,6.929,6.929,6.929]],"columnNames":[]}]}}|
@@ -2562,7 +2562,7 @@
 {"type":"SILK_OPTS","ticket":14613,"id":"[\"SILK_OPTS\",3]"}||{"defaultColor":"#000000","baseColor":"#FFFFFF"}|
 {"type":"SILK_OPTS","ticket":14614,"id":"[\"SILK_OPTS\",4]"}||{"defaultColor":"#000000","baseColor":"#FFFFFF"}|
 {"type":"D3_ATTRIBUTE","ticket":14615,"id":"D3_ATTRIBUTE"}||{"materials":"substrate_yellow","silkTechnology":"standardSilk","backgroundColor":"#000000","boardColor":"blue","sprayColor":"gold","layerExpose":0,"substrateHeight":0}|
-{"type":"PREFERENCE","ticket":49765,"id":"PREFERENCE"}||{"startTrackWidthFollowLast":false,"lastTrackWidth":10,"startViaSizeFollowLast":false,"lastViaInnerDiameter":12.0078,"lastViaDiameter":24.0158,"snap":true,"routingMode":"SURROUND","routingCorner":"L45","removeLoop":true,"rotatingObject":false,"trackFollow":false,"stretchTrackMinCorner":1,"preferenceConfig":"JLC04161H-7628","realTimeUpdateUnusedLayers":false,"unusedPadRange":"VIA","pushVia":"OPTIMIZA_OPEN","pathOptimization4BePushed":"SINGLE","currentPathOptimization4BePushed":"OPTIMIZA_WEAK","removeCircuitsContainingVias":true,"removeAntenna":true}|
+{"type":"PREFERENCE","ticket":52768,"id":"PREFERENCE"}||{"startTrackWidthFollowLast":false,"lastTrackWidth":10,"startViaSizeFollowLast":false,"lastViaInnerDiameter":12.0078,"lastViaDiameter":24.0158,"snap":true,"routingMode":"SURROUND","routingCorner":"L45","removeLoop":true,"rotatingObject":false,"trackFollow":false,"stretchTrackMinCorner":1,"preferenceConfig":"JLC04161H-7628","realTimeUpdateUnusedLayers":false,"unusedPadRange":"VIA","pushVia":"OPTIMIZA_OPEN","pathOptimization4BePushed":"SINGLE","currentPathOptimization4BePushed":"OPTIMIZA_WEAK","removeCircuitsContainingVias":true,"removeAntenna":true}|
 {"type":"PANELIZE","ticket":14617,"id":"PANELIZE"}||{"on":false,"row":1,"column":1,"rowSpacing":0,"columnSpacing":0,"onlyOutline":true,"horizontalStamp":{"on":false,"stampHoleGroupQuantity":1,"stampHoleDiameter":21.6535,"stampHoleQuantityPerGroup":8,"stampHoleSpacing":33.4646,"center_percent":null},"verticalStamp":{"on":false,"stampHoleGroupQuantity":1,"stampHoleDiameter":21.6535,"stampHoleQuantityPerGroup":8,"stampHoleSpacing":33.4646,"center_percent":null},"horizontalSize":{"direction":0,"on":false,"sideHeight":236.2205,"positionHoleDiameter":78.7402,"markDiameter":39.3701,"markExpansion":19.685,"borderRadius":39.3701},"verticalSize":{"direction":1,"on":true,"sideHeight":236.2205,"positionHoleDiameter":78.7402,"markDiameter":39.3701,"markExpansion":19.685,"borderRadius":39.3701},"mirrorBoard":false,"mirrorEvenRow":false,"mirrorEvenCol":false,"evenRowRotation":0,"evenColRotation":0,"showVCutIndicator":true,"vCutLayer":13,"markPosition":null,"positionHolePosition":null,"panelizeVersion":"1.1"}|
 {"type":"PRIMITIVE","ticket":14618,"id":"[\"PRIMITIVE\",\"PADMETALLICDRILLING\"]"}||{"display":false,"pick":false,"transparency":0}|
 {"type":"PRIMITIVE","ticket":14619,"id":"[\"PRIMITIVE\",\"PADNONMETALLICDRILLING\"]"}||{"display":false,"pick":false,"transparency":0}|
@@ -2777,36 +2777,36 @@
 {"type":"ATTR","ticket":45672,"id":"a45b79f82b38ee45e1"}||{"partitionId":"","groupID":0,"parentId":"a45b79f82b38ee45","layerId":3,"x":256.7325,"y":527.6375,"key":"Designator","value":"J1","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":1,"specialColor":null}|
 {"type":"ATTR","ticket":45673,"id":"a45b79f82b38ee45ee0"}||{"partitionId":"","groupID":0,"parentId":"a45b79f82b38ee45","layerId":3,"x":null,"y":null,"key":"Footprint","value":"2d61632a914a2433","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
 {"type":"ATTR","ticket":45674,"id":"a45b79f82b38ee45e0"}||{"partitionId":"","groupID":0,"parentId":"a45b79f82b38ee45","layerId":3,"x":null,"y":null,"key":"Device","value":"8db72f723da23532","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
-{"type":"PAD_NET","ticket":49218,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"1\",\"e2\"]"}||{"partitionId":"","padNet":"T_DETECT","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49219,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"2\",\"e3\"]"}||{"partitionId":"","padNet":"T_LID","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49220,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"3\",\"e4\"]"}||{"partitionId":"","padNet":"T_VSYNC","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49221,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"4\",\"e5\"]"}||{"partitionId":"","padNet":"T_GPIO2","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49222,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"5\",\"e6\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49223,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"6\",\"e7\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49224,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"7\",\"e8\"]"}||{"partitionId":"","padNet":"T_SPI_MISO","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49225,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"8\",\"e9\"]"}||{"partitionId":"","padNet":"T_SPI_CS_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49226,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"9\",\"e10\"]"}||{"partitionId":"","padNet":"T_SPI_CLK_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49227,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"10\",\"e11\"]"}||{"partitionId":"","padNet":"T_SPI_MOSI","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49228,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"11\",\"e12\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49229,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"12\",\"e13\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49230,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"13\",\"e14\"]"}||{"partitionId":"","padNet":"T_INT_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49231,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"14\",\"e15\"]"}||{"partitionId":"","padNet":"T_I2C_SCL","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49232,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"15\",\"e16\"]"}||{"partitionId":"","padNet":"T_CLK_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49233,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"16\",\"e17\"]"}||{"partitionId":"","padNet":"T_I2C_SDA","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49234,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"17\",\"e18\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49235,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"18\",\"e19\"]"}||{"partitionId":"","padNet":"T_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49236,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"19\",\"e20\"]"}||{"partitionId":"","padNet":"T_ROM_WC","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49237,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"20\",\"e21\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49238,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"21\",\"e22\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49239,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"22\",\"e23\"]"}||{"partitionId":"","padNet":"5V","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49240,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"23\",\"e24\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49241,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"24\",\"e25\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49242,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"25\",\"e26\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":49243,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"26\",\"e27\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"COMPONENT","ticket":49217,"id":"385952f607b1143c"}||{"partitionId":"","groupId":0,"layerId":1,"x":370,"y":760,"angle":0,"attrs":{"Name":"DFR_DFR_Touch_Conn","Unique ID":"1fb9863844ab5169","Reuse Block":"","Group ID":"","Channel ID":"$1I13","Origin Footprint":"AA07-S022VA1-Mockup","Value":"AA07-S022VA1","User doc link":"","DeviceName":"{\"name\":\"DFR_DFR_Touch_Conn\",\"source\":\"\",\"uuid\":\"d7f950bb147b7bf6\"}"},"locked":false,"zIndex":-1,"pinSwap":false,"pinSwapInfo":{"385952f607b1143ce2":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce3":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce4":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce5":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce6":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce7":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce8":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce9":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce10":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce11":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce12":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce13":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce14":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce15":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce16":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce17":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce18":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce19":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce20":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce21":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce22":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce23":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce24":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce25":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce26":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce27":{"pinClass":"","differentialPairClass":""}},"footprintPrimitives":true}|
-{"type":"ATTR","ticket":49244,"id":"385952f607b1143ce1"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":280.3545,"y":917.6375,"key":"Designator","value":"J2","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":1,"specialColor":null}|
-{"type":"ATTR","ticket":49245,"id":"385952f607b1143cee0"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":null,"y":null,"key":"Footprint","value":"c3c5d89fb2d3aed9","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
-{"type":"ATTR","ticket":49246,"id":"385952f607b1143ce0"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":null,"y":null,"key":"Device","value":"d7f950bb147b7bf6","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"PAD_NET","ticket":52725,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"1\",\"e2\"]"}||{"partitionId":"","padNet":"T_DETECT","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52726,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"2\",\"e3\"]"}||{"partitionId":"","padNet":"T_LID","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52727,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"3\",\"e4\"]"}||{"partitionId":"","padNet":"T_VSYNC","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52728,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"4\",\"e5\"]"}||{"partitionId":"","padNet":"T_GPIO2","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52729,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"5\",\"e6\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52730,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"6\",\"e7\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52731,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"7\",\"e8\"]"}||{"partitionId":"","padNet":"T_SPI_MISO","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52732,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"8\",\"e9\"]"}||{"partitionId":"","padNet":"T_SPI_CS_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52733,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"9\",\"e10\"]"}||{"partitionId":"","padNet":"T_SPI_CLK_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52734,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"10\",\"e11\"]"}||{"partitionId":"","padNet":"T_SPI_MOSI","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52735,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"11\",\"e12\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52736,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"12\",\"e13\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52737,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"13\",\"e14\"]"}||{"partitionId":"","padNet":"T_INT_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52738,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"14\",\"e15\"]"}||{"partitionId":"","padNet":"T_I2C_SCL","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52739,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"15\",\"e16\"]"}||{"partitionId":"","padNet":"T_CLK_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52740,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"16\",\"e17\"]"}||{"partitionId":"","padNet":"T_I2C_SDA","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52741,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"17\",\"e18\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52742,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"18\",\"e19\"]"}||{"partitionId":"","padNet":"T_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52743,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"19\",\"e20\"]"}||{"partitionId":"","padNet":"T_ROM_WC","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52744,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"20\",\"e21\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52745,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"21\",\"e22\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52746,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"22\",\"e23\"]"}||{"partitionId":"","padNet":"5V","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52747,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"23\",\"e24\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52748,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"24\",\"e25\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52749,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"25\",\"e26\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":52750,"id":"[\"PAD_NET\",\"385952f607b1143c\",\"26\",\"e27\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"COMPONENT","ticket":52724,"id":"385952f607b1143c"}||{"partitionId":"","groupId":0,"layerId":1,"x":370,"y":760,"angle":0,"attrs":{"Name":"DFR_DFR_Touch_Conn","Unique ID":"1fb9863844ab5169","Reuse Block":"","Group ID":"","Channel ID":"$1I13","Origin Footprint":"AA07-S022VA1-Mockup","Value":"AA07-S022VA1","User doc link":"","DeviceName":"{\"name\":\"DFR_DFR_Touch_Conn\",\"source\":\"\",\"uuid\":\"d7f950bb147b7bf6\"}"},"locked":false,"zIndex":-1,"pinSwap":false,"pinSwapInfo":{"385952f607b1143ce2":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce3":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce4":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce5":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce6":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce7":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce8":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce9":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce10":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce11":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce12":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce13":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce14":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce15":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce16":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce17":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce18":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce19":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce20":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce21":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce22":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce23":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce24":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce25":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce26":{"pinClass":"","differentialPairClass":""},"385952f607b1143ce27":{"pinClass":"","differentialPairClass":""}},"footprintPrimitives":true}|
+{"type":"ATTR","ticket":52751,"id":"385952f607b1143ce1"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":280.3545,"y":917.6375,"key":"Designator","value":"J2","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"ATTR","ticket":52752,"id":"385952f607b1143cee0"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":null,"y":null,"key":"Footprint","value":"c3c5d89fb2d3aed9","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"ATTR","ticket":52753,"id":"385952f607b1143ce0"}||{"partitionId":"","groupID":0,"parentId":"385952f607b1143c","layerId":3,"x":null,"y":null,"key":"Device","value":"d7f950bb147b7bf6","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":0,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
 {"type":"PAD_NET","ticket":47011,"id":"[\"PAD_NET\",\"226254e07e8d5bc1\",\"1\",\"e6\"]"}||{"partitionId":"","padNet":"IO15","padLen":null,"propagationDelay":null,"attrsMap":{}}|
 {"type":"PAD_NET","ticket":47012,"id":"[\"PAD_NET\",\"226254e07e8d5bc1\",\"2\",\"e7\"]"}||{"partitionId":"","padNet":"IO14","padLen":null,"propagationDelay":null,"attrsMap":{}}|
 {"type":"PAD_NET","ticket":47013,"id":"[\"PAD_NET\",\"226254e07e8d5bc1\",\"3\",\"e8\"]"}||{"partitionId":"","padNet":"IO13","padLen":null,"propagationDelay":null,"attrsMap":{}}|
@@ -3073,30 +3073,30 @@
 {"type":"ATTR","ticket":48959,"id":"5cfa04b16f48099be70"}||{"partitionId":"","groupID":0,"parentId":"5cfa04b16f48099b","layerId":3,"x":null,"y":null,"key":"Footprint","value":"85c43349ea0b25a8","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
 {"type":"ATTR","ticket":48960,"id":"5cfa04b16f48099be71"}||{"partitionId":"","groupID":0,"parentId":"5cfa04b16f48099b","layerId":3,"x":1127.3215,"y":501.9455,"key":"Designator","value":"U4","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
 {"type":"ATTR","ticket":48961,"id":"5cfa04b16f48099be0"}||{"partitionId":"","groupID":0,"parentId":"5cfa04b16f48099b","layerId":3,"x":null,"y":null,"key":"Device","value":"fc5fb5d72a8e7ff1","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
-{"type":"PAD_NET","ticket":50842,"id":"[\"PAD_NET\",\"5a05987623308154\",\"1\",\"e5\"]"}||{"partitionId":"","padNet":"T_SPI_MISO","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50820,"id":"[\"PAD_NET\",\"5a05987623308154\",\"2\",\"e6\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50821,"id":"[\"PAD_NET\",\"5a05987623308154\",\"3\",\"e7\"]"}||{"partitionId":"","padNet":"T_SPI_MOSI","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50843,"id":"[\"PAD_NET\",\"5a05987623308154\",\"4\",\"e8\"]"}||{"partitionId":"","padNet":"T_SPI_CLK_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50823,"id":"[\"PAD_NET\",\"5a05987623308154\",\"5\",\"e9\"]"}||{"partitionId":"","padNet":"T_SPI_CS_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50824,"id":"[\"PAD_NET\",\"5a05987623308154\",\"6\",\"e10\"]"}||{"partitionId":"","padNet":"T_INT_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50825,"id":"[\"PAD_NET\",\"5a05987623308154\",\"7\",\"e11\"]"}||{"partitionId":"","padNet":"T_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50826,"id":"[\"PAD_NET\",\"5a05987623308154\",\"8\",\"e12\"]"}||{"partitionId":"","padNet":"T_I2C_SDA","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50827,"id":"[\"PAD_NET\",\"5a05987623308154\",\"9\",\"e13\"]"}||{"partitionId":"","padNet":"T_I2C_SCL","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50828,"id":"[\"PAD_NET\",\"5a05987623308154\",\"10\",\"e14\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50844,"id":"[\"PAD_NET\",\"5a05987623308154\",\"20\",\"e15\"]"}||{"partitionId":"","padNet":"IO36","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50830,"id":"[\"PAD_NET\",\"5a05987623308154\",\"19\",\"e16\"]"}||{"partitionId":"","padNet":"3V3","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50831,"id":"[\"PAD_NET\",\"5a05987623308154\",\"18\",\"e17\"]"}||{"partitionId":"","padNet":"IO37","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50845,"id":"[\"PAD_NET\",\"5a05987623308154\",\"17\",\"e18\"]"}||{"partitionId":"","padNet":"IO38","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50833,"id":"[\"PAD_NET\",\"5a05987623308154\",\"16\",\"e19\"]"}||{"partitionId":"","padNet":"IO23","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50834,"id":"[\"PAD_NET\",\"5a05987623308154\",\"15\",\"e20\"]"}||{"partitionId":"","padNet":"IO22","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50835,"id":"[\"PAD_NET\",\"5a05987623308154\",\"14\",\"e21\"]"}||{"partitionId":"","padNet":"IO33","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50836,"id":"[\"PAD_NET\",\"5a05987623308154\",\"13\",\"e22\"]"}||{"partitionId":"","padNet":"IO21","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50837,"id":"[\"PAD_NET\",\"5a05987623308154\",\"12\",\"e23\"]"}||{"partitionId":"","padNet":"IO32","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"PAD_NET","ticket":50838,"id":"[\"PAD_NET\",\"5a05987623308154\",\"11\",\"e24\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
-{"type":"COMPONENT","ticket":50818,"id":"5a05987623308154"}||{"partitionId":"","groupId":0,"layerId":1,"x":975,"y":760,"angle":-90,"attrs":{"Unique ID":"gge297","Reuse Block":"","Group ID":"","Channel ID":"$1I43","DeviceName":"{\"name\":\"TXS0108EPWRG4\",\"source\":\"\",\"uuid\":\"fc5fb5d72a8e7ff1\"}"},"locked":false,"zIndex":-1,"pinSwap":false,"pinSwapInfo":{"5a05987623308154e5":{"pinClass":"","differentialPairClass":""},"5a05987623308154e6":{"pinClass":"","differentialPairClass":""},"5a05987623308154e7":{"pinClass":"","differentialPairClass":""},"5a05987623308154e8":{"pinClass":"","differentialPairClass":""},"5a05987623308154e9":{"pinClass":"","differentialPairClass":""},"5a05987623308154e10":{"pinClass":"","differentialPairClass":""},"5a05987623308154e11":{"pinClass":"","differentialPairClass":""},"5a05987623308154e12":{"pinClass":"","differentialPairClass":""},"5a05987623308154e13":{"pinClass":"","differentialPairClass":""},"5a05987623308154e14":{"pinClass":"","differentialPairClass":""},"5a05987623308154e15":{"pinClass":"","differentialPairClass":""},"5a05987623308154e16":{"pinClass":"","differentialPairClass":""},"5a05987623308154e17":{"pinClass":"","differentialPairClass":""},"5a05987623308154e18":{"pinClass":"","differentialPairClass":""},"5a05987623308154e19":{"pinClass":"","differentialPairClass":""},"5a05987623308154e20":{"pinClass":"","differentialPairClass":""},"5a05987623308154e21":{"pinClass":"","differentialPairClass":""},"5a05987623308154e22":{"pinClass":"","differentialPairClass":""},"5a05987623308154e23":{"pinClass":"","differentialPairClass":""},"5a05987623308154e24":{"pinClass":"","differentialPairClass":""}},"footprintPrimitives":true}|
-{"type":"ATTR","ticket":50839,"id":"5a05987623308154e70"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":null,"y":null,"key":"Footprint","value":"85c43349ea0b25a8","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":70,"specialColor":null}|
-{"type":"ATTR","ticket":50840,"id":"5a05987623308154e71"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":1127.3215,"y":911.9455,"key":"Designator","value":"U5","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":71,"specialColor":null}|
-{"type":"ATTR","ticket":50841,"id":"5a05987623308154e0"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":null,"y":null,"key":"Device","value":"fc5fb5d72a8e7ff1","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"PAD_NET","ticket":53019,"id":"[\"PAD_NET\",\"5a05987623308154\",\"1\",\"e5\"]"}||{"partitionId":"","padNet":"T_SPI_MISO","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53020,"id":"[\"PAD_NET\",\"5a05987623308154\",\"2\",\"e6\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53021,"id":"[\"PAD_NET\",\"5a05987623308154\",\"3\",\"e7\"]"}||{"partitionId":"","padNet":"T_SPI_MOSI","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53022,"id":"[\"PAD_NET\",\"5a05987623308154\",\"4\",\"e8\"]"}||{"partitionId":"","padNet":"T_SPI_CLK_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53023,"id":"[\"PAD_NET\",\"5a05987623308154\",\"5\",\"e9\"]"}||{"partitionId":"","padNet":"T_SPI_CS_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53024,"id":"[\"PAD_NET\",\"5a05987623308154\",\"6\",\"e10\"]"}||{"partitionId":"","padNet":"T_INT_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53025,"id":"[\"PAD_NET\",\"5a05987623308154\",\"7\",\"e11\"]"}||{"partitionId":"","padNet":"T_RST_L","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53026,"id":"[\"PAD_NET\",\"5a05987623308154\",\"8\",\"e12\"]"}||{"partitionId":"","padNet":"T_I2C_SDA","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53027,"id":"[\"PAD_NET\",\"5a05987623308154\",\"9\",\"e13\"]"}||{"partitionId":"","padNet":"T_I2C_SCL","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53028,"id":"[\"PAD_NET\",\"5a05987623308154\",\"10\",\"e14\"]"}||{"partitionId":"","padNet":"1V8","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53029,"id":"[\"PAD_NET\",\"5a05987623308154\",\"20\",\"e15\"]"}||{"partitionId":"","padNet":"IO36","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53030,"id":"[\"PAD_NET\",\"5a05987623308154\",\"19\",\"e16\"]"}||{"partitionId":"","padNet":"3V3","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53031,"id":"[\"PAD_NET\",\"5a05987623308154\",\"18\",\"e17\"]"}||{"partitionId":"","padNet":"IO37","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53032,"id":"[\"PAD_NET\",\"5a05987623308154\",\"17\",\"e18\"]"}||{"partitionId":"","padNet":"IO38","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53033,"id":"[\"PAD_NET\",\"5a05987623308154\",\"16\",\"e19\"]"}||{"partitionId":"","padNet":"IO23","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53034,"id":"[\"PAD_NET\",\"5a05987623308154\",\"15\",\"e20\"]"}||{"partitionId":"","padNet":"IO22","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53035,"id":"[\"PAD_NET\",\"5a05987623308154\",\"14\",\"e21\"]"}||{"partitionId":"","padNet":"IO33","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53036,"id":"[\"PAD_NET\",\"5a05987623308154\",\"13\",\"e22\"]"}||{"partitionId":"","padNet":"IO21","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53037,"id":"[\"PAD_NET\",\"5a05987623308154\",\"12\",\"e23\"]"}||{"partitionId":"","padNet":"IO32","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"PAD_NET","ticket":53038,"id":"[\"PAD_NET\",\"5a05987623308154\",\"11\",\"e24\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
+{"type":"COMPONENT","ticket":53018,"id":"5a05987623308154"}||{"partitionId":"","groupId":0,"layerId":1,"x":975,"y":760,"angle":-90,"attrs":{"Unique ID":"gge297","Reuse Block":"","Group ID":"","Channel ID":"$1I43","DeviceName":"{\"name\":\"TXS0108EPWRG4\",\"source\":\"\",\"uuid\":\"fc5fb5d72a8e7ff1\"}"},"locked":false,"zIndex":-1,"pinSwap":false,"pinSwapInfo":{"5a05987623308154e5":{"pinClass":"","differentialPairClass":""},"5a05987623308154e6":{"pinClass":"","differentialPairClass":""},"5a05987623308154e7":{"pinClass":"","differentialPairClass":""},"5a05987623308154e8":{"pinClass":"","differentialPairClass":""},"5a05987623308154e9":{"pinClass":"","differentialPairClass":""},"5a05987623308154e10":{"pinClass":"","differentialPairClass":""},"5a05987623308154e11":{"pinClass":"","differentialPairClass":""},"5a05987623308154e12":{"pinClass":"","differentialPairClass":""},"5a05987623308154e13":{"pinClass":"","differentialPairClass":""},"5a05987623308154e14":{"pinClass":"","differentialPairClass":""},"5a05987623308154e15":{"pinClass":"","differentialPairClass":""},"5a05987623308154e16":{"pinClass":"","differentialPairClass":""},"5a05987623308154e17":{"pinClass":"","differentialPairClass":""},"5a05987623308154e18":{"pinClass":"","differentialPairClass":""},"5a05987623308154e19":{"pinClass":"","differentialPairClass":""},"5a05987623308154e20":{"pinClass":"","differentialPairClass":""},"5a05987623308154e21":{"pinClass":"","differentialPairClass":""},"5a05987623308154e22":{"pinClass":"","differentialPairClass":""},"5a05987623308154e23":{"pinClass":"","differentialPairClass":""},"5a05987623308154e24":{"pinClass":"","differentialPairClass":""}},"footprintPrimitives":true}|
+{"type":"ATTR","ticket":53039,"id":"5a05987623308154e70"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":null,"y":null,"key":"Footprint","value":"85c43349ea0b25a8","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"ATTR","ticket":53040,"id":"5a05987623308154e71"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":1127.3215,"y":911.9455,"key":"Designator","value":"U5","keyVisible":false,"valueVisible":true,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
+{"type":"ATTR","ticket":53041,"id":"5a05987623308154e0"}||{"partitionId":"","groupID":0,"parentId":"5a05987623308154","layerId":3,"x":null,"y":null,"key":"Device","value":"fc5fb5d72a8e7ff1","keyVisible":false,"valueVisible":false,"fontFamily":"default","fontSize":45,"strokeWidth":6,"bold":0,"italic":0,"origin":"LEFT_BOTTOM","angle":270,"reverse":false,"expansion":0,"mirror":false,"locked":false,"zIndex":-1,"specialColor":null}|
 {"type":"PAD_NET","ticket":47749,"id":"[\"PAD_NET\",\"d8ec959c26cadb72\",\"1\",\"e13\"]"}||{"partitionId":"","padNet":"XTAL_IN","padLen":null,"propagationDelay":null,"attrsMap":{}}|
 {"type":"PAD_NET","ticket":47750,"id":"[\"PAD_NET\",\"d8ec959c26cadb72\",\"2\",\"e14\"]"}||{"partitionId":"","padNet":"GND","padLen":null,"propagationDelay":null,"attrsMap":{}}|
 {"type":"PAD_NET","ticket":47751,"id":"[\"PAD_NET\",\"d8ec959c26cadb72\",\"3\",\"e15\"]"}||{"partitionId":"","padNet":"XTAL_OUT","padLen":null,"propagationDelay":null,"attrsMap":{}}|
@@ -11014,7 +11014,7 @@
 {"type":"LINE","ticket":49066,"id":"c55b751d18d30f45"}||{"partitionId":"","groupId":0,"netName":"IO20","layerId":1,"startX":1088.03,"startY":465.16,"endX":969.4824,"endY":465.16,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49067,"id":"7ae01b54feb0c4e2"}||{"partitionId":"","groupId":0,"netName":"IO20","layerId":1,"startX":969.4824,"startY":465.16,"endX":851.611,"endY":583.0314,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49068,"id":"2e694cad444965fd"}||{"partitionId":"","groupId":0,"netName":"IO20","layerId":1,"startX":851.611,"startY":583.0314,"endX":341.611,"endY":583.0314,"width":10,"locked":false,"zIndex":-1}|
-{"type":"VIA","ticket":49612,"id":"085e716d10a37db3"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","ruleName":"","centerX":286.0236,"centerY":729.5142,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"VIA","ticket":52654,"id":"085e716d10a37db3"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","ruleName":"","centerX":286.0299,"centerY":727.1044,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
 {"type":"LINE","ticket":49072,"id":"2bf65dedf0c03ef8"}|||
 {"type":"LINE","ticket":49073,"id":"76eca9b04b550e1b"}|||
 {"type":"LINE","ticket":49074,"id":"5064c47ba81cae1f"}|||
@@ -11126,10 +11126,10 @@
 {"type":"LINE","ticket":49575,"id":"0f3e22d5a53c2db8"}|||
 {"type":"LINE","ticket":49576,"id":"0d4a0c1974785d91"}|||
 {"type":"LINE","ticket":49577,"id":"b673b1a9fff8370f"}|||
-{"type":"LINE","ticket":49604,"id":"55e3dd82c7623214"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":1,"startX":321.9686,"startY":728.504,"endX":287.0338,"endY":728.504,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49605,"id":"9544df5932ebe90f"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":1,"startX":287.0338,"startY":728.504,"endX":286.0236,"endY":729.5142,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49606,"id":"fe80747595b02eec"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":2,"startX":286.0236,"startY":729.5142,"endX":285.5378,"endY":730,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49607,"id":"5c22739a641b9a41"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":2,"startX":285.5378,"startY":730,"endX":188.7798,"endY":730,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52564,"id":"55e3dd82c7623214"}|||
+{"type":"LINE","ticket":52565,"id":"9544df5932ebe90f"}|||
+{"type":"LINE","ticket":52562,"id":"fe80747595b02eec"}|||
+{"type":"LINE","ticket":52563,"id":"5c22739a641b9a41"}|||
 {"type":"LINE","ticket":49617,"id":"decb7b06839e93f0"}||{"partitionId":"","groupId":0,"netName":"T_ROM_WC","layerId":1,"startX":321.9686,"startY":697.008,"endX":286.1199,"endY":697.008,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49618,"id":"4d31acbd1fe28275"}||{"partitionId":"","groupId":0,"netName":"T_ROM_WC","layerId":1,"startX":286.1199,"startY":697.008,"endX":286.0236,"endY":697.1043,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49619,"id":"fd4f2cf34128cb87"}|||
@@ -11138,7 +11138,7 @@
 {"type":"LINE","ticket":49627,"id":"3ab38d87a6852d5f"}||{"partitionId":"","groupId":0,"netName":"T_ROM_WC","layerId":2,"startX":257.3051,"startY":668.3858,"endX":286.0236,"endY":697.1043,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"VIA","ticket":49631,"id":"8002e4f6a7256708"}|||
 {"type":"LINE","ticket":49634,"id":"a0f792b0baad6257"}|||
-{"type":"VIA","ticket":49635,"id":"4efee981251d28dd"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","ruleName":"","centerX":348.4293,"centerY":744.3297,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"VIA","ticket":52027,"id":"4efee981251d28dd"}|||
 {"type":"LINE","ticket":49644,"id":"fc9f4112a6048a37"}|||
 {"type":"LINE","ticket":49645,"id":"5de84b6f026657db"}|||
 {"type":"LINE","ticket":49646,"id":"45155da5627a970e"}|||
@@ -11150,16 +11150,16 @@
 {"type":"LINE","ticket":49655,"id":"840af24e59e19b56"}|||
 {"type":"LINE","ticket":49659,"id":"5dd5b7e2f440e14d"}|||
 {"type":"LINE","ticket":49660,"id":"e50ce8a805fd28b7"}|||
-{"type":"LINE","ticket":49665,"id":"79c97e12377ed4ac"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":321.9686,"startY":744.252,"endX":348.3516,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49666,"id":"38e2952f280c2f3d"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":348.3516,"startY":744.252,"endX":348.4293,"endY":744.3297,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52028,"id":"79c97e12377ed4ac"}|||
+{"type":"LINE","ticket":52029,"id":"38e2952f280c2f3d"}|||
 {"type":"LINE","ticket":49677,"id":"2759d5c0db4fd4cd"}|||
 {"type":"LINE","ticket":49681,"id":"347097d9378fa1c8"}|||
 {"type":"LINE","ticket":49685,"id":"cb02aa5ceabaa842"}|||
 {"type":"LINE","ticket":49686,"id":"4a2cbd2424bb6916"}|||
-{"type":"LINE","ticket":49689,"id":"ca289b26149cdd5c"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":348.4293,"startY":744.3297,"endX":305.6703,"endY":744.3297,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49690,"id":"5646fb13fba5319b"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":305.6703,"startY":744.3297,"endX":255,"endY":795,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49691,"id":"6af8823d8281b15c"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":255,"startY":795,"endX":190,"endY":795,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49694,"id":"3a908cad3a88a362"}||{"partitionId":"","groupId":0,"netName":"T_LID","layerId":1,"startX":418.0315,"startY":838.74,"endX":539.6312,"endY":838.74,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51396,"id":"ca289b26149cdd5c"}|||
+{"type":"LINE","ticket":51397,"id":"5646fb13fba5319b"}|||
+{"type":"LINE","ticket":51398,"id":"6af8823d8281b15c"}|||
+{"type":"LINE","ticket":51974,"id":"3a908cad3a88a362"}||{"partitionId":"","groupId":0,"netName":"T_LID","layerId":1,"startX":418.0315,"startY":838.74,"endX":539.6312,"endY":838.74,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49695,"id":"45feb2b187c1487e"}||{"partitionId":"","groupId":0,"netName":"T_LID","layerId":1,"startX":539.6312,"startY":838.74,"endX":540.8912,"endY":840,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49699,"id":"70d1096e136ed933"}|||
 {"type":"LINE","ticket":49700,"id":"6af9e21c129625b6"}|||
@@ -11177,7 +11177,7 @@
 {"type":"LINE","ticket":49714,"id":"5593e55ae3b1b0e8"}|||
 {"type":"LINE","ticket":49717,"id":"163790a3e7aea269"}|||
 {"type":"LINE","ticket":49720,"id":"e9bdc5f650f5073a"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":540.8912,"startY":710.5118,"endX":522.899,"endY":728.504,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49721,"id":"6b1f349aaddbb93b"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":522.899,"startY":728.504,"endX":418.0315,"endY":728.504,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51971,"id":"6b1f349aaddbb93b"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":522.899,"startY":728.504,"endX":418.0315,"endY":728.504,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49725,"id":"ff66a6961b5f73ce"}|||
 {"type":"LINE","ticket":49726,"id":"90681cc4218e0a86"}|||
 {"type":"LINE","ticket":49730,"id":"0aa0d354bd797078"}|||
@@ -11209,9 +11209,9 @@
 {"type":"LINE","ticket":49785,"id":"b28fd5ab006bb2ca"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":418.0315,"startY":712.756,"endX":442.244,"endY":712.756,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49786,"id":"51cb14a92799e4fe"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":442.244,"startY":712.756,"endX":515,"endY":640,"width":7.5,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49787,"id":"f479981b9d248cea"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":515,"startY":640,"endX":540.8912,"endY":640,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49790,"id":"bd256358a398015a"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":540.8912,"startY":775,"endX":475,"endY":775,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49791,"id":"c92d3fbeade5466b"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":475,"startY":775,"endX":444.252,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":49792,"id":"d53fa01f31b578e0"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":444.252,"startY":744.252,"endX":418.0315,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52814,"id":"bd256358a398015a"}|||
+{"type":"LINE","ticket":52815,"id":"c92d3fbeade5466b"}|||
+{"type":"LINE","ticket":52816,"id":"d53fa01f31b578e0"}|||
 {"type":"LINE","ticket":49995,"id":"f7cec922f7d18a85"}||{"partitionId":"","groupId":0,"netName":"1V2","layerId":1,"startX":2013.822,"startY":802.598,"endX":1917.8777,"endY":706.6537,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49996,"id":"acc338e22d6dc1a3"}||{"partitionId":"","groupId":0,"netName":"1V2","layerId":1,"startX":1917.8777,"startY":706.6537,"endX":1917.8777,"endY":690,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":49997,"id":"0b0eb15eaa5a5b00"}|||
@@ -11645,4 +11645,560 @@
 {"type":"LINE","ticket":51316,"id":"c00e46e8550c2f65"}||{"partitionId":"","groupId":0,"netName":"IO38","layerId":1,"startX":1000.9843,"startY":950.9843,"endX":1000.9843,"endY":829.1945,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":51319,"id":"df9af6b03d47f90b"}||{"partitionId":"","groupId":0,"netName":"IO34","layerId":1,"startX":1454.3346,"startY":1050.5787,"endX":1403.7559,"endY":1000,"width":10,"locked":false,"zIndex":-1}|
 {"type":"LINE","ticket":51320,"id":"c3beed9c664cc499"}||{"partitionId":"","groupId":0,"netName":"IO34","layerId":1,"startX":1403.7559,"startY":1000,"endX":1295,"endY":1000,"width":10,"locked":false,"zIndex":-1}|
-{"type":"LINE","ticket":51321,"id":"486d0ec78f83454f"}||{"partitionId":"","groupId":0,"netName":"IO34","layerId":1,"startX":1295,"startY":1000,"endX":1205.34,"endY":910.34,"width":10,"locked":false,"zIndex":-1}
+{"type":"LINE","ticket":51321,"id":"486d0ec78f83454f"}||{"partitionId":"","groupId":0,"netName":"IO34","layerId":1,"startX":1295,"startY":1000,"endX":1205.34,"endY":910.34,"width":10,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":51518,"id":"0d765c544d147ffe"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","ruleName":"","centerX":445.0768,"centerY":776.3709,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51516,"id":"582471c8a16947b1"}|||
+{"type":"LINE","ticket":51517,"id":"e968c4c2d9bc0d89"}|||
+{"type":"VIA","ticket":51340,"id":"bd12eb2adfefac36"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","ruleName":"","centerX":391.4919,"centerY":791.6735,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51350,"id":"4aad17b7889cc090"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":1,"startX":418.0315,"startY":791.496,"endX":391.6694,"endY":791.496,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51351,"id":"498da1da0f687552"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":1,"startX":391.6694,"startY":791.496,"endX":391.4919,"endY":791.6735,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":51354,"id":"0bb7474655d9f7d7"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","ruleName":"","centerX":391.5718,"centerY":822.9155,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51362,"id":"39257deee8879302"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":1,"startX":418.0315,"startY":822.992,"endX":417.955,"endY":822.9155,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51363,"id":"5a777132cfc687d8"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":1,"startX":417.955,"startY":822.9155,"endX":391.5718,"endY":822.9155,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":51364,"id":"7a8102051a31c280"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","ruleName":"","centerX":349.007,"centerY":822.1502,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"VIA","ticket":51368,"id":"20187c84c0f3d027"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","ruleName":"","centerX":295.4494,"centerY":838.5885,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51376,"id":"63d93f5432e65a28"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":321.9686,"startY":838.74,"endX":295.6009,"endY":838.74,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51377,"id":"52e0b564081e1441"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":295.6009,"startY":838.74,"endX":295.4494,"endY":838.5885,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51378,"id":"d0e7f90e19a492a8"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","layerId":1,"startX":321.9686,"startY":822.992,"endX":348.1653,"endY":822.992,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51379,"id":"251d0421dc3c90e8"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","layerId":1,"startX":348.1653,"startY":822.992,"endX":349.007,"endY":822.1502,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52086,"id":"77d37af54a8f5c25"}|||
+{"type":"VIA","ticket":52523,"id":"d9e8a0014d12307f"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","ruleName":"","centerX":287.3527,"centerY":790.6788,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51393,"id":"08ea93d76192e14f"}|||
+{"type":"LINE","ticket":51394,"id":"0e0babaefb375cf5"}|||
+{"type":"LINE","ticket":51395,"id":"b8cef9cd08eaff94"}|||
+{"type":"LINE","ticket":51399,"id":"f92b40351ba1e9cd"}|||
+{"type":"LINE","ticket":51400,"id":"04b33388daa7636c"}|||
+{"type":"LINE","ticket":51401,"id":"971329eb61d41ccc"}|||
+{"type":"LINE","ticket":52427,"id":"fa67fc419654b314"}|||
+{"type":"LINE","ticket":52428,"id":"41f5ddc2ab73d06e"}|||
+{"type":"LINE","ticket":52429,"id":"ad6b9adef03e158d"}|||
+{"type":"LINE","ticket":52521,"id":"01aabd111b9479df"}|||
+{"type":"LINE","ticket":52522,"id":"ead0128d662e0d7b"}|||
+{"type":"LINE","ticket":52096,"id":"f8b2688a77c5ed84"}|||
+{"type":"LINE","ticket":51906,"id":"f52866eac717fc6d"}|||
+{"type":"LINE","ticket":51423,"id":"420cf032db1b0cca"}|||
+{"type":"LINE","ticket":51424,"id":"fb8be83b4f8d27eb"}|||
+{"type":"LINE","ticket":51425,"id":"be4220a3e7a2310c"}|||
+{"type":"LINE","ticket":51426,"id":"3b839c719d970ca3"}|||
+{"type":"LINE","ticket":51427,"id":"080d13f814f96aaa"}|||
+{"type":"LINE","ticket":51428,"id":"84ddef76eca3740c"}|||
+{"type":"LINE","ticket":51429,"id":"37c375f9c1cd9227"}|||
+{"type":"LINE","ticket":51430,"id":"810e02b35aeabb29"}|||
+{"type":"LINE","ticket":51431,"id":"671612aadd4a29fb"}|||
+{"type":"LINE","ticket":51432,"id":"530bd807ae4dcc37"}|||
+{"type":"LINE","ticket":51433,"id":"f1e685878f3e580c"}|||
+{"type":"LINE","ticket":51434,"id":"e79eb7088dd2d8c1"}|||
+{"type":"LINE","ticket":51435,"id":"63bfe4c4d6f65f85"}|||
+{"type":"LINE","ticket":51436,"id":"22c28991dbd9fc68"}|||
+{"type":"LINE","ticket":51437,"id":"a5281ab70dc9871a"}|||
+{"type":"LINE","ticket":51453,"id":"0ca4849e9741ce35"}|||
+{"type":"LINE","ticket":51454,"id":"81e318fc2a0aad6e"}|||
+{"type":"LINE","ticket":51455,"id":"ad47b87c8367364c"}|||
+{"type":"VIA","ticket":52026,"id":"476dd819a8b27a81"}|||
+{"type":"LINE","ticket":52025,"id":"76e514ef20074424"}|||
+{"type":"LINE","ticket":52030,"id":"8eaacbfd1d1c59a5"}|||
+{"type":"LINE","ticket":52031,"id":"79ee88e486d20b99"}|||
+{"type":"LINE","ticket":51504,"id":"7334c51dbb99297a"}|||
+{"type":"LINE","ticket":51505,"id":"b2f5ab35a8baf957"}|||
+{"type":"LINE","ticket":51471,"id":"e6e71a117f06a59b"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":1,"startX":810,"startY":825,"endX":811.02,"endY":823.98,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51472,"id":"f74294b5d2127509"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":1,"startX":811.02,"startY":823.98,"endX":861.97,"endY":823.98,"width":10,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":51473,"id":"905d708d1c517d7e"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","ruleName":"","centerX":810,"centerY":825,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51476,"id":"5a71f000cafec96d"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":2,"startX":391.4919,"startY":791.6735,"endX":427.6973,"endY":791.6735,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51477,"id":"52ab9ec70adcd92e"}|||
+{"type":"LINE","ticket":51478,"id":"adf3c038d7611064"}|||
+{"type":"LINE","ticket":51479,"id":"2b1d3b8b23e267f1"}|||
+{"type":"LINE","ticket":51480,"id":"107b98bca025970b"}|||
+{"type":"LINE","ticket":51481,"id":"c2f54003bd363ab4"}|||
+{"type":"LINE","ticket":51482,"id":"d7388be2b602265e"}|||
+{"type":"LINE","ticket":51483,"id":"543518a648dd0d7f"}|||
+{"type":"LINE","ticket":51484,"id":"8ef2df0375df141f"}|||
+{"type":"VIA","ticket":51485,"id":"25071311ab24bc68"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","ruleName":"","centerX":745,"centerY":801.0366,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51486,"id":"99d12c3a53fffe61"}|||
+{"type":"LINE","ticket":51487,"id":"e4719a541e3709fe"}|||
+{"type":"LINE","ticket":51488,"id":"584efccd8dea7fe5"}|||
+{"type":"LINE","ticket":51492,"id":"675a4d06c8fe3b9f"}|||
+{"type":"LINE","ticket":51493,"id":"3ba40a5b546ecc0a"}|||
+{"type":"LINE","ticket":51498,"id":"c193e6d96e8c3728"}|||
+{"type":"LINE","ticket":51501,"id":"fc0959d8c48ccc16"}|||
+{"type":"LINE","ticket":51502,"id":"10c7c39d19924191"}|||
+{"type":"LINE","ticket":51503,"id":"5f92d35496109a3b"}|||
+{"type":"LINE","ticket":51510,"id":"75851d6598d58eac"}|||
+{"type":"LINE","ticket":51511,"id":"0ffdd7be6cb0efac"}|||
+{"type":"LINE","ticket":51512,"id":"292f374ada239d35"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":1,"startX":418.0315,"startY":775.748,"endX":444.454,"endY":775.748,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51513,"id":"9c3d734b8f2d29c8"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":1,"startX":444.454,"startY":775.748,"endX":445.0768,"endY":776.3709,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52798,"id":"465888a42729784d"}|||
+{"type":"LINE","ticket":52799,"id":"b98ecfffe88671d4"}|||
+{"type":"LINE","ticket":51524,"id":"d4bad3e5a2420014"}|||
+{"type":"LINE","ticket":51525,"id":"587bc653c0a71a25"}|||
+{"type":"LINE","ticket":51526,"id":"f4dc3ac8dad1fca1"}|||
+{"type":"LINE","ticket":51530,"id":"5f4474f83ea5dbbc"}|||
+{"type":"LINE","ticket":51531,"id":"d2b87ea32c5077fa"}|||
+{"type":"LINE","ticket":51539,"id":"67b36c927df43db9"}|||
+{"type":"LINE","ticket":51540,"id":"7d5564a9a7e78469"}|||
+{"type":"LINE","ticket":51541,"id":"3aff0bf4b7b2954d"}|||
+{"type":"LINE","ticket":51542,"id":"7a0e9f2384dfddbc"}|||
+{"type":"LINE","ticket":52426,"id":"278f839d25ee950c"}|||
+{"type":"LINE","ticket":52424,"id":"f3e91b35213384a8"}|||
+{"type":"LINE","ticket":51551,"id":"a05f0ca311a84b2f"}|||
+{"type":"LINE","ticket":52422,"id":"751e6c432018dc57"}|||
+{"type":"LINE","ticket":52421,"id":"aca06f1b1bacbc5c"}|||
+{"type":"LINE","ticket":51554,"id":"aa1fd28e820874f4"}|||
+{"type":"LINE","ticket":51555,"id":"10a6411be8c0f370"}|||
+{"type":"LINE","ticket":51556,"id":"0e8f760465b03627"}|||
+{"type":"LINE","ticket":51557,"id":"cc2b4f257fc4e0d8"}|||
+{"type":"LINE","ticket":51558,"id":"4e7f180caef7f1b3"}|||
+{"type":"VIA","ticket":53163,"id":"2a4965290c19c7f5"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","ruleName":"","centerX":770,"centerY":830,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":51560,"id":"139bc40c70c98446"}|||
+{"type":"LINE","ticket":51561,"id":"b51a74205758989c"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":1,"startX":804.0941,"startY":798.39,"endX":861.97,"endY":798.39,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52423,"id":"e9762f56b876538e"}|||
+{"type":"LINE","ticket":52425,"id":"d229658e48e7b0cd"}|||
+{"type":"LINE","ticket":53161,"id":"41a4f184289e11dc"}|||
+{"type":"LINE","ticket":53162,"id":"45da7810c2e6185a"}|||
+{"type":"LINE","ticket":51582,"id":"f8a47b80bfb60a73"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":1,"startX":745,"startY":801.0366,"endX":773.2466,"endY":772.79,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":51583,"id":"eeba2cd59a59938e"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":1,"startX":773.2466,"startY":772.79,"endX":861.97,"endY":772.79,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52756,"id":"0256ed6f04d3470a"}|||
+{"type":"LINE","ticket":52757,"id":"76197faca6ab7b6a"}|||
+{"type":"LINE","ticket":51894,"id":"736d6838e363e7bb"}|||
+{"type":"LINE","ticket":51895,"id":"74adaff1f1231cd7"}|||
+{"type":"LINE","ticket":51896,"id":"24e2bef8d53215b6"}|||
+{"type":"LINE","ticket":51897,"id":"641550f105278aff"}|||
+{"type":"LINE","ticket":51898,"id":"3adb4946e7bca725"}|||
+{"type":"LINE","ticket":51899,"id":"d56f72bc24d203c5"}|||
+{"type":"LINE","ticket":51900,"id":"a173d968067e376a"}|||
+{"type":"LINE","ticket":51901,"id":"d867b1d69bc47eb1"}|||
+{"type":"LINE","ticket":51902,"id":"16cb5567f0cb12cb"}|||
+{"type":"LINE","ticket":51903,"id":"dcede5b30af7db05"}|||
+{"type":"LINE","ticket":51904,"id":"15ca08d24660c5a6"}|||
+{"type":"LINE","ticket":51905,"id":"ab2cbff0042e3ce5"}|||
+{"type":"LINE","ticket":51907,"id":"033ea648c8aa8ffa"}|||
+{"type":"LINE","ticket":51908,"id":"5809318a89b4a4f7"}|||
+{"type":"LINE","ticket":51912,"id":"f2be75255f9bc26c"}|||
+{"type":"LINE","ticket":51915,"id":"1a129fb1889087c8"}|||
+{"type":"LINE","ticket":51916,"id":"8532b951d92a52a6"}|||
+{"type":"LINE","ticket":51917,"id":"7f7731ec42cd619c"}|||
+{"type":"LINE","ticket":51921,"id":"c6bf19acd17a1636"}|||
+{"type":"LINE","ticket":51922,"id":"1331b3ea4490b178"}|||
+{"type":"LINE","ticket":51926,"id":"9ee1932f10e8dda2"}|||
+{"type":"LINE","ticket":51929,"id":"d48bf3d65896c7b8"}|||
+{"type":"LINE","ticket":51930,"id":"f62ee451ac7cda3a"}|||
+{"type":"LINE","ticket":51931,"id":"f7b6d2174a880fd4"}|||
+{"type":"LINE","ticket":51965,"id":"52a9dceb41a9be68"}|||
+{"type":"LINE","ticket":51966,"id":"0d9f61c73ed22665"}|||
+{"type":"LINE","ticket":51968,"id":"61e0ccc0650d7fdd"}|||
+{"type":"LINE","ticket":51969,"id":"382c6ac0c6bcd289"}|||
+{"type":"LINE","ticket":52007,"id":"f62c840fd0123868"}|||
+{"type":"LINE","ticket":52008,"id":"71499ffbdb62cb7e"}|||
+{"type":"LINE","ticket":52009,"id":"6efe58c0ca8c90aa"}|||
+{"type":"LINE","ticket":52013,"id":"0404d51d0b8d2559"}|||
+{"type":"LINE","ticket":52014,"id":"bba436776830ec83"}|||
+{"type":"LINE","ticket":52015,"id":"806d23c28e9b1ef8"}|||
+{"type":"LINE","ticket":52019,"id":"e2ea718802ad5a77"}|||
+{"type":"LINE","ticket":52020,"id":"b547c54f2a665597"}|||
+{"type":"LINE","ticket":52021,"id":"11e7de50d65092a5"}|||
+{"type":"LINE","ticket":52032,"id":"9f7ab72d1f305abd"}|||
+{"type":"LINE","ticket":52033,"id":"fa96704b6c3a2e8a"}|||
+{"type":"LINE","ticket":52034,"id":"15cf5b8fbb725a87"}|||
+{"type":"LINE","ticket":52035,"id":"627d283ed67ebff6"}|||
+{"type":"LINE","ticket":52044,"id":"97e4c2c89652c3b0"}|||
+{"type":"LINE","ticket":52045,"id":"f584b763c71b1b95"}|||
+{"type":"LINE","ticket":52046,"id":"016ab1b2a7d08db5"}|||
+{"type":"LINE","ticket":52047,"id":"947ac271a7e5263d"}|||
+{"type":"LINE","ticket":52048,"id":"0a6880a70e6252b7"}|||
+{"type":"LINE","ticket":52049,"id":"d98952fde6e4cd6d"}|||
+{"type":"LINE","ticket":52050,"id":"8ae5aaffc5a7f9d2"}|||
+{"type":"LINE","ticket":52051,"id":"5a29f156f64e5da3"}|||
+{"type":"LINE","ticket":52052,"id":"34010d726013163f"}|||
+{"type":"LINE","ticket":52053,"id":"f31508062c23da78"}|||
+{"type":"LINE","ticket":52054,"id":"8de87bc0a64e9520"}|||
+{"type":"LINE","ticket":52055,"id":"4ee303e9a92e7628"}|||
+{"type":"LINE","ticket":52056,"id":"c6c63395d5e5ac20"}|||
+{"type":"LINE","ticket":52057,"id":"e898ff17440604d0"}|||
+{"type":"LINE","ticket":52058,"id":"b4f4732374ac4d40"}|||
+{"type":"LINE","ticket":52059,"id":"866482cee52dc4c8"}|||
+{"type":"LINE","ticket":52073,"id":"95fc87108e209eb2"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":859.022,"startY":744.252,"endX":861.97,"endY":747.2,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52074,"id":"5505e7dc98f9738d"}|||
+{"type":"LINE","ticket":52075,"id":"f4ae104bab38f3c3"}|||
+{"type":"LINE","ticket":52076,"id":"0ce4165a5ae20ee3"}|||
+{"type":"LINE","ticket":52077,"id":"87043f5aa3bb53b7"}|||
+{"type":"LINE","ticket":52078,"id":"ddce4bef9c5275e8"}|||
+{"type":"LINE","ticket":52079,"id":"6e72819853669446"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":795.5377,"startY":744.252,"endX":859.022,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52080,"id":"f392d95c6aaa2bff"}|||
+{"type":"LINE","ticket":52081,"id":"3c1c4fce30596c8a"}|||
+{"type":"LINE","ticket":52082,"id":"01a1941d75866a18"}|||
+{"type":"LINE","ticket":52087,"id":"6fd3caca6f677625"}|||
+{"type":"LINE","ticket":52088,"id":"c9493df8ea114d0d"}|||
+{"type":"LINE","ticket":52089,"id":"501670e12936cb78"}|||
+{"type":"LINE","ticket":52090,"id":"679ffa4b9fb085fd"}|||
+{"type":"LINE","ticket":52097,"id":"0456b896b386db81"}|||
+{"type":"LINE","ticket":52100,"id":"a990b15ab5e4c6e7"}|||
+{"type":"LINE","ticket":52101,"id":"e8884d602f4df228"}|||
+{"type":"LINE","ticket":52102,"id":"cd8b58e27a504ce9"}|||
+{"type":"LINE","ticket":52105,"id":"9a9470b83a8b757c"}|||
+{"type":"LINE","ticket":52106,"id":"a8996b3d6efb23b9"}|||
+{"type":"LINE","ticket":52107,"id":"d167f1dde800ccac"}|||
+{"type":"LINE","ticket":52111,"id":"d681b9ce3eda199a"}|||
+{"type":"LINE","ticket":52112,"id":"f7bbca68144a0e40"}|||
+{"type":"LINE","ticket":52116,"id":"f0fb796be1067026"}|||
+{"type":"LINE","ticket":52117,"id":"03439dd498de06ae"}|||
+{"type":"LINE","ticket":52118,"id":"49bd5ebd6401b1d0"}|||
+{"type":"LINE","ticket":52121,"id":"7b558018e25739d3"}|||
+{"type":"LINE","ticket":52122,"id":"5f6cbcc3fa9c6a02"}|||
+{"type":"LINE","ticket":52123,"id":"a2a57ffe7868d5a0"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":343.504,"startY":791.496,"endX":321.9686,"endY":791.496,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52535,"id":"08469163acb6b8da"}|||
+{"type":"LINE","ticket":52537,"id":"46b7ca86b203fb7e"}|||
+{"type":"LINE","ticket":52538,"id":"8ff973c4e3f6d74a"}|||
+{"type":"LINE","ticket":52133,"id":"dfc608824b708200"}|||
+{"type":"LINE","ticket":52134,"id":"404bd2f6056cbf42"}|||
+{"type":"LINE","ticket":52135,"id":"4b29dbcb4f700eee"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":381.4215,"startY":753.5785,"endX":343.504,"endY":791.496,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52139,"id":"56188678b5728399"}|||
+{"type":"LINE","ticket":52140,"id":"2a744ca49ded3cf5"}|||
+{"type":"LINE","ticket":52141,"id":"cd41519b6037f9c3"}|||
+{"type":"LINE","ticket":52145,"id":"8e78992515ebf4da"}|||
+{"type":"LINE","ticket":52146,"id":"d567e34c3657e83b"}|||
+{"type":"LINE","ticket":52147,"id":"5b7549277fa5f486"}|||
+{"type":"LINE","ticket":52151,"id":"515ce8796e4dde36"}|||
+{"type":"LINE","ticket":52152,"id":"aea674283a628749"}|||
+{"type":"LINE","ticket":52153,"id":"697a0024c4acfd71"}|||
+{"type":"LINE","ticket":52157,"id":"4d11db2a40140108"}|||
+{"type":"LINE","ticket":52158,"id":"783082ff84955fae"}|||
+{"type":"LINE","ticket":52159,"id":"deb17161ef6a7b5b"}|||
+{"type":"LINE","ticket":52163,"id":"11d694ef2274e8c8"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":369.9058,"startY":643.8085,"endX":417.9172,"endY":595.7971,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52164,"id":"2c45b235afe71e7d"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":417.9172,"startY":595.7971,"endX":647.0828,"endY":595.7971,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52165,"id":"59e390cb95558188"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":647.0828,"startY":595.7971,"endX":795.5377,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52169,"id":"9c79b75af0eb1b2f"}|||
+{"type":"LINE","ticket":52170,"id":"dc4f6dd3d973db46"}|||
+{"type":"LINE","ticket":52171,"id":"b1e94546db3b8f74"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":381.4215,"startY":648.5785,"endX":381.4215,"endY":753.5785,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52175,"id":"1c31c21064934e08"}|||
+{"type":"LINE","ticket":52176,"id":"63779f1ce959f0bf"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":642.3128,"startY":607.3128,"endX":422.6872,"endY":607.3128,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52177,"id":"1f3862d43eb656bc"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":422.6872,"startY":607.3128,"endX":381.4215,"endY":648.5785,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52181,"id":"4085fa63492d8a6c"}|||
+{"type":"LINE","ticket":52182,"id":"abd1e6a7e474ea9a"}|||
+{"type":"LINE","ticket":52183,"id":"9f50fde41f90b918"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":710,"startY":675,"endX":642.3128,"endY":607.3128,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52189,"id":"ef2050d454a28c1f"}|||
+{"type":"LINE","ticket":52190,"id":"6f9308f5a13045ca"}|||
+{"type":"LINE","ticket":52194,"id":"8b04428781a97abd"}|||
+{"type":"LINE","ticket":52197,"id":"8303ac21d55ef0ec"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":710,"startY":675,"endX":710,"endY":815,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52198,"id":"7051f9a7c982082b"}|||
+{"type":"LINE","ticket":52199,"id":"41d354de750862ed"}|||
+{"type":"LINE","ticket":52203,"id":"a5255c58c9d5f8b1"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":710,"startY":815,"endX":770.16,"endY":875.16,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52204,"id":"ca1cea0f3bd0c8c4"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MISO","layerId":1,"startX":770.16,"startY":875.16,"endX":861.97,"endY":875.16,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52511,"id":"80c72aa356793792"}|||
+{"type":"LINE","ticket":52210,"id":"722ea426d3fde67c"}|||
+{"type":"LINE","ticket":52211,"id":"7e9eb1770a96511d"}|||
+{"type":"LINE","ticket":52212,"id":"ea8b7fea9292430d"}|||
+{"type":"LINE","ticket":52213,"id":"b05c234e06698e1c"}|||
+{"type":"LINE","ticket":52214,"id":"33d89277880892e8"}|||
+{"type":"LINE","ticket":52215,"id":"c46cd07911ed8cce"}|||
+{"type":"LINE","ticket":52216,"id":"f88337110fd076fe"}|||
+{"type":"VIA","ticket":52217,"id":"15600b3116bcaba8"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","ruleName":"","centerX":600,"centerY":448.8812,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52218,"id":"af4c7a87237bd818"}|||
+{"type":"LINE","ticket":52222,"id":"e12ef18b2b1c21cd"}|||
+{"type":"LINE","ticket":52223,"id":"86236ad869a68998"}|||
+{"type":"LINE","ticket":52224,"id":"a3f6e9d6eef1f1e8"}|||
+{"type":"LINE","ticket":52230,"id":"d6619e2ebcfcc635"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","layerId":2,"startX":349.007,"startY":822.1502,"endX":349.007,"endY":778.5088,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52231,"id":"a6f9fc9489106782"}|||
+{"type":"LINE","ticket":52235,"id":"441e2aa97ada5917"}|||
+{"type":"LINE","ticket":52236,"id":"173f2d0105c4649e"}|||
+{"type":"LINE","ticket":52237,"id":"1198cf6a8af287f6"}|||
+{"type":"LINE","ticket":52238,"id":"66c9a8e6b2dc74a6"}|||
+{"type":"LINE","ticket":52239,"id":"eca50a16581ea091"}|||
+{"type":"LINE","ticket":52240,"id":"9f61c0ef2a7210e2"}|||
+{"type":"LINE","ticket":52241,"id":"4686ef4fa863bc31"}|||
+{"type":"LINE","ticket":52242,"id":"91425deceddc0aae"}|||
+{"type":"LINE","ticket":52243,"id":"710a6147f2a957f1"}|||
+{"type":"LINE","ticket":52244,"id":"3b9b0655cbf59346"}|||
+{"type":"LINE","ticket":52245,"id":"14e34900f002f8be"}|||
+{"type":"LINE","ticket":52407,"id":"c9a2925eaa8c30e9"}|||
+{"type":"LINE","ticket":52247,"id":"cb45da3940936f32"}|||
+{"type":"LINE","ticket":52248,"id":"9d7dc2f38b28c913"}|||
+{"type":"LINE","ticket":52398,"id":"c77feb316e55b05d"}|||
+{"type":"LINE","ticket":52399,"id":"9aec6a78e4eb9f54"}|||
+{"type":"LINE","ticket":52404,"id":"f265a183e3a92f5b"}|||
+{"type":"VIA","ticket":52252,"id":"739565292b1a349a"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","ruleName":"","centerX":701.1024,"centerY":446.1024,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52396,"id":"98ce5ee526520572"}|||
+{"type":"LINE","ticket":52397,"id":"2be605e175f086fa"}|||
+{"type":"LINE","ticket":52259,"id":"fce839c83dddfd9e"}|||
+{"type":"LINE","ticket":52260,"id":"38a1e4a1cdbdc2ae"}|||
+{"type":"LINE","ticket":52261,"id":"6cb54824656ba60c"}|||
+{"type":"LINE","ticket":52384,"id":"97de0a36ace24c8f"}|||
+{"type":"LINE","ticket":52271,"id":"52b0538f4c2c2b2f"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","layerId":2,"startX":349.007,"startY":778.5088,"endX":600,"endY":527.5159,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52272,"id":"ea0ad82919a93231"}||{"partitionId":"","groupId":0,"netName":"T_VSYNC","layerId":2,"startX":600,"startY":527.5159,"endX":600,"endY":448.8812,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52337,"id":"56ca506d876475e4"}|||
+{"type":"LINE","ticket":52338,"id":"21fdb3ccbffff669"}|||
+{"type":"LINE","ticket":52342,"id":"814801453b5b6a47"}|||
+{"type":"LINE","ticket":52345,"id":"04afa4f2c7cea57b"}|||
+{"type":"LINE","ticket":52346,"id":"4e8569bcf45d80c2"}|||
+{"type":"LINE","ticket":52350,"id":"03004545b35687ca"}|||
+{"type":"LINE","ticket":52353,"id":"a4201606b563594a"}|||
+{"type":"LINE","ticket":52354,"id":"2af900ae8d4d53a9"}|||
+{"type":"LINE","ticket":52385,"id":"4dc996cd3b4b8fb6"}|||
+{"type":"LINE","ticket":52359,"id":"73f959813211c534"}|||
+{"type":"LINE","ticket":52360,"id":"f4e115d923e2390c"}|||
+{"type":"LINE","ticket":52390,"id":"6d822e7c09c14f9f"}|||
+{"type":"LINE","ticket":52367,"id":"ebe8c2f5f1fdda87"}|||
+{"type":"LINE","ticket":52379,"id":"84ced9f6171ca388"}|||
+{"type":"LINE","ticket":52380,"id":"4fb58d769c7c301c"}|||
+{"type":"LINE","ticket":52391,"id":"14de057267910212"}|||
+{"type":"LINE","ticket":52377,"id":"7f761a0030b4b723"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":365,"startY":800,"endX":387.9155,"endY":822.9155,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52378,"id":"ad5823501f841ef9"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":387.9155,"startY":822.9155,"endX":391.5718,"endY":822.9155,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52382,"id":"044efeb8be4471ac"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":701.1024,"startY":446.1024,"endX":614.0157,"endY":533.1891,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52383,"id":"f802e2ff861eba89"}|||
+{"type":"LINE","ticket":52386,"id":"e8ff066cb150319e"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":614.0157,"startY":533.1891,"endX":614.0157,"endY":533.3214,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52387,"id":"fc79c27d8286daca"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":614.0157,"startY":533.3214,"endX":365,"endY":782.3371,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52388,"id":"5eecb21b420d269e"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":2,"startX":365,"startY":782.3371,"endX":365,"endY":800,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52393,"id":"916ebb55cdc1388b"}|||
+{"type":"LINE","ticket":52394,"id":"bf5300536482aedd"}|||
+{"type":"LINE","ticket":52395,"id":"b75ded7f784f3430"}|||
+{"type":"LINE","ticket":52400,"id":"f730724b381ff6cd"}|||
+{"type":"LINE","ticket":52401,"id":"659e7386641507d6"}|||
+{"type":"LINE","ticket":52405,"id":"681eccb4eb71fca5"}|||
+{"type":"LINE","ticket":52408,"id":"76e37111f4e82749"}|||
+{"type":"LINE","ticket":52409,"id":"dcefa1b31766e416"}|||
+{"type":"LINE","ticket":52410,"id":"e8577b9ba74ea24b"}|||
+{"type":"LINE","ticket":52414,"id":"3b219bd6c2181155"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":1,"startX":701.1024,"startY":446.1024,"endX":701.1024,"endY":388.8976,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52415,"id":"ff9be9d79de0f734"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":1,"startX":701.1024,"startY":388.8976,"endX":778.39,"endY":311.61,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52416,"id":"adf64c534f081655"}||{"partitionId":"","groupId":0,"netName":"T_GPIO2","layerId":1,"startX":778.39,"startY":311.61,"endX":861.97,"endY":311.61,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52430,"id":"b496234809eba393"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":2,"startX":295.4494,"startY":838.5885,"endX":295.4494,"endY":816.0822,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52431,"id":"825cc28b37288cdd"}|||
+{"type":"LINE","ticket":52432,"id":"e3943088d5d28a12"}|||
+{"type":"LINE","ticket":52433,"id":"4f75abb6659035b5"}|||
+{"type":"LINE","ticket":52434,"id":"c0f80d7f1a2e7e90"}|||
+{"type":"LINE","ticket":52435,"id":"25f1709ed47c2592"}|||
+{"type":"LINE","ticket":52436,"id":"fccf1efdac01c378"}|||
+{"type":"LINE","ticket":52437,"id":"02b5d3445f05c84b"}|||
+{"type":"LINE","ticket":52438,"id":"e11d4045b56f655a"}|||
+{"type":"LINE","ticket":52439,"id":"4be1181dfe30d354"}|||
+{"type":"LINE","ticket":52440,"id":"6812620c4434ee88"}|||
+{"type":"LINE","ticket":52441,"id":"f3f2de50ddf98eb2"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":772.6212,"startY":337.2,"endX":861.97,"endY":337.2,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52442,"id":"ab52606fdf9f7016"}|||
+{"type":"LINE","ticket":52443,"id":"1d958fe7705f8531"}|||
+{"type":"VIA","ticket":52444,"id":"f1fe611da18148b7"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","ruleName":"","centerX":540,"centerY":520,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52446,"id":"19693664d89809ca"}|||
+{"type":"LINE","ticket":52447,"id":"c973686834ebb6a1"}|||
+{"type":"LINE","ticket":52448,"id":"d6cf3022e39b26f8"}|||
+{"type":"LINE","ticket":52452,"id":"c4c7bd17dbca7e9f"}|||
+{"type":"LINE","ticket":52453,"id":"ea4f8552b23d6c2d"}|||
+{"type":"LINE","ticket":52456,"id":"e96ddd436d1baa0d"}|||
+{"type":"LINE","ticket":52463,"id":"980ea522c9cb476e"}|||
+{"type":"LINE","ticket":52464,"id":"48775b9f82d9aa5b"}|||
+{"type":"LINE","ticket":52465,"id":"8990629190bbcea6"}|||
+{"type":"LINE","ticket":52466,"id":"c88de88f8b7ad666"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":2,"startX":540,"startY":522.4841,"endX":540,"endY":520,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52472,"id":"804e148e7ee3f137"}|||
+{"type":"LINE","ticket":52473,"id":"6868a33d348267e8"}|||
+{"type":"LINE","ticket":52477,"id":"e858b220ffff4bf6"}|||
+{"type":"LINE","ticket":52478,"id":"5005dcc8c8f357de"}|||
+{"type":"LINE","ticket":52479,"id":"1351beb9bb02630f"}|||
+{"type":"LINE","ticket":52483,"id":"ab4a8997aac5cd5d"}|||
+{"type":"LINE","ticket":52484,"id":"c6a47fc4250d75ca"}|||
+{"type":"LINE","ticket":52485,"id":"f69f91900134a6bf"}|||
+{"type":"LINE","ticket":52488,"id":"3243a2027d383a16"}|||
+{"type":"LINE","ticket":52491,"id":"e981add849c58fae"}|||
+{"type":"LINE","ticket":52492,"id":"d3bf01062955b06d"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":724.0946,"startY":385.7266,"endX":772.6212,"endY":337.2,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52496,"id":"b576308ca2fb72bb"}|||
+{"type":"LINE","ticket":52499,"id":"b6f517a7c53af110"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":540,"startY":520,"endX":659.7207,"endY":520,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52500,"id":"aed7c78859dd0d9f"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":659.7207,"startY":520,"endX":724.0946,"endY":455.6261,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52501,"id":"5676838af4b02ac6"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":1,"startX":724.0946,"startY":455.6261,"endX":724.0946,"endY":385.7266,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52505,"id":"ac1a73330b0447ad"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":2,"startX":295.4494,"startY":816.0822,"endX":320,"endY":791.5316,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52506,"id":"94620c53ec83115f"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":2,"startX":320,"startY":791.5316,"endX":320,"endY":742.4841,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52507,"id":"b402370bfeecb48f"}||{"partitionId":"","groupId":0,"netName":"T_DETECT","layerId":2,"startX":320,"startY":742.4841,"endX":540,"endY":522.4841,"width":10,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52512,"id":"8fcf2a4288dc5652"}|||
+{"type":"LINE","ticket":52519,"id":"4ddaf9faf3e99a3e"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":1,"startX":321.9686,"startY":775.748,"endX":302.2834,"endY":775.748,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52520,"id":"1c838fae574fde5a"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":1,"startX":302.2834,"startY":775.748,"endX":287.3527,"endY":790.6788,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52527,"id":"c9d5226f914feae7"}|||
+{"type":"LINE","ticket":52531,"id":"aac8146c7efdc67a"}|||
+{"type":"LINE","ticket":52532,"id":"9b66f205c816c8db"}|||
+{"type":"LINE","ticket":52533,"id":"c4b804f2e88e4297"}|||
+{"type":"LINE","ticket":52534,"id":"b9ff3e5b44dfe0bc"}|||
+{"type":"LINE","ticket":52544,"id":"90acc0b6213525f3"}|||
+{"type":"LINE","ticket":52545,"id":"7f9e4c6a0c5d1287"}|||
+{"type":"LINE","ticket":52546,"id":"da3cea93aa2bb126"}|||
+{"type":"LINE","ticket":52547,"id":"eb5228d4a134c3ba"}|||
+{"type":"LINE","ticket":52548,"id":"8f6b580b5e7c5759"}|||
+{"type":"LINE","ticket":52558,"id":"f0c8140e62068932"}|||
+{"type":"LINE","ticket":52559,"id":"f8f5ae5c671f161c"}|||
+{"type":"LINE","ticket":52560,"id":"5508b9c68b53e605"}|||
+{"type":"LINE","ticket":52561,"id":"97ff406c702070eb"}|||
+{"type":"LINE","ticket":52567,"id":"44a28fe28da030ce"}|||
+{"type":"LINE","ticket":52568,"id":"938ab6b4771663f1"}|||
+{"type":"LINE","ticket":52575,"id":"778e77f991164797"}|||
+{"type":"LINE","ticket":52576,"id":"23bfcd7ee983a8f0"}|||
+{"type":"LINE","ticket":52577,"id":"ce3f47c66c503773"}|||
+{"type":"LINE","ticket":52578,"id":"1919948dc48edcc0"}|||
+{"type":"LINE","ticket":52588,"id":"7a9280e64ecf4572"}|||
+{"type":"LINE","ticket":52589,"id":"bee3b7b78b64759b"}|||
+{"type":"LINE","ticket":52590,"id":"a643523aee1f0534"}|||
+{"type":"LINE","ticket":52591,"id":"e8e68b72e5de955d"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":369.9058,"startY":725.1004,"endX":369.9058,"endY":643.8085,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52598,"id":"8406f4c3ccdc799f"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","ruleName":"","centerX":288.121,"centerY":757.0315,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52609,"id":"9a564308713817b9"}|||
+{"type":"LINE","ticket":52610,"id":"83dc27a22cde3b42"}|||
+{"type":"LINE","ticket":52611,"id":"c0400e494f495bea"}|||
+{"type":"LINE","ticket":52612,"id":"aa928b6cbdfca469"}|||
+{"type":"LINE","ticket":52625,"id":"3cba493c084d769d"}|||
+{"type":"LINE","ticket":52626,"id":"74160e0a0a560bd5"}|||
+{"type":"LINE","ticket":52627,"id":"a00bad98a26487e3"}|||
+{"type":"LINE","ticket":52628,"id":"355f6dcc4e3cca5c"}|||
+{"type":"LINE","ticket":52634,"id":"66703ec372f2f1e8"}|||
+{"type":"LINE","ticket":52635,"id":"d277b07bee28d26a"}|||
+{"type":"LINE","ticket":52638,"id":"cb6f32834ad08ac2"}|||
+{"type":"LINE","ticket":52639,"id":"bcffa1880d615b70"}|||
+{"type":"LINE","ticket":52646,"id":"e6520c6a32f79842"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":2,"startX":286.0299,"startY":727.1044,"endX":191.6754,"endY":727.1044,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52647,"id":"afc3b5749589db10"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":2,"startX":191.6754,"startY":727.1044,"endX":188.7798,"endY":730,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52648,"id":"dfa5dccce3f022cc"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":1,"startX":321.9686,"startY":728.504,"endX":287.4295,"endY":728.504,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52649,"id":"ab531bee1b98382f"}||{"partitionId":"","groupId":0,"netName":"T_CLK_RST_L","layerId":1,"startX":287.4295,"startY":728.504,"endX":286.0299,"endY":727.1044,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52658,"id":"46c0ef2ed92d5d79"}|||
+{"type":"LINE","ticket":52659,"id":"6ef29a83636ae9b0"}|||
+{"type":"LINE","ticket":52660,"id":"586fc59e191001b6"}|||
+{"type":"LINE","ticket":52661,"id":"ffd3c5444f20ea34"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":350.7542,"startY":744.252,"endX":369.9058,"endY":725.1004,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52665,"id":"fbf4dc67d9d7bc49"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":350.7542,"startY":744.252,"endX":321.9686,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52669,"id":"9da6c569f8d1d691"}|||
+{"type":"LINE","ticket":52670,"id":"3751a78469228c33"}|||
+{"type":"LINE","ticket":52671,"id":"b7c71d9e65abfe3c"}|||
+{"type":"LINE","ticket":52672,"id":"935f067bc7600b1e"}|||
+{"type":"LINE","ticket":52677,"id":"22139745778e3cac"}|||
+{"type":"LINE","ticket":52678,"id":"2001be8a5c62961e"}|||
+{"type":"LINE","ticket":52679,"id":"3e6acc3b7f79d850"}|||
+{"type":"LINE","ticket":52680,"id":"f26478d3d349a1a0"}|||
+{"type":"LINE","ticket":52681,"id":"1f7f27dd07fe8b79"}|||
+{"type":"LINE","ticket":52691,"id":"1b06248ebd38f19b"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":190,"startY":795,"endX":251.2562,"endY":795,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52692,"id":"23052ba1d4d9edf0"}|||
+{"type":"LINE","ticket":52693,"id":"3a63c9593fa9cb39"}|||
+{"type":"LINE","ticket":52694,"id":"be442241e6d9f68b"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":251.2562,"startY":795,"endX":264.3605,"endY":781.8957,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52695,"id":"bd9b3308732a4581"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":264.3605,"startY":781.8957,"endX":264.3605,"endY":781.1551,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52696,"id":"540f3fdf7d1f3f95"}|||
+{"type":"LINE","ticket":52697,"id":"daf57dc8af9dc480"}|||
+{"type":"LINE","ticket":52703,"id":"0d4520d0233fd0de"}|||
+{"type":"LINE","ticket":52704,"id":"3f86b06c1e1f24c9"}|||
+{"type":"LINE","ticket":52708,"id":"338c4f895bb55233"}|||
+{"type":"LINE","ticket":52715,"id":"12d88a10cfa181f6"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":264.3605,"startY":781.1551,"endX":288.121,"endY":757.3946,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52716,"id":"a157c3d0adeae3bf"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":2,"startX":288.121,"startY":757.3946,"endX":288.121,"endY":757.0315,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52717,"id":"831190227ffda50e"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":321.9686,"startY":744.252,"endX":300.9005,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52718,"id":"73195124e197a371"}||{"partitionId":"","groupId":0,"netName":"T_INT_L","layerId":1,"startX":300.9005,"startY":744.252,"endX":288.121,"endY":757.0315,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52754,"id":"e3893393ab1c4456"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":2,"startX":427.6973,"startY":791.6735,"endX":437.0604,"endY":801.0366,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52755,"id":"7737f9f95f695258"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CS_L","layerId":2,"startX":437.0604,"startY":801.0366,"endX":745,"endY":801.0366,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52758,"id":"8d899c903f788bc7"}|||
+{"type":"LINE","ticket":52759,"id":"d733fd1a7bb6996d"}||{"partitionId":"","groupId":0,"netName":"1V8","layerId":1,"startX":600.2112,"startY":840,"endX":600.2112,"endY":775,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52760,"id":"97fb1ff1082b1ab4"}||{"partitionId":"","groupId":0,"netName":"1V8","layerId":1,"startX":600.2112,"startY":775,"endX":600.2112,"endY":710.5118,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52761,"id":"3902baf564cead7c"}||{"partitionId":"","groupId":0,"netName":"1V8","layerId":1,"startX":600.2112,"startY":710.5118,"endX":600.2112,"endY":640,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52764,"id":"77bed6e48a0b995b"}|||
+{"type":"LINE","ticket":52765,"id":"95478798f33bae81"}|||
+{"type":"LINE","ticket":52766,"id":"a46fa6efa6d4328b"}|||
+{"type":"LINE","ticket":52767,"id":"98f1cfda5e56dd2c"}||{"partitionId":"","groupId":0,"netName":"D_SDA","layerId":1,"startX":317.825,"startY":295.9747,"endX":318.0316,"endY":296.1813,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52769,"id":"3c3064e66d56c95f"}|||
+{"type":"LINE","ticket":52770,"id":"a261625862630080"}|||
+{"type":"LINE","ticket":52771,"id":"dfb84c165e12a698"}|||
+{"type":"LINE","ticket":52772,"id":"fe2b7b6ab832f5e0"}|||
+{"type":"LINE","ticket":52773,"id":"c0144afd87ebba66"}|||
+{"type":"LINE","ticket":52774,"id":"87c696957b517197"}||{"partitionId":"","groupId":0,"netName":"D_SCL","layerId":1,"startX":317.8249,"startY":311.1517,"endX":318.0316,"endY":310.945,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52775,"id":"81644e42d4cc369f"}|||
+{"type":"LINE","ticket":52776,"id":"2f74a9eb79d4a6b0"}|||
+{"type":"LINE","ticket":52781,"id":"3109537a4f81ca7b"}||{"partitionId":"","groupId":0,"netName":"D_SCL","layerId":1,"startX":187.1403,"startY":338.7008,"endX":256.2992,"endY":338.7008,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52782,"id":"8fdff0f93abd47aa"}||{"partitionId":"","groupId":0,"netName":"D_SCL","layerId":1,"startX":256.2992,"startY":338.7008,"endX":283.8484,"endY":311.1517,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52783,"id":"e3c8ffcdf36e0a79"}||{"partitionId":"","groupId":0,"netName":"D_SCL","layerId":1,"startX":283.8484,"startY":311.1517,"endX":317.8249,"endY":311.1517,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52787,"id":"41c0241824448cb0"}||{"partitionId":"","groupId":0,"netName":"D_SDA","layerId":1,"startX":187.1403,"startY":280,"endX":265,"endY":280,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52788,"id":"6f2f893676e96a7b"}||{"partitionId":"","groupId":0,"netName":"D_SDA","layerId":1,"startX":265,"startY":280,"endX":280.9747,"endY":295.9747,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52789,"id":"7fdf339819f02955"}||{"partitionId":"","groupId":0,"netName":"D_SDA","layerId":1,"startX":280.9747,"startY":295.9747,"endX":317.825,"endY":295.9747,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52793,"id":"3e4e8c099b7d48ed"}||{"partitionId":"","groupId":0,"netName":"1V8","layerId":1,"startX":127.8203,"startY":280,"endX":127.8203,"endY":338.7008,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52795,"id":"ee6f60fcad65c93a"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":2,"startX":445.0768,"startY":776.3709,"endX":446.7504,"endY":778.0444,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52796,"id":"0b139ac83462e2ca"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":2,"startX":446.7504,"startY":778.0444,"endX":763.0444,"endY":778.0444,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52797,"id":"5dd755bb64fe9026"}||{"partitionId":"","groupId":0,"netName":"T_SPI_MOSI","layerId":2,"startX":763.0444,"startY":778.0444,"endX":810,"endY":825,"width":10,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52800,"id":"dae50bf063047ab7"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","ruleName":"","centerX":540,"centerY":710,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"VIA","ticket":52807,"id":"56c8adca6c451704"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","ruleName":"","centerX":475,"centerY":755.0522,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52811,"id":"f6efc274d69f77d2"}|||
+{"type":"LINE","ticket":52812,"id":"f730f9cb5add3adc"}|||
+{"type":"LINE","ticket":52813,"id":"b04a44cdac504ee3"}|||
+{"type":"LINE","ticket":52817,"id":"3996667ef578c930"}|||
+{"type":"LINE","ticket":52818,"id":"3650e7a019f6e307"}|||
+{"type":"LINE","ticket":52824,"id":"0ec56928b524a7af"}|||
+{"type":"LINE","ticket":52825,"id":"d0b04d4e59956c7b"}|||
+{"type":"LINE","ticket":52826,"id":"3a3ef2fc63222043"}|||
+{"type":"LINE","ticket":52827,"id":"7da45fba6b84dac6"}|||
+{"type":"LINE","ticket":52838,"id":"f979f63db3683baa"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":475,"startY":755.0522,"endX":464.1998,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52839,"id":"ee27a4645894b959"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":464.1998,"startY":744.252,"endX":418.0315,"endY":744.252,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52840,"id":"c917e4dfbb33154d"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":540.8912,"startY":775,"endX":494.9478,"endY":775,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52841,"id":"e7280d1b8a1ecd5e"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":1,"startX":494.9478,"startY":775,"endX":475,"endY":755.0522,"width":7.5,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52847,"id":"7956c6e5512a9dd6"}|||
+{"type":"LINE","ticket":52848,"id":"b57ad2b9d3744169"}|||
+{"type":"VIA","ticket":52849,"id":"425d8281ee3fc161"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","ruleName":"","centerX":829.5573,"centerY":670.4427,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52853,"id":"c5142073855c99a8"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":2,"startX":475,"startY":755.0522,"endX":744.9478,"endY":755.0522,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52854,"id":"8b7895d44b43e74c"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SCL","layerId":2,"startX":744.9478,"startY":755.0522,"endX":829.5573,"endY":670.4427,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52859,"id":"64f868810e308331"}|||
+{"type":"VIA","ticket":52860,"id":"cb0e7317bf4faa7b"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","ruleName":"","centerX":774.5179,"centerY":690.4503,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52864,"id":"2ba2d8b740a9a64a"}|||
+{"type":"LINE","ticket":52865,"id":"940a5cd5b2c51b08"}|||
+{"type":"LINE","ticket":52868,"id":"af9d52724966191f"}|||
+{"type":"LINE","ticket":52869,"id":"f23f597e96eb9d21"}|||
+{"type":"LINE","ticket":52870,"id":"47042e69552dacba"}|||
+{"type":"LINE","ticket":52871,"id":"034264c8d45f9b5e"}|||
+{"type":"LINE","ticket":52872,"id":"fa2033892adbab3d"}|||
+{"type":"LINE","ticket":52873,"id":"a0967716b31fa1a3"}|||
+{"type":"LINE","ticket":52877,"id":"3c73df700832fa15"}|||
+{"type":"LINE","ticket":52878,"id":"9ab934dbf83ad888"}|||
+{"type":"LINE","ticket":52879,"id":"8bb91bb306ade054"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":806.02,"startY":696.02,"endX":861.97,"endY":696.02,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52887,"id":"e7b903d284177d36"}|||
+{"type":"LINE","ticket":52888,"id":"350db68bd3d03926"}|||
+{"type":"LINE","ticket":52889,"id":"5892992d1db2abda"}|||
+{"type":"LINE","ticket":52890,"id":"853b8c49b419efdc"}|||
+{"type":"LINE","ticket":52900,"id":"24ab2eebb1e53266"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":774.5179,"startY":690.4503,"endX":800.4503,"endY":690.4503,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52901,"id":"f4d8f068ba22bb83"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":1,"startX":800.4503,"startY":690.4503,"endX":806.02,"endY":696.02,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52902,"id":"1aa5c381808ef1dc"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":2,"startX":540,"startY":710,"endX":559.5497,"endY":690.4503,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":52903,"id":"bae195cc3ec3fa0b"}||{"partitionId":"","groupId":0,"netName":"T_I2C_SDA","layerId":2,"startX":559.5497,"startY":690.4503,"endX":774.5179,"endY":690.4503,"width":10,"locked":false,"zIndex":-1}|
+{"type":"VIA","ticket":52909,"id":"392102988170c600"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","ruleName":"","centerX":540.8912,"centerY":640,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52911,"id":"e32f0f7e31ba8180"}|||
+{"type":"LINE","ticket":52912,"id":"d07b449818ce3eaa"}|||
+{"type":"LINE","ticket":52913,"id":"1ced1a37d06df78f"}|||
+{"type":"LINE","ticket":52914,"id":"b5ea7772d6d1df5b"}|||
+{"type":"LINE","ticket":52915,"id":"3a9701539fe5d501"}|||
+{"type":"VIA","ticket":52916,"id":"0aa51bebbcf4fe39"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","ruleName":"","centerX":975.2951,"centerY":665.2951,"holeDiameter":12.0078,"viaDiameter":24.0158,"viaType":"NORMAL","topSolderExpansion":null,"bottomSolderExpansion":null,"locked":false,"unusedInnerLayers":[],"propagationDelay":0}|
+{"type":"LINE","ticket":52917,"id":"3c89203c2210897b"}|||
+{"type":"LINE","ticket":52924,"id":"39186bdafdfbf164"}|||
+{"type":"LINE","ticket":52925,"id":"1f0d465672ad940d"}|||
+{"type":"LINE","ticket":52926,"id":"0713bcbfbdd0c5d8"}|||
+{"type":"LINE","ticket":52927,"id":"738b71a5ea49a440"}|||
+{"type":"LINE","ticket":52937,"id":"80cddcbd25455d87"}|||
+{"type":"LINE","ticket":52938,"id":"48f05e3fc4a5e971"}|||
+{"type":"LINE","ticket":52939,"id":"021e1908d89940b1"}|||
+{"type":"LINE","ticket":52940,"id":"2439c703abf3ccc9"}|||
+{"type":"LINE","ticket":53074,"id":"d86b997511d15705"}|||
+{"type":"LINE","ticket":53075,"id":"cde1183c1d13b47f"}|||
+{"type":"LINE","ticket":53076,"id":"708c60f33cd9da09"}|||
+{"type":"LINE","ticket":53077,"id":"40017beb225f6647"}|||
+{"type":"LINE","ticket":53083,"id":"2407f5c6004e0014"}|||
+{"type":"LINE","ticket":53084,"id":"cebeb6a433edf4ed"}|||
+{"type":"LINE","ticket":53085,"id":"f9375632d247ae59"}|||
+{"type":"LINE","ticket":53092,"id":"e68f2b3759d57bff"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":2,"startX":540.8912,"startY":640,"endX":950,"endY":640,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53093,"id":"92b7f08e0d225cf3"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":2,"startX":950,"startY":640,"endX":975.2951,"endY":665.2951,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53094,"id":"aa198399bcd4c1c2"}|||
+{"type":"LINE","ticket":53095,"id":"8d0c98febc207def"}|||
+{"type":"LINE","ticket":53102,"id":"14432fa0d495325b"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":975.2951,"startY":665.2951,"endX":975.2951,"endY":699.7049,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53103,"id":"a8a82c0f0d702d30"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":975.2951,"startY":699.7049,"endX":953.39,"endY":721.61,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53104,"id":"19efa904313eaad7"}||{"partitionId":"","groupId":0,"netName":"T_RST_L","layerId":1,"startX":953.39,"startY":721.61,"endX":861.97,"endY":721.61,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53108,"id":"4d9f21752cdd557f"}|||
+{"type":"LINE","ticket":53109,"id":"c839a3fec232ad0f"}|||
+{"type":"LINE","ticket":53110,"id":"1f6419d29181345a"}|||
+{"type":"LINE","ticket":53111,"id":"f909e318454b3c29"}|||
+{"type":"LINE","ticket":53112,"id":"1ae6892ca56e1990"}|||
+{"type":"LINE","ticket":53113,"id":"cb47c73ece5e3f31"}|||
+{"type":"LINE","ticket":53114,"id":"8fb47cd1ba0a77eb"}|||
+{"type":"LINE","ticket":53115,"id":"30198585e4fc437b"}|||
+{"type":"LINE","ticket":53116,"id":"4562435ddb4a9837"}|||
+{"type":"LINE","ticket":53117,"id":"c8ea1f9c86f32e13"}|||
+{"type":"LINE","ticket":53118,"id":"cc737696c7543730"}|||
+{"type":"LINE","ticket":53119,"id":"9a088964777fe61c"}|||
+{"type":"LINE","ticket":53120,"id":"4503a7037e103cb5"}|||
+{"type":"LINE","ticket":53121,"id":"d08b3911146e14ee"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":2,"startX":270,"startY":845.6549,"endX":285.9257,"endY":861.5807,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53127,"id":"cfbc87f8b9d07c8b"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":2,"startX":287.3527,"startY":790.6788,"endX":270,"endY":808.0314,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53128,"id":"090123518c6b6c67"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":2,"startX":270,"startY":808.0314,"endX":270,"endY":845.6549,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53132,"id":"caf59022fd670959"}|||
+{"type":"LINE","ticket":53133,"id":"239a2ee994084a07"}|||
+{"type":"LINE","ticket":53137,"id":"0598e015447dec3b"}|||
+{"type":"LINE","ticket":53140,"id":"1970ef7b06156583"}|||
+{"type":"LINE","ticket":53141,"id":"b776cdbe757ace98"}|||
+{"type":"LINE","ticket":53144,"id":"0774cae75761b00c"}|||
+{"type":"LINE","ticket":53147,"id":"ff7032cf7e1ac5e2"}|||
+{"type":"LINE","ticket":53148,"id":"a84b41fdb26b98d8"}|||
+{"type":"LINE","ticket":53149,"id":"b8b4000c2ec89865"}|||
+{"type":"LINE","ticket":53156,"id":"fbf6a9f14a9b375d"}|||
+{"type":"LINE","ticket":53157,"id":"271daaeea719e1fd"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":1,"startX":770,"startY":830,"endX":772.4841,"endY":830,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53158,"id":"a7597d4f3cf47aec"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":1,"startX":772.4841,"startY":830,"endX":804.0941,"endY":798.39,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53164,"id":"f46ff0effe608f67"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":2,"startX":285.9257,"startY":861.5807,"endX":738.4193,"endY":861.5807,"width":10,"locked":false,"zIndex":-1}|
+{"type":"LINE","ticket":53165,"id":"b38b27e12c17f16a"}||{"partitionId":"","groupId":0,"netName":"T_SPI_CLK_L","layerId":2,"startX":738.4193,"startY":861.5807,"endX":770,"endY":830,"width":10,"locked":false,"zIndex":-1}
